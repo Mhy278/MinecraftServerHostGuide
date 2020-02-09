@@ -15,7 +15,7 @@
 * 第二单元 进阶
 - [x]   * [第一节 认识启动脚本](RunScript.md) #冰冷
 - [ ]   * [第二节 认识YAML语法](Yaml.md) #搬TD+绿毛
-- [ ]   * [第三节 数据库的使用](Sql.md) #贺兰
+- [ ]   * [第三节 数据库的使用](Sql.md) #冰冷
 - [ ]   * [第四节 常见插件配置](CommonPluginConf.md) #贺兰
 - [ ]   * [第五节 什么是报错？](WhatsError.md) #85+苏米杰
 - [ ]   * [第六节 配置文件优化](Optimization.md) #搬达达

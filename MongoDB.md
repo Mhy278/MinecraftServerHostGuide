@@ -5,7 +5,7 @@
 
 MSi安装包安装：[点我转跳](#MSI安装板)
 
-`mongo.config`详解：[点击跳转](#mongo.config详解)
+`mongo.config`详解：[点击跳转](#mongoconfig详解)
 
 ## 免安装版
 1. 先到官网：[https://www.mongodb.com/download-center/community](https://www.mongodb.com/download-center/community "https://www.mongodb.com/download-center/community")
@@ -96,10 +96,13 @@ net start MongoDB
 ![](./images/mongodb/4-1.png)
 
 如果你想自定义安装软件或者MongoDB的安装目录请选择`Custom`如果不想调直接选择`Complete`（这里我建议调整MongoDB的安装目录到"D:\MongoDB\4.2"）
+
 ![](./images/mongodb/4-2.png)
 
 3. 调整数据库数据存储位置和Log存储位置
+
 ![](./images/mongodb/4-3.png)
+
 这里我分别放在了"D:\MongoDB\4.2\data"和“D:\MongoDB\4.2\log”(强烈建议修改默认位置，这个都懒得调不建议用数据库了)
 
 4. 这个界面会让你选择是否安装一个叫"Compass"的东西

@@ -3,7 +3,7 @@
 
 建议使用免安装版，快捷方便
 
-MSI安装包安装：[点我转跳](#MSI安装板)
+MSi安装包安装：[点我转跳](#MSI安装板)
 
 `mongo.config`详解：[点击跳转](#mongo.config详解)
 
@@ -77,7 +77,7 @@ net start MongoDB
 
 ------------
 
-## MSI安装板
+## Msi安装包安装
 
 1. 与免安装版相同到官网下载安装包：[https://www.mongodb.com/download-center/community](https://www.mongodb.com/download-center/community "https://www.mongodb.com/download-center/community")
 ![](./images/mongodb/1.png)
@@ -220,4 +220,4 @@ replSet = name
 #sslPEMKeyPassword = pass
 ```
 
-该详解选自：[https://www.cnblogs.com/cwp-bg/p/9479945.html](https://www.cnblogs.com/cwp-bg/p/9479945.html "https://www.cnblogs.com/cwp-bg/p/9479945.html")
+

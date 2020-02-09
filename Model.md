@@ -78,14 +78,10 @@ variants可以理解为形式。我们可以看到，torch这个方块的模型�
 
 也就是说，游戏要读取火把的模型，它会最先找blockstates里的torch.json。这是早已写在游戏程序里的，无法改变。换句话说就是，要读取火把的模型，你不能让游戏去读取blockstates里的oak_log.json（橡木原木），而是torch.json。随后，游戏会根据blockstates/torch.json写的东西，进一步去读取/models下的模型文件。比如说，我们想让仙人掌的模型变成漏斗的模型，如最上面的那张图片所示，我就会把blockstates/cactus.json里指向block/cactus的一行改成block/hopper，让游戏读取hopper.json而非cactus.json。（cactus 仙人掌、hopper 漏斗）
 
-回过头来，再看blockstates/torch.json里的代码 `{    "variants": {  "": { "model": "block/torch" }   } }`。可见火把的模型指向的是models/block/torch.json，所以我们把做好的蜡烛模型复制到此。
-
 ![](./images/model/M9.png)
 
-
-
-我们成功了
+回过头来，再看blockstates/torch.json里的代码 `{    "variants": {  "": { "model": "block/torch" }   } }`。可见火把的模型指向的是models/block/torch.json，所以我们把做好的蜡烛模型复制到此。
 
 ![](./images/model/M10.png)
 
-
+我们成功了！

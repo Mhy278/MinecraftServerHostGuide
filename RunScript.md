@@ -156,4 +156,4 @@ pause
 
 
 
-本文部分来自：[https://www.oracle.com/technetwork/java/hotspotfaq-138619.html](https://www.oracle.com/technetwork/java/hotspotfaq-138619.html "https://www.oracle.com/technetwork/java/hotspotfaq-138619.html")
+本文部分内容引用自：[https://www.oracle.com/technetwork/java/hotspotfaq-138619.html](https://www.oracle.com/technetwork/java/hotspotfaq-138619.html "https://www.oracle.com/technetwork/java/hotspotfaq-138619.html")

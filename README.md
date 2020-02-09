@@ -8,7 +8,7 @@
 # 关于
 本教程由“《我的世界服务器搭建指南》编写委员会”（下称“本教程编委会”）编写。
 
-本教程主要发布于Github。
+本教程主要发布于[Github](https://github.com/Mhy278/MinecraftServerHostGuide)。
 
 
 本作品采用![image](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)[知识共享署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/)进行许可。

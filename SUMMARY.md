@@ -3,7 +3,7 @@
 
 - [x] * [简介](README.md) #梦
 * 开始
-- [x]   * [第一节 准备](Prepare.md) #梦
+- [x]   * [第一节 准备](Preparation.md) #梦
 * 第一单元 基础
 - [x]   * [第一节 第一次的开服](FirstRun.md) #Nico
 - [ ]   * [第二节 服务端的结构](Structure.md) #贺兰

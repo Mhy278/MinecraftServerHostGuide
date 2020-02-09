@@ -19,6 +19,8 @@ MSi安装包安装：[点我转跳](#MSI安装板)
 3. 创建"/data" 和 "/log" 两个文件夹（"/data"文件夹下，用于存放数据库数据；"/log"文件夹下，用于存放日志）
 	1. 在data文件夹下创建"/db"空文件夹
 	![](./images/mongodb/10.png)
+	
+	
 	2. 在log文件夹下创建"mongo.log"空文件
 	![](./images/mongodb/11.png)
 

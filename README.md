@@ -43,3 +43,4 @@ ROF | 编辑  |
 章鱼 | 审读  | 
 酷车手BB弹 | 审读  | 
 [叁只小羽](https://github.com/xiaoyuowo) | 审读  | 
+[叁只仓鼠](https://github.com/ViosinDeng) | 审读  | 

@@ -30,8 +30,8 @@ jobs:
       run: |
         cd ./_book
         git init
-        git config --local user.name "${{ secrets.GIT_NAME }}"
-        git config --local user.email "${{ secrets.GIT_EMAIL }}"
+        git config --local user.name "Mhy278"
+        git config --local user.email "1141896356@qq.com"
         git add *
         git commit -m "gitbook_auto_build"
         git push --force  "https://${{ secrets.THE_GITHUB_TOKEN }}@${{ secrets.THE_GITHUB_REF }}" master:${{ secrets.RES_FOR_PAGES }}

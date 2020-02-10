@@ -33,12 +33,12 @@ ID | 贡献 | 介绍
 Tdiant | 编辑  | 
 弱鸡绿毛怪 | 编辑  | 
 冰冷 | 编辑  | 
-asougi85 | 编辑  | 
-苏米杰。| 编辑  | 
+[asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 编辑  | 
+[魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 编辑  | 
 XJue_DaDa | 引用  | 
 ROF | 编辑  | 
 夜幕 | 编辑  | 
-几何 | 编辑  | 
+[几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 编辑  | 
 筒子 | 审读  | 
 章鱼 | 审读  | 
 酷车手BB弹 | 审读  | 

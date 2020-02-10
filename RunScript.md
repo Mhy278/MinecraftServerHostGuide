@@ -37,7 +37,7 @@ pause
 这样我们的启动参数就变成了(请根据自己的实际情况进行修改)
 ```bash
 @ECHO OFF
-java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -Xincgc -jar spigot-1.8.8-R0.1-SNAPSHOT-latest.jar
+java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -jar spigot-1.8.8-R0.1-SNAPSHOT-latest.jar
 pause
 ```
 如果开的是Mod服（Bukkit+Forge 或 Sponge）建议将`-Xms`与`-Xmx`的大小设置相同
@@ -123,7 +123,7 @@ JDK5.0以后,JVM可以根据当前系统配置进行判断
 **纯净服**推荐脚本
 ```bash
 @ECHO OFF
-java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -Xincgc -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
+java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
 pause
 ```
 根据我这个配置算出的CMSInitiatingOccupancyFraction值应小于或等于77所以这里我直接设置了70，大部分服务器可以直接设置70不需要改
@@ -131,7 +131,7 @@ pause
 **MOD服**建议使用下面的脚本，将`-Xms`与`-Xmx`的大小设置相同
 ```bash
 @ECHO OFF
-java -server -Xincgc -Xmx8g -Xms8g -Xss512k -Xmn2g -Xincgc -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
+java -server -Xincgc -Xmx8g -Xms8g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
 pause
 ```
 
@@ -148,7 +148,7 @@ pause
 ```bash
 @ECHO OFF
 :start
-java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -Xincgc -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
+java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
 cls
 goto start
 pause

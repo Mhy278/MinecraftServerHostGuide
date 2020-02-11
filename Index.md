@@ -16,10 +16,10 @@
 - [x]   * [第一节 认识启动脚本](RunScript.md) #冰冷
 - [x]   * [第二节 认识YAML语法](Yaml.md) #搬TD+绿毛
 - [ ]   * [第三节 数据库的使用](Sql.md) #冰冷
-- [ ]   * [第四节 常见插件配置](CommonPluginConf.md) #贺兰
+- [ ]   * [第四节 常见插件配置](CommonPluginConf.md) #绿毛
 - [x]   * [第五节 什么是报错？](WhatsError.md) #85+苏米杰
-- [ ]   * [第六节 配置文件优化](Optimization.md) #搬达达
-- [ ]   * [第七节 什么是跨服？](BungeeCord.md)
+- [ ]   * [第六节 配置文件优化](Optimization.md) #搬达达+Nico
+- [ ]   * [第七节 什么是跨服？](BungeeCord.md) #蛋黄酱
 - [ ]   * [第八节 长期运行维护](Maintain.md) #梦
 * 第三单元 扩展
 - [x]   * [第一节 什么是皮肤？](Skin.md) #火雨+几何

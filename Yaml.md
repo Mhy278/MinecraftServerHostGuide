@@ -122,27 +122,27 @@ change-displayname: true
 # 你可以添加一些来自其他插件的命令    
 # 或者移除一些你不想看到的私聊命令    
 socialspy-commands:  
-   - msg      
-   - w    
-   - r  
-   - mail  
-   - m  
-   - t  
-   - whisper  
-   - emsg  
-   - tell  
-   - er  
-   - reply  
-   - ereply  
-   - email  
-   - action  
-   - describe  
-   - eme  
-   - eaction  
-   - edescribe  
-   - etell    
-   - ewhisper  
-   - pm    
+  - msg      
+  - w    
+  - r  
+  - mail  
+  - m  
+  - t  
+  - whisper  
+  - emsg  
+  - tell  
+  - er  
+  - reply  
+  - ereply  
+  - email  
+  - action  
+  - describe  
+  - eme  
+  - eaction  
+  - edescribe  
+  - etell    
+  - ewhisper  
+  - pm    
 ```  
 
 这样以'-'引起的一些字符，可以写很多行  

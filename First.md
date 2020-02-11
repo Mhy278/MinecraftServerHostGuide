@@ -32,16 +32,18 @@
  将下载好的`paper.jar`扔进去。
  
 ![image](./images/first/picture1.png)
+
  在文件夹内创建一个 start.bat，使用 记事本 或 Notepad++ 打开。
+ 
+ 输入最基本的启动脚本参数：
 
-
-  ```bash
+```bash
 @ECHO OFF
 java -Xmx1G -Xms1G -jar paper.jar
 pause
 ```
 
-输入最基本的启动代码保存并运行（可能需要挂梯子）
+保存并运行。
 
 ![image](./images/first/picture2.png)
 >

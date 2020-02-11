@@ -163,12 +163,12 @@ socialspy-commands:
 # 查看更多信息,请访问 http://wiki.ess3.net/wiki/Kits  
 kits:  
   tools:  
-     delay: 10  
-     items:  
-        - 272 1  
-        - 273 1  
-        - 274 1  
-        - 275 1  
+    delay: 10  
+    items:  
+       - 272 1  
+       - 273 1  
+       - 274 1  
+       - 275 1  
 ``` 
 
 可见，在节点`kits`下，又写了一个`tools`节点，而`tools`节点下，又有一个`delay`与`items`节点

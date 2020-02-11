@@ -22,8 +22,8 @@
   * [第七节 什么是跨服？](BungeeCord.md)
   * [第八节 长期运行维护](Maintain.md)
 * 第三单元 扩展
-  * [第一节 什么是皮肤？](Skin.md)
-  * [第二节 什么是资源包？](Texture.md)
+  * [第一节 认识资源包](Texture.md)
+  * [第二节 什么是皮肤？](Skin.md)
   * [第三节 什么是3D建模？](Model.md)
   * [第四节 Redis 简单运用](Redis.md)
   * [第五节 MongoDB 的运用](MongoDB.md)

@@ -25,8 +25,8 @@
   * [第一节 认识资源包](Texture.md)
   * [第二节 什么是皮肤？](Skin.md)
   * [第三节 什么是3D建模？](Model.md)
-  * [第四节 Redis 简单运用](Redis.md)
-  * [第五节 MongoDB 的运用](MongoDB.md)
+  * [第四节 Redis 的安装与配置](Redis.md)
+  * [第五节 MongoDB 的安装与配置](MongoDB.md)
 * 第四单元 开发
   * [第一节  Java 编程基础](Java.md)
   * [第二节 Bukkit插件开发](BukkitDev.md)

@@ -3,7 +3,7 @@
 
 * [简介](README.md)
 * 开始
-  * [第一节 准备](Preparation.md)
+  * [准备工作](Preparation.md)
 * 第一单元 基础
   * [第一节 第一次的开服](First.md)
   * [第二节 服务端的结构](Structure.md)

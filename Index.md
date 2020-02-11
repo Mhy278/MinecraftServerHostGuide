@@ -5,7 +5,7 @@
 * 开始
 - [x]   * [第一节 准备](Preparation.md) #梦
 * 第一单元 基础
-- [x]   * [第一节 第一次的开服](FirstRun.md) #Nico
+- [x]   * [第一节 第一次的开服](First.md) #Nico
 - [ ]   * [第二节 服务端的结构](Structure.md) #贺兰
 - [ ]   * [第三节 什么是插件？](Plugin.md) #贺兰
 - [ ]   * [第四节 什么是模组？](Mod.md) #贺兰

@@ -47,7 +47,7 @@ pause
 
 ![image](./images/first/picture2.png)
 >
-> 找到文件夹中的 eula.properties 文件，将其中的 eula=false 改为 eula=true ;
+> 找到文件夹中的 eula.txt 文件，将其中的 eula=false 改为 eula=true ;
 > 
 > 重新启动 start.bat ;
 >

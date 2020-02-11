@@ -10,7 +10,7 @@
 |Bukkit/CraftBukkit|似乎是笔者印象中最为原始的插件服务端，并不支持添加MOD，但可以添加Bukkit插件|https://www.getbukkit.org/|
 |Spigot|Spigot对Bukkit进行了优化，不支持添加mod，但支持添加Bukkit插件|https://hub.spigotmc.org/jenkins/job/BuildTools/|
 |Paper|Paper对Spigot进行了优化，不支持添加mod，但支持添加Bukkit插件|https://papermc.io/|
-|TacoSpigot|Toca同样对Spigot进行了优化，同为不能添加mod的Bukkit插件端|https://github.com/TacoSpigot/TacoSpigot|
+|TacoSpigot|Taco同样对Spigot进行了优化，同为不能添加mod的Bukkit插件端|https://github.com/TacoSpigot/TacoSpigot|
 |Glowstone|一个完全开源的服务端，支持Bukkit插件。版本为1.12.2，中文介绍 https://www.mcbbs.net/thread-926208-1-1.html |https://www.glowstone.net/|
 |MCPC+/Cauldron|可以安装Mod及Bukkit插件，但性能令人捉鸡。最大支持版本1.7.10|https://sourceforge.net/projects/cauldron-unofficial/files/old_releases/version_1/|
 |KCauldron|可以安装Mod及Bukkit插件，但最大支持版本仅到1.7.10|https://sourceforge.net/projects/kcauldron/|

@@ -13,18 +13,17 @@
     "search-plus",
     "splitter",
     "github",
-    "back-to-top-button",
-	"expandable-chapters",
-	"code",
-	"baidu-tongji",
-	"anchor-navigation-ex"
+    "expandable-chapters",
+    "code",
+    "baidu-tongji",
+    "anchor-navigation-ex"
   ],
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/Mhy278/MinecraftServerHostGuide"
 	  },
 	"code": {
-        "copyButtons": false
+        "copyButtons": true
     },
     "baidu-tongji": {
     "token": "cca0c761e4a87fbda2f8f29168e49bd7"

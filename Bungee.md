@@ -172,9 +172,10 @@ server-ip=127.0.0.1
 server-port=23000
 ```
 **注意：设置`127.0.0.1 = localhost` 防止玩家不经过登入服务端直接访问到子服务端 务必设置到内网地址**
-如果是使用 Spigot 类型的端一般目录下会有一个```spigot.yml```文件，在其中需要将 bungeecord 修改为 True 来支持跨服的协议：
+
+如果是使用 Spigot 类型的端一般目录下会有一个`spigot.yml`文件，在其中需要将 bungeecord 项修改为 true 来支持跨服的协议：
 ```
-bungeecord: false
+bungeecord: true
 ```
 如此一来，我们便成功地搭建了一个有三个子端的Bungee群组服务器。
 

@@ -17,7 +17,7 @@
   * [第三节 数据库的使用](Sql.md)
   * [第四节 什么是报错？](WhatsError.md)
   * [第五节 配置文件优化](Optimization.md)
-  * [第六节 什么是跨服？](BungeeCord.md)
+  * [第六节 什么是跨服？](Bungee.md)
   * [第七节 长期运行维护](Maintain.md)
 * 第三单元 扩展
   * [第一节 认识资源包](Texture.md)

@@ -5,8 +5,11 @@
 ##自我思考
 
 1.我是不是需要跨服？
+
 2.我的服务器是否有那么多的玩家在游玩？
+
 3.我的服务器是不是性能多余，核心老是满不起来？
+
 4.想不想把服务器做大，游戏内容多样话，同时玩家在游玩的时候体验的非常舒适？
 
 如果是的请继续往下
@@ -20,12 +23,8 @@
 [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)、[Velocity](https://www.velocitypowered.com/downloads)、[Lilypad](http://ci.lilypadmc.org/)、[WaterFall](https://papermc.io/downloads#Waterfall)、[HexaCord](https://yivesmirror.com/downloads/hexacord)、[Travertine](https://papermc.io/downloads#Travertine)、[Minecraft-Proxy](https://github.com/bangbang93/minecraft-proxy)
 
 ##本次采用的是 BungeeCord
-阅读本文，必须阅读
-[第一单元 基础 第六节 服务端的配置](https://github.com/Mhy278/MinecraftServerHostGuide/blob/master/ServerConf.md)
-[第二单元 进阶  第一节 认识启动脚本](https://github.com/Mhy278/MinecraftServerHostGuide/blob/master/RunScript.md)
 
 首先构思一下服务器的框架以及配置文件
-
 
 ##学习 配置文件（```Config.yml```）详细介绍
 ```
@@ -125,7 +124,7 @@ log_pings: true
 
 玩家可以通过指令、菜单和传送门到达各子服务端，同步玩家的背包以及状态、聊天以及公告。
 
-![Structure](./imgages/bungee/BungeeCordstructure.png)
+![Structure](./images/bungee/BungeeCordstructure.png)
 
 ####在 BungeeCord目录下 ```config.yml``` 配置 ```servers:``` ```host:```
 
@@ -160,7 +159,7 @@ server:
 ```
 
 ####服务器目录框架
-![ServerList](./imgages/bungee/ServerList.png)
+![ServerList](./images/bungee/ServerList.png)
 
 对应的修改每一个子服务端的server.properties
 
@@ -182,6 +181,6 @@ bungeecord: false
 ```
 如此一来，我们便成功地搭建了一个有三个子端的Bungee群组服务器。
 
-![CmdCap](./imgages/bungee/CmdCap.png)
+![CmdCap](./images/bungee/CmdCap.png)
 
 在后期也可以安装BungeeCord安装相关的[插件](https://www.spigotmc.org/resources/categories/bungee-proxy.3/)来加强Bungee的功能。

@@ -31,6 +31,5 @@
   * [第三节 Sponge插件开发](SpongeDev.md)
   * [第四节 Forge 模组开发](ForgeDev.md)
 * 附录
-  * [常见报错大全](Errors.md)
   * [认识搜索引擎](SearchEngine.md) #超链，不用写
   * [提问的智慧](How-To-Ask-Questions-The-Smart-Way.md) #超链，不用写

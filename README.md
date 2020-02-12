@@ -32,7 +32,7 @@ ID | 介绍
 [冰冷](https://github.com/gdenga/) | 主要编写者。  
 [asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 主要编写者。   
 [魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 参与编写。  
-[弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 编辑  
+[弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 参与编写。 
 [Tdiant](https://github.com/tdiant) | 授权引用。  
 [XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 授权引用。  
 [蛋黄酱](https://github.com/huangshize) | 参与编写。  

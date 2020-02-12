@@ -6,12 +6,12 @@
 - [x]   * [第一节 准备](Preparation.md) #梦
 * 第一单元 基础
 - [x]   * [第一节 第一次的开服](First.md) #Nico
-- [ ]   * [第二节 服务端的结构](Structure.md) #贺兰
-- [ ]   * [第三节 什么是插件？](Plugin.md) #贺兰
-- [ ]   * [第四节 什么是模组？](Mod.md) #贺兰
+- [ ]   * [第二节 服务端的结构](Structure.md) 
+- [ ]   * [第三节 什么是插件？](Plugin.md) 
+- [ ]   * [第四节 什么是模组？](Mod.md) 
 - [ ]   * [第五节 什么是地图？](Map.md) #TD
 - [ ]   * [第六节 什么是日志？](Log.md) #85+苏米杰
-- [ ]   * [第七节 认识配置文件](WhatsConfig.md) #TD
+- [ ]   * [第七节 认识配置文件](WhatsConfig.md) #85+苏米杰
 * 第二单元 进阶
 - [x]   * [第一节 认识启动脚本](RunScript.md) #冰冷
 - [x]   * [第二节 认识YAML语法](Yaml.md) #搬TD+绿毛

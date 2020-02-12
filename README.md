@@ -32,14 +32,14 @@ ID | 贡献 | 介绍
 [冰冷](https://github.com/gdenga/) | 编辑  | 
 [asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 编辑  | 
 [魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 编辑  | 
-弱鸡绿毛怪 | 编辑  | 
-XJue_DaDa | 引用  | 
+[弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 编辑  | 
+[XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 引用  | 
 [蛋黄酱](https://github.com/huangshize) | 编辑  | 
 [几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 编辑  | 
 [火雨](https://www.mcbbs.net/home.php?mod=space&uid=1710570) | 编辑  | 
 [夜幕](https://www.mcbbs.net/home.php?mod=space&uid=2128135) | 编辑  | 
 [筒子](https://www.mcbbs.net/home.php?mod=space&uid=910117) | 审读  | 
-章鱼 | 审读  | 
+[章鱼](https://www.mcbbs.net/home.php?mod=space&uid=2065001) | 审读  | 
 [叁只小羽](https://github.com/xiaoyuowo) | 审读  | 
 [叁只仓鼠](https://github.com/ViosinDeng) | 审读  | 
 [酷车手BB弹](https://www.mcbbs.net/home.php?mod=space&uid=284709) | 审读  | 

@@ -5,7 +5,7 @@
 * 开始
   * [准备工作](Preparation.md)
 * 第一单元 基础
-  * [第一节 第一次的开服](First.md) #Nico
+  * [第一节 第一次的开服](First.md)
   * [第二节 服务端的结构](Structure.md) 
   * [第三节 什么是插件？](Plugin.md) 
   * [第四节 什么是模组？](Mod.md) 

@@ -4,13 +4,10 @@
 
 ## 自我思考
 
-1.我是不是需要跨服？
-
-2.我的服务器是否有那么多的玩家在游玩？
-
-3.我的服务器是不是性能多余，核心老是满不起来？
-
-4.想不想把服务器做大，游戏内容多样话，同时玩家在游玩的时候体验的非常舒适？
+1. 我是不是需要跨服？
+2. 我的服务器是否有那么多的玩家在游玩？
+3. 我的服务器是不是性能多余，核心老是满不起来？
+4. 想不想把服务器做大，游戏内容多样话，同时玩家在游玩的时候体验的非常舒适？
 
 如果是的请继续往下
 
@@ -19,14 +16,14 @@
 
 也就是[代理服务器](https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/97996?fr=aladdin)，他的作用就是代理玩家进入到服务器内部的一个个子服务端，作为内网与外网之间的桥梁。
 
-####从前到后、从后到前、跨服版本数量繁多
+#### 从前到后、从后到前、跨服版本数量繁多
 [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)、[Velocity](https://www.velocitypowered.com/downloads)、[Lilypad](http://ci.lilypadmc.org/)、[WaterFall](https://papermc.io/downloads#Waterfall)、[HexaCord](https://yivesmirror.com/downloads/hexacord)、[Travertine](https://papermc.io/downloads#Travertine)、[Minecraft-Proxy](https://github.com/bangbang93/minecraft-proxy)
 
 ## 本次采用的是 BungeeCord
 
 首先构思一下服务器的框架以及配置文件
 
-##学习 配置文件（```Config.yml```）详细介绍
+## 学习 配置文件（```Config.yml```）详细介绍
 ```
 server_connect_timeout: 5000 
 #服务器无响应，多少毫秒后BungeeCord会关闭这个连接

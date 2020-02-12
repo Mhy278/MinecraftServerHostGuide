@@ -7,20 +7,18 @@
 * 第一单元 基础
 - [x]   * [第一节 第一次的开服](First.md) #Nico
 - [ ]   * [第二节 服务端的结构](Structure.md) 
-- [ ]   * [第三节 什么是插件？](Plugin.md) 
-- [ ]   * [第四节 什么是模组？](Mod.md) 
-- [ ]   * [第五节 什么是地图？](Map.md) #TD
-- [ ]   * [第六节 什么是日志？](Log.md) #85+苏米杰
-- [ ]   * [第七节 认识配置文件](WhatsConfig.md) #85+苏米杰
+- [ ]   * [第三节 插件与模组](PluginAndMod.md) 
+- [ ]   * [第四节 什么是地图？](Map.md) #TD
+- [ ]   * [第五节 什么是日志？](Log.md) #85+苏米杰
+- [ ]   * [第六节 服务端的配置](ServerConf.md) #85+苏米杰
 * 第二单元 进阶
 - [x]   * [第一节 认识启动脚本](RunScript.md) #冰冷
 - [x]   * [第二节 认识YAML语法](Yaml.md) #搬TD+绿毛
 - [ ]   * [第三节 数据库的使用](Sql.md) #冰冷
-- [ ]   * [第四节 常见插件配置](CommonPluginConf.md) #绿毛
-- [x]   * [第五节 什么是报错？](WhatsError.md) #85+苏米杰
-- [ ]   * [第六节 配置文件优化](Optimization.md) #搬达达+Nico
-- [ ]   * [第七节 什么是跨服？](BungeeCord.md) #蛋黄酱
-- [ ]   * [第八节 长期运行维护](Maintain.md) #梦
+- [x]   * [第四节 什么是报错？](WhatsError.md) #85+苏米杰
+- [ ]   * [第五节 配置文件优化](Optimization.md) #搬达达+Nico
+- [ ]   * [第六节 什么是跨服？](BungeeCord.md) #蛋黄酱
+- [ ]   * [第七节 长期运行维护](Maintain.md) #梦
 * 第三单元 扩展
 - [x]   * [第一节 什么是皮肤？](Skin.md) #火雨+几何
 - [x]   * [第二节 什么是资源包？](Texture.md) #夜幕+几何

@@ -37,9 +37,9 @@ ID | 贡献 | 介绍
 [蛋黄酱](https://github.com/huangshize) | 编辑  | 
 [几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 编辑  | 
 [火雨](https://www.mcbbs.net/home.php?mod=space&uid=1710570) | 编辑  | 
-[夜幕](https://www.mcbbs.net/home.php?mod=space&uid=2128135) | 编辑  | 
+[Auange_M夜幕](https://www.mcbbs.net/home.php?mod=space&uid=2128135) | 编辑  | 
 [筒子](https://www.mcbbs.net/home.php?mod=space&uid=910117) | 审读  | 
-[章鱼](https://www.mcbbs.net/home.php?mod=space&uid=2065001) | 审读  | 
+[Smokey_Days](https://www.mcbbs.net/home.php?mod=space&uid=2065001) | 审读  | 
 [叁只小羽](https://github.com/xiaoyuowo) | 审读  | 
 [叁只仓鼠](https://github.com/ViosinDeng) | 审读  | 
 [酷车手BB弹](https://www.mcbbs.net/home.php?mod=space&uid=284709) | 审读  | 

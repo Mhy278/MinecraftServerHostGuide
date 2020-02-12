@@ -27,5 +27,5 @@
 [开源中国中文文档](https://tool.oschina.net/apidocs/apidoc?api=jdk_7u4) （JDK7u4）
 
 ## 关于
-本节内容整理自[耗子](https://github.com/Mouse0w0)编写的[《我的世界开发者中文指南》](https://github.com/Mouse0w0/MinecraftDeveloperGuide)，有删改。
+本节内容转自[耗子](https://github.com/Mouse0w0)编写的[《我的世界开发者中文指南》](https://github.com/Mouse0w0/MinecraftDeveloperGuide)，有删改。
 

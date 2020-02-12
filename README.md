@@ -28,17 +28,17 @@
 ID | 介绍
 ---|---
 梦彗業 | 编辑
-[Drenal](https://www.mcbbs.net/home.php?mod=space&uid=1013348) | 编辑 
-[冰冷](https://github.com/gdenga/) | 主要编辑者。  
-[asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 主要编辑者。  
-[魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 编辑  
+[Drenal](https://www.mcbbs.net/home.php?mod=space&uid=1013348) | 主要编写者。 
+[冰冷](https://github.com/gdenga/) | 主要编写者。  
+[asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 主要编写者。   
+[魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 参与编写。  
 [弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 编辑  
-[Tdiant](https://github.com/tdiant) | 引用  
-[XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 引用  
-[蛋黄酱](https://github.com/huangshize) | 编辑  
-[几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 主要编辑者。  
-[火雨](https://www.mcbbs.net/home.php?mod=space&uid=1710570) | 编辑  
-[Auange_M夜幕](https://www.mcbbs.net/home.php?mod=space&uid=2128135) | 编辑  
+[Tdiant](https://github.com/tdiant) | 授权引用。  
+[XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 授权引用。  
+[蛋黄酱](https://github.com/huangshize) | 参与编写。  
+[几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 主要编写者。   
+[火雨](https://www.mcbbs.net/home.php?mod=space&uid=1710570) | 参与编写。  
+[Auange_M夜幕](https://www.mcbbs.net/home.php?mod=space&uid=2128135) | 参与编写。 
 [筒子](https://www.mcbbs.net/home.php?mod=space&uid=910117) | 审阅。  
 [Smokey_Days](https://www.mcbbs.net/home.php?mod=space&uid=2065001) | 审阅。  
 [叁只小羽](https://github.com/xiaoyuowo) | 审阅。  

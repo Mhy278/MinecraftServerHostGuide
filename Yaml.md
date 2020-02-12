@@ -208,3 +208,5 @@ kits:
 在 NotePad++ 界面上方的"编码"处，点击转为 ANSI 或 UTF-8无BOM 编码，然后再保存。
 
 不同的服务器的编码是不一样的，如果你不知道的话不妨两个都试一下。
+
+> 本节部分内容引用自 [tdiant](https://github.com/tdiant) 编写的 [BukkitDevelopmentNote](https://github.com/tdiant/BukkitDevelopmentNote) 。

@@ -29,13 +29,12 @@ ID | 贡献 | 介绍
 ---|---|---
 梦彗業 | 编辑 | 
 [Drenal](https://www.mcbbs.net/home.php?mod=space&uid=1013348) | 编辑 | 
-贺兰星辰 | 编辑  | 
-Tdiant | 编辑  | 
-弱鸡绿毛怪 | 编辑  | 
 [冰冷](https://github.com/gdenga/) | 编辑  | 
 [asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 编辑  | 
 [魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 编辑  | 
+弱鸡绿毛怪 | 编辑  | 
 XJue_DaDa | 引用  | 
+[蛋黄酱](https://github.com/huangshize) | 编辑  | 
 [几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 编辑  | 
 ROF | 编辑  | 
 夜幕 | 编辑  | 

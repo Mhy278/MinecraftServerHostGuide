@@ -112,7 +112,7 @@ connection_throttle: 4000
 stats: b2bd44d7-c14e-4a4c-8s67-e5ecdf22d160 
 #机器码，请不要修改，服务端会自己生成的
 log_pings: true 
-# 记录ping指
+# 记录ping值
 ```
 
 ## BungeeCord 搭建
@@ -123,7 +123,7 @@ log_pings: true
 
 ![Structure](./images/bungee/BungeeCordstructure.png)
 
-#### 在 BungeeCord目录下 ```config.yml``` 配置 ```servers:``` ```host:```
+#### 在 BungeeCord目录下 `config.yml` 配置 `servers:`和`host:`
 
 ```
 host: 0.0.0.0:61390
@@ -171,7 +171,7 @@ server-port=22000
 server-ip=127.0.0.1
 server-port=23000
 ```
-**注意：设置127.0.0.1 = localhost` 防止玩家不经过登入服务端直接访问到子服务端 务必设置到内网地址**
+**注意：设置`127.0.0.1 = localhost` 防止玩家不经过登入服务端直接访问到子服务端 务必设置到内网地址**
 如果是使用 Spigot 类型的端一般目录下会有一个```spigot.yml```文件，在其中需要将 bungeecord 修改为 True 来支持跨服的协议：
 ```
 bungeecord: false

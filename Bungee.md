@@ -1,8 +1,8 @@
-#第七节 什么是跨服？
+# 第七节 什么是跨服？
 
 跨服同时也是搭建我的世界服务器中的一项复杂的一门技术，在搭建多个服务器时，要做一些研究以及了解的工作。
 
-##自我思考
+## 自我思考
 
 1.我是不是需要跨服？
 
@@ -14,7 +14,7 @@
 
 如果是的请继续往下
 
-##了解
+## 了解
 跨服大致就是“[分布式部署](https://baike.baidu.com/item/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/4905336?fr=aladdin)“我的世界的服务端从而提高服务器硬件的利用率的一种技术手段。
 
 也就是[代理服务器](https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/97996?fr=aladdin)，他的作用就是代理玩家进入到服务器内部的一个个子服务端，作为内网与外网之间的桥梁。
@@ -22,7 +22,7 @@
 ####从前到后、从后到前、跨服版本数量繁多
 [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/)、[Velocity](https://www.velocitypowered.com/downloads)、[Lilypad](http://ci.lilypadmc.org/)、[WaterFall](https://papermc.io/downloads#Waterfall)、[HexaCord](https://yivesmirror.com/downloads/hexacord)、[Travertine](https://papermc.io/downloads#Travertine)、[Minecraft-Proxy](https://github.com/bangbang93/minecraft-proxy)
 
-##本次采用的是 BungeeCord
+## 本次采用的是 BungeeCord
 
 首先构思一下服务器的框架以及配置文件
 
@@ -118,7 +118,7 @@ log_pings: true
 # 记录ping指
 ```
 
-##BungeeCord 搭建
+## BungeeCord 搭建
 
 我们假设以三个服为准：登入服、生存服和创造服。
 
@@ -126,7 +126,7 @@ log_pings: true
 
 ![Structure](./images/bungee/BungeeCordstructure.png)
 
-####在 BungeeCord目录下 ```config.yml``` 配置 ```servers:``` ```host:```
+#### 在 BungeeCord目录下 ```config.yml``` 配置 ```servers:``` ```host:```
 
 ```
 host: 0.0.0.0:61390
@@ -158,7 +158,7 @@ server:
     restricted: false
 ```
 
-####服务器目录框架
+#### 服务器目录框架
 ![ServerList](./images/bungee/ServerList.png)
 
 对应的修改每一个子服务端的server.properties

@@ -26,10 +26,10 @@
   * [第四节 Redis 的安装与配置](Redis.md)
   * [第五节 MongoDB 的安装与配置](MongoDB.md)
 * 第四单元 开发
-  * [第一节  Java 编程基础](Java.md)
-  * [第二节 Bukkit插件开发](BukkitDev.md)
-  * [第三节 Sponge插件开发](SpongeDev.md)
-  * [第四节 Forge 模组开发](ForgeDev.md)
+  * [第一节 Java 编程基础](Java.md)
+  * [第二节 Bukkit插件开发](Bukkit.md)
+  * [第三节 Sponge插件开发](Sponge.md)
+  * [第四节 Forge 模组开发](Forge.md)
 * 附录
   * [认识搜索引擎](SearchEngine.md)
   * [提问的智慧](How-To-Ask-Questions-The-Smart-Way.md)

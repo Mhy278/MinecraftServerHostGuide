@@ -44,11 +44,11 @@ ID | 介绍
 [弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 参与编写 
 [tdiant](https://github.com/tdiant) | 参与编写 
 [蛋黄酱](https://github.com/huangshize) | 参与编写  
-[几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 主要编写者   
-[火雨](https://www.mcbbs.net/home.php?mod=space&uid=1710570) | 参与编写  
-[Auange_M夜幕](https://www.mcbbs.net/home.php?mod=space&uid=2128135) | 参与编写 
-[筒子](https://www.mcbbs.net/home.php?mod=space&uid=910117) | 审阅  
 [Smokey_Days](https://www.mcbbs.net/home.php?mod=space&uid=2065001) | 审阅  
 [叁只小羽](https://github.com/xiaoyuowo) | 审阅  
 [叁只仓鼠](https://github.com/ViosinDeng) | 审阅  
 [酷车手BB弹](https://www.mcbbs.net/home.php?mod=space&uid=284709) | 审阅  
+[几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 主要编写者   
+[火雨](https://www.mcbbs.net/home.php?mod=space&uid=1710570) | 参与编写  
+[Auange_M夜幕](https://www.mcbbs.net/home.php?mod=space&uid=2128135) | 参与编写 
+[筒子](https://www.mcbbs.net/home.php?mod=space&uid=910117) | 审阅  

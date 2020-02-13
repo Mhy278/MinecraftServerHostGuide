@@ -19,11 +19,20 @@
 
 部分代码和文献资料若涉及转载或引用, 将会在相关内容处标记，请依照其自身的协议使用。
 
+# 鸣谢
+在本教程编写的过程中得到了一些有关人士的帮助，在此对他们表示最诚挚的感谢！
+
+以下为鸣谢名单（排名不分先后）：
+
+ID | 介绍
+---|---
+[XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 授权参考翻译
+[贺兰星辰](https://www.mcbbs.net/home.php?mod=space&uid=495221) | 给予一定指导
+
 # 编写委员会
 由衷地感谢本教程编委会各位成员在本教程编写过程中所作出的贡献！
 
-以下为本教程编委会成员名单（排名依照其参与贡献的章节顺序排列）：
-
+以下为本教程编写委员会成员名单（排名依照其参与贡献的章节顺序排列）：
 
 ID | 介绍
 ---|---
@@ -33,8 +42,7 @@ ID | 介绍
 [asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 主要编写者   
 [魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 参与编写  
 [弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 参与编写 
-[tdiant](https://github.com/tdiant) | 授权引用  
-[XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 授权引用  
+[tdiant](https://github.com/tdiant) | 参与编写 
 [蛋黄酱](https://github.com/huangshize) | 参与编写  
 [几何](https://www.mcbbs.net/home.php?mod=space&uid=1798694) | 主要编写者   
 [火雨](https://www.mcbbs.net/home.php?mod=space&uid=1710570) | 参与编写  

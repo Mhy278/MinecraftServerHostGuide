@@ -154,9 +154,19 @@ BGP多线：ex.example.com:端口
 ========================
 感谢您选择我们，您的支持使我们继续发展下去的动力
 ```
+
+### Windows 系统
+
 在键盘上找到 “Windows 键“ ![image](./images/preparation/windows.ico)，同时按下 “Windows 键” + “R 键”。
 
 会弹出 “运行”![image](./images/preparation/run.png) 界面，在输入框中输入半角英文字符 “mstsc” ，即可弹出 “远程桌面连接” ![image](./images/preparation/mstsc.png) 界面。
+
+在 “远程桌面连接” 界面当中的 “计算机：”后的输入框中输入刚刚得到的服务器连接信息中的 “远程桌面连接地址”。
+点击连接，根据提示输入入刚刚得到的服务器连接信息中的 “用户名” 和 “密码” ，即可连接到服务器远程桌面。
+
+### MacOS 系统
+
+在 Mac 应用商店安装 [Microsoft Remote Desktop 8](https://vpp.itunes.apple.com/us/app/microsoft-remote-desktop-8/id715768417)。
 
 在 “远程桌面连接” 界面当中的 “计算机：”后的输入框中输入刚刚得到的服务器连接信息中的 “远程桌面连接地址”。
 点击连接，根据提示输入入刚刚得到的服务器连接信息中的 “用户名” 和 “密码” ，即可连接到服务器远程桌面。

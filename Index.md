@@ -27,9 +27,9 @@
 - [x]   * [第五节 MongoDB 的运用](MongoDB.md) #冰冷
 * 第四单元 开发 #超链，不用写
   * [第一节  Java 编程基础](Java.md)
-  * [第二节 Bukkit插件开发](BukkitDev.md)
-  * [第三节 Sponge插件开发](SpongeDev.md)
-  * [第四节 Forge 模组开发](ForgeDev.md)
+  * [第二节 Bukkit插件开发](Bukkit.md)
+  * [第三节 Sponge插件开发](Sponge.md)
+  * [第四节 Forge 模组开发](Forge.md)
 * 附录
   * [认识搜索引擎](SearchEngine.md) #超链，不用写
   * [提问的智慧](How-To-Ask-Questions-The-Smart-Way.md) #超链，不用写

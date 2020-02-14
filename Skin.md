@@ -4,8 +4,7 @@
 
 既然皮肤是一种材质，则需要在材质文件中加载
 
-由[认识资源包](https://github.com/Mhy278/MinecraftServerHostGuide/blob/master/Texture.md)可知
-皮肤文件的大致位置为`\.minecraft\versions\相应版本名称\assets\minecraft\textures\entity`, 在该目录下我们找到一个`steve.png`文件：
+我们在[认识资源包](https://github.com/Mhy278/MinecraftServerHostGuide/blob/master/Texture.md)已经学习过，皮肤文件的大致位置为`\.minecraft\versions\相应版本名称\assets\minecraft\textures\entity`, 在该目录下我们找到一个`steve.png`文件：
 
 ![image](./images/skin/assets.png)
 

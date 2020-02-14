@@ -24,7 +24,7 @@
 首先构思一下服务器的框架以及配置文件
 
 ## 学习 配置文件（```Config.yml```）详细介绍
-```
+```yaml
 server_connect_timeout: 5000 
 #服务器无响应，多少毫秒后BungeeCord会关闭这个连接
 remote_ping_cache: -1 
@@ -125,7 +125,7 @@ log_pings: true
 
 #### 在 BungeeCord目录下 `config.yml` 配置 `servers:`和`host:`
 
-```
+```yaml
 host: 0.0.0.0:61390
 #定义为 0.0.0.0 指接受任意地址连接
 #端口需要根据服务商提供的对外开放的端口设置，独立IP则自选。
@@ -139,7 +139,7 @@ servers:
 如下：
 
 
-```
+```yaml
 server:
   登入服:
     motd: '&1Just another BungeeCord - Forced Host'
@@ -174,7 +174,7 @@ server-port=23000
 **注意：设置`server-ip=127.0.0.1` 可以防止玩家不经过登陆服直接访问到子服务端，务必设置到内网地址**
 
 如果是使用 Spigot 类型的端一般目录下会有一个`spigot.yml`文件，在其中需要将 bungeecord 项修改为 true 来支持跨服的协议：
-```
+```yaml
 bungeecord: true
 ```
 如此一来，我们便成功地搭建了一个有三个子端的Bungee群组服务器。

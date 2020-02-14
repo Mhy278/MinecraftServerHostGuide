@@ -27,7 +27,7 @@
 ID | 介绍
 ---|---
 [zzzz](https://github.com/ustc-zzzz) | 给予一定指导
-[贺兰星辰](https://www.mcbbs.net/home.php?mod=space&uid=495221) | 给予一定指导
+[贺兰星辰](https://www.mcbbs.net/home.php?mod=space&uid=495221) | 给予一定建议
 [XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 授权参考翻译
 
 # 编写委员会

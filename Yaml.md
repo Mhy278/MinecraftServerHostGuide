@@ -31,7 +31,7 @@
 ## 语法一: 注释
 譬如你打开 Essentials 后，开篇就有一堆注释：
 
-```
+```yaml
 # 文本大部分引自 XXXXXX XX"  
 # 文本前带有"#"的都是阐释说明的内容,不会对格式产生影响."  
 # 如果你想要在该文件内添加非单字节内容,请保存为UTF-8格式,而不是ANSI,否则可能出现乱码  
@@ -51,7 +51,7 @@
 
 同时你也可以自己写注释，但注释不推荐与配置文件内容同行，如:
 
-```
+```yaml
 heal-cooldown: 60 #我是与配置节点同行的注释
 ```
 
@@ -61,7 +61,7 @@ heal-cooldown: 60 #我是与配置节点同行的注释
 
 你可以在配置文件中看到譬如:
 
-```
+```yaml
 ABCABC: XXXXXXX  
 ```
 
@@ -79,7 +79,7 @@ ABCABC: XXXXXXX
 #### 汉字
 譬如:  
 
-```
+```yaml
 welcome: "欢迎来到服务器"  
 ```
 
@@ -88,7 +88,7 @@ welcome: "欢迎来到服务器"
 #### 数字
 譬如：
 
-```
+```yaml
 player-health: 20  
 ```
 
@@ -96,7 +96,7 @@ player-health: 20
 
 此处 `player-health` 的意思是玩家的血量，插件作者本意让你填写一个数字，你却：
 
-```
+```yaml
 player-health: 玩家血量  
 ```
 
@@ -106,7 +106,7 @@ player-health: 玩家血量
 #### "true"或 "false"  
 **"true"代表开启，"false"代表关闭**，譬如:  
 
-``` 
+``` yaml
 # 如果你想用其他的插件来设置玩家名字,将其改为"false"
 change-displayname: true  
 ``` 
@@ -117,7 +117,7 @@ change-displayname: true
 #### 列
 譬如:
 
-```
+```yaml
 # 这些命令是当开启了/socialspy命令时可以看到的玩家私聊     
 # 你可以添加一些来自其他插件的命令    
 # 或者移除一些你不想看到的私聊命令    
@@ -154,7 +154,7 @@ socialspy-commands:
 > 禁止套娃
 
 譬如：
-```  
+```yaml  
 # /kit快速工具命令,注意:所有物品后面必须写明数量!  
 # 所有的kit物品最好容易获得, 在/costs中价格较低,权限要求较低.  
 # 格式: - 物品ID[:数据值/耐久] 数量 [附魔:附魔等级]..[itemmeta:value]...  
@@ -183,7 +183,7 @@ kits:
 
 这是因为`delay`与`items`都是`tools`的子节点，如果:
 
-``` 
+```yaml 
 kits:
   tools:
     delay: 10

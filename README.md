@@ -43,7 +43,8 @@ ID | 介绍
 [魂葬](https://www.mcbbs.net/home.php?mod=space&uid=1173935)| 参与编写  
 [弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 参与编写 
 [tdiant](https://github.com/tdiant) | 参与编写 
-[蛋黄酱](https://github.com/huangshize) | 参与编写  
+[蛋黄酱](https://github.com/huangshize) | 参与编写
+[Hmm1313133](https://www.mcbbs.net/home.php?mod=space&uid=193264) | 参与编写
 [Smokey_Days](https://www.mcbbs.net/home.php?mod=space&uid=2065001) | 审阅  
 [叁只小羽](https://github.com/xiaoyuowo) | 审阅  
 [叁只仓鼠](https://github.com/ViosinDeng) | 审阅  

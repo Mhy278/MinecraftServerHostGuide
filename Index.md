@@ -6,7 +6,7 @@
 - [x]   * [第一节 准备](Preparation.md) #梦
 * 第一单元 基础
 - [x]   * [第一节 第一次的开服](First.md) #Nico
-- [ ]   * [第二节 服务端的结构](Structure.md) #Nico
+- [x]   * [第二节 服务端的结构](Structure.md) #Nico
 - [x]   * [第三节 什么是插件？](Plugin.md) #85+苏米杰
 - [x]   * [第四节 什么是模组？](Mod.md) #85+苏米杰
 - [x]   * [第五节 什么是世界？](World.md) #BakaTD

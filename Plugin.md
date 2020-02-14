@@ -51,7 +51,6 @@
 #### 配置文件
 Bukkit插件的配置文件被保存在 `/plugins/插件名` 文件夹中。  
 
----
 ### Sponge插件  
 #### 安装
 1. 默认情况下，Sponge插件安装在位于根目录的 `mods` 文件夹中。但Sponge提供了其他更多的可选插件位置，详情可以阅读[Sponge官方中文文档](https://docs.spongepowered.org/stable/zh-CN)  
@@ -65,7 +64,6 @@ Bukkit插件的配置文件被保存在 `/plugins/插件名` 文件夹中。
 #### 配置文件
 默认情况下，Sponge插件的配置文件被保存在根目录的 `config` 文件夹中，但实际情况有时并非如此。必要时请查阅对应插件的文档来获得帮助。
 
----
 ### 配置文件的编辑
 配置文件**没有固定的文件名**，但是Bukkit插件配置文件一般为`YAML`格式的文本文档，后缀名为 `.yml` 。Sponge插件配置文件一般为`HOCON`或`YAML`格式的文本文档，后缀名为`.conf`  
 配置文件可以用 Windows 自带的记事本打开。但是我们更推荐使用[准备工作](Preparation.md)中提到的`NotePad++`或`EditPlus`、`Sublime Text`和`Vim` 等专业文本编辑器进行修改，以免出现各种问题。  

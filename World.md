@@ -166,7 +166,7 @@ multiverse-configuration:
 `multiverse.core.delete` | 删除世界
 `multiverse.core.unload` | 卸载世界
 
-### 使用 Multiverse-Core 在服务器里导入地图
+### 导入地图
 
 先把地图文件夹放在服务器的根目录下，在后台输入  
 ```
@@ -176,5 +176,3 @@ multiverse-configuration:
 ```
 /mv tp [地图名]
 ```
-
-

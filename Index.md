@@ -20,11 +20,11 @@
 - [x]   * [第六节 什么是跨服？](Bungee.md) #蛋黄酱
 - [ ]   * [第七节 长期运行维护](Maintain.md) #梦
 * 第三单元 扩展
-- [x]   * [第一节 什么是皮肤？](Skin.md) #火雨+几何
-- [x]   * [第二节 什么是资源包？](Texture.md) #夜幕+几何
-- [x]   * [第三节 什么是3D建模？](Model.md) #几何
-- [x]   * [第四节 Redis 简单运用](Redis.md) #Hmm1313133
-- [x]   * [第五节 MongoDB 的运用](MongoDB.md) #冰冷
+- [x]  * [第一节 Redis 的安装与配置](Redis.md) #Hmm1313133
+- [x]  * [第二节 MongoDB 的安装与配置](MongoDB.md) #冰冷
+- [x]  * [第三节 认识资源包](Texture.md) #夜幕+几何
+- [x]  * [第四节 什么是皮肤？](Skin.md) #火雨+几何
+- [x]  * [第五节 什么是3D建模？](Model.md) #几何
 * 第四单元 开发
   * [第一节  Java 编程基础](Java.md)
   * [第二节 Bukkit插件开发](Bukkit.md)

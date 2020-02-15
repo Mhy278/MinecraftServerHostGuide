@@ -13,7 +13,7 @@
 ```c
 Paper
 ├─cache //缓存文件夹
-├─logs //存放服务端输出记录的文件夹
+├─logs //存放服务端日志的文件夹
 ├─plugins //存放插件的文件夹
 │  └─bStats //一些插件生成的文件夹，一般情况下存放着插件的配置文件
 ├─world //世界文件夹
@@ -28,7 +28,7 @@ Paper
 │  ├─DIM-1
 │  │  └─region
 │  └─playerdata
-└─world_the_end //末地文件夹
+└─world_the_end //末地世界文件夹
     ├─data
     │  └─functions
     ├─DIM1
@@ -38,10 +38,10 @@ Paper
 以及 Catserver 的文件夹结构：
 ```c
 Catserver
-├─config //mod的一些设置
+├─config //模组的一些设置
 ├─libraries //一些支持库
-├─logs //存放服务端输出记录的文件夹
-├─mods //存放mod的文件夹
+├─logs //存放服务端日志的文件夹
+├─mods //存放模组的文件夹
 ├─plugins //存放插件的文件夹
 │  └─bStats //存放插件配置的一些文件夹
 └─world //世界文件夹

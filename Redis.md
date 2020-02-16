@@ -40,7 +40,7 @@ Port:6379
 Pass:默认为空
 
 
-##解压可用模式
+## 解压可用模式
 若想采用此模式则应在上方下载地址中选择下载[Redis-x64-3.2.100.zip](https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.zip)
 - 首先我们将下载的zip压缩文件解压至任意文件夹,进入文件夹
 - 双击redis-server.exe文件启动Redis服务端
@@ -49,7 +49,7 @@ Host:127.0.0.1
 Port:6379
 Pass:默认为空
 
-##Redis配置
+## Redis配置
 一般来说Redis中我们经常用到的配置项有以下几项：
 - `port:6379`指定访问redis服务端的端口。
 - `bind:127.0.0.1`指定redis绑定的主机地址。
@@ -60,7 +60,7 @@ Pass:默认为空
 - `requirepass:`指定redis的访问密码。
 注：如果您无法理解上面每一项的含义，那么请勿修改配置文件
 
-##RedisBungee插件配置
+## RedisBungee插件配置
 这里仅展示Redis相关部分：
 ```
 #Redis服务器IP，默认为127.0.0.1

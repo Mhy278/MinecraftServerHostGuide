@@ -16,12 +16,12 @@ MySQL安装
 1. [数据库的基本介绍](#%e6%95%b0%e6%8d%ae%e5%ba%93%e7%9a%84%e5%9f%ba%e6%9c%ac%e4%bb%8b%e7%bb%8d)
 2. [AuthMe配置MySQL](#authme%e9%85%8d%e7%bd%aemysql)
 3. [MySQL的安装](#mysql%e7%9a%84%e5%ae%89%e8%a3%85)
-    1. [MySQL5.7免安装版本的安装](#mysql%e7%9a%84%e5%ae%89%e8%a3%85)
-       1. [MySQL5.7安装](#mysql57%e7%9a%84%e5%ae%89%e8%a3%85)
-       2. [MySQL5.7卸载](#mysql57%e5%8d%b8%e8%bd%bd)
-       3. [MySQL5.7安装时常见错误总结及解决方法](#mysql57%e5%ae%89%e8%a3%85%e6%97%b6%e5%b8%b8%e8%a7%81%e9%94%99%e8%af%af%e6%80%bb%e7%bb%93%e5%8f%8a%e8%a7%a3%e5%86%b3%e6%96%b9%e6%b3%95) 
-    2. [MySQL8.0免安装版本的安装](#mysql80%e7%9a%84%e5%ae%89%e8%a3%85)
-       1. [MySQL8.0安装](#install8)
+    1. [MySQL5.7免安装版本的安装](#mysql57免安装版本的安装)
+       1. [MySQL5.7安装](#mysql57安装)
+       2. [MySQL5.7卸载](#mysql57卸载)
+       3. [MySQL5.7安装时常见错误总结及解决方法](#mysql57安装时常见错误总结及解决方法) 
+    2. [MySQL8.0免安装版本的安装](#mysql80的安装与配置)
+       1. [MySQL8.0安装](#安装)
        2. [MySQL8.0修改密码](#password8)
        3. [MySQL8.0修改root用户远程访问权限](#host8)
        4. [MySQL8.0连接访问问题](#error8)
@@ -393,7 +393,6 @@ MySQL8.0官方下载地址：
 ![](images/sql/3-2-1.png "images/sql/3-2-1.png")
 
 
-<span id="install8" />
 
 #### 安装
 

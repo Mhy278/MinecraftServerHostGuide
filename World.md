@@ -142,9 +142,7 @@ multiverse-configuration:
 ```
 
 ### 权限
-具体内容请见 权限 章。
-
-这里简单的列举几个常见权限：
+这里简单的列举几个 Multiverse-Core 插件常见的权限：
 
 权限 | 解释
 --- | ---

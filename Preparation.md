@@ -181,7 +181,7 @@ BGP多线：ex.example.com:端口
 
 这时，我们需要在服务器上安装以下软件：
 
-[Java](https://www.java.com/)
+[Java SE Development Kit 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
 
 [Notepad++](https://notepad-plus-plus.org/downloads/)
 

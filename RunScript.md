@@ -3,8 +3,7 @@
   Minecraft开服离不开启动脚本（不建议使用开服器）(作者使用jdk1.8.0_171 x64测试)
 ###   配置好的开服脚本:[点击跳转](#jump)
 
-```
-bash
+```bash
 @ECHO OFF
 java -Xmx1G -Xms1G -jar paper.jar
 pause
@@ -136,6 +135,13 @@ pause
 ```bash
 @ECHO OFF
 java -server -Xincgc -Xmx8g -Xms8g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
+pause
+```
+
+如果你的jdk版本较高jdk8+建议使用以下脚本
+```bash
+@ECHO OFF
+java -server -Xms8g -Xmx8g -XX:+UseG1GC -XX:SurvivorRatio=6 -XX:MaxGCPauseMillis=400 -XX:G1ReservePercent=15 -XX:ParallelGCThreads=4 -XX:ConcGCThreads=1 -XX:InitiatingHeapOccupancyPercent=40 -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -jar 核心名.jar
 pause
 ```
 

@@ -220,7 +220,7 @@ MySQL5.7官方下载地址：
 
     ![](images/sql/3-1-1.png "images/sql/3-1-1.png")
 
-#### 安装配置
+#### MySQL5.7安装
 1. 将下载好的`mysql-5.7.28-winx64.zip`解压放在合适的位置（我这里放在了"C:\mysql\5.7.28\"）
    
     ![](images/sql/3-1-2.png "images/sql/3-1-2.png")

@@ -1,4 +1,5 @@
 # 第二节 认识YAML语法
+> 本节部分内容引用自 [tdiant](https://github.com/tdiant) 编写的 [BukkitDevelopmentNote](https://github.com/tdiant/BukkitDevelopmentNote) 。
 
 在配置文件中，服主可以设置插件/模组的功能。  
 同时，插件/模组的开发者有时也会把数据存储在配置文件中。
@@ -209,4 +210,3 @@ kits:
 
 不同的服务器的编码是不一样的，如果你不知道的话不妨两个都试一下。
 
-> 本节部分内容引用自 [tdiant](https://github.com/tdiant) 编写的 [BukkitDevelopmentNote](https://github.com/tdiant/BukkitDevelopmentNote) 。

@@ -66,6 +66,6 @@ Bukkit插件的配置文件被保存在 `/plugins/插件名` 文件夹中。
 
 ### 配置文件的编辑
 配置文件**没有固定的文件名**，但是Bukkit插件配置文件一般为`YAML`格式的文本文档，后缀名为 `.yml` 。Sponge插件配置文件一般为`HOCON`或`YAML`格式的文本文档，后缀名为`.conf`  
-配置文件可以用 Windows 自带的记事本打开。但是我们更推荐使用[准备工作](Preparation.md)中提到的`NotePad++`或`EditPlus`、`Sublime Text`和`Vim` 等专业文本编辑器进行修改，以免出现各种问题。  
+配置文件需要用[准备工作](Preparation.md)中已经安装好的`NotePad++`进行修改，以免出现各种问题。  
 关于如何编辑`YAML`文件，我们将在[第二单元第二节](Yaml.md)进行更细致的讲解。  
 关于如何编辑`HOCON`文件，请查阅Sponge官方中文文档中的[Hocon简介](https://docs.spongepowered.org/stable/zh-CN/server/getting-started/configuration/hocon.html)。

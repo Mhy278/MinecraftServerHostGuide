@@ -16,7 +16,7 @@ MySQL安装
 1. [数据库的基本介绍](#数据库的基本介绍)
 2. [AuthMe配置MySQL](#authme配置mysql)
 3. [MySQL的安装](#mysql的安装)
-    1. [MySQL5.7免安装版本的安装](#mysql57免安装版本的安装)
+    1. [MySQL5.7免安装版本的安装](#mysql57的安装与配置)
        1. [MySQL5.7的安装](#mysql57的安装)
        2. [MySQL5.7的卸载](#mysql57的卸载)
        3. [MySQL5.7安装时常见错误总结及解决方法](#mysql57安装时常见错误总结及解决方法) 
@@ -291,7 +291,7 @@ MySQL5.7官方下载地址：
 
     ![](images/sql/3-1-8.png "images/sql/3-1-8.png")
 
-#### MySQL5.7卸载
+#### MySQL5.7的卸载
 
 1. 使用管理员权限打开DOS窗口(cmd)，也可以使用Powershell
 2. 输入`net stop mysql`停止MySQL的运行

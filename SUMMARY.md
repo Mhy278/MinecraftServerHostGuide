@@ -18,7 +18,7 @@
   * [第四节 什么是报错？](WhatsError.md)
   * [第五节 配置文件优化](Optimization.md)
   * [第六节 什么是跨服？](Bungee.md)
-  * [第七节 长期运行维护](Maintain.md)
+  * [第七节 系统运行维护](Maintain.md)
 * 第三单元 扩展
   * [第一节 Redis 的安装与配置](Redis.md)
   * [第二节 MongoDB 的安装与配置](MongoDB.md)

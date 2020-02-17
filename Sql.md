@@ -31,7 +31,7 @@ MySQL安装
 > 
 > 数据库是以一定方式储存在一起、能与多个用户共享、具有尽可能小的冗余度、与应用程序彼此独立的数据集合，可视为电子化的文件柜——存储电子文件的处所，用户可以对文件中的数据进行新增、查询、更新、删除等操作。
 
-用字面意思解释就是存放数据的
+用字面意思解释就是存放数据的库。
 
 ### 数据库的两种分类
 早期比较流行的数据库模型有三种，分别为层次式数据库、网络式数据库和关系型数据库。而在当今的互联网中，最常用的数据库模型主要是两种，即关系型数据库和非关系型数据库。
@@ -78,7 +78,6 @@ MySQL安装
 
 ![](images/sql/1-1.png "images/sql/1-1.png")
 
-
 ## AuthMe配置MySQL
 
 需要先运行一次服务器让AuthMe生成默认的配置文件，如果出现下面这样的字样说明AuthMe成功的加载了
@@ -98,7 +97,7 @@ MySQL安装
 
 3. 打开`Navicat Premium(Mysql)`点击连接-MySQL，填入自己的服务器信息
 
-    ![](images/sql/2-3.png "images/sql/2-3.png")
+![](images/sql/2-3.png "images/sql/2-3.png")
 
 连接名自己可以随便填写，如果是使用其他服务器上的MySQL需要使你现在客户端IP拥有你数据库用户的访问权限，如果不会请看下面安装过程。如果是本地的MySQL服务器可以直接使用localhost或者127.0.0.1，默认端口3306
 
@@ -106,23 +105,23 @@ MySQL安装
 
 4. 当你添加完连接后，双击左侧你的连接名就会连接你的MySQL数据库，就会列出现在连接的用户中拥有的数据库（我这里之前建过一些数据库）
 
-    ![](images/sql/2-2.png "images/sql/2-2.png")
+![](images/sql/2-2.png "images/sql/2-2.png")
 
 5. 右键你的连接名 - 新建数据库 - 随便输入一个数据库名
 
-    ![](images/sql/2-4.png "images/sql/2-4.png")
+![](images/sql/2-4.png "images/sql/2-4.png")
 
-    在这里字符集推荐使用`utf8mb4`,排列顺序使用`utf8mb4_unicode_ci`
+在这里字符集推荐使用`utf8mb4`,排列顺序使用`utf8mb4_unicode_ci`
 
-    ![](images/sql/2-5.png "images/sql/2-5.png")
+![](images/sql/2-5.png "images/sql/2-5.png")
 
-    点击确定之后我们就能在左侧看到我们新建立的数据库了
+点击确定之后我们就能在左侧看到我们新建立的数据库了
 
-    ![](images/sql/2-6.png "images/sql/2-6.png")
+![](images/sql/2-6.png "images/sql/2-6.png")
 
 6. 修改Minecraft服务器AuthMe插件配置文件“plugins/AuthMe/config.yml”文件
 
-    我们只用得到配置文件的前21行
+我们只用得到配置文件的前21行
 
 ```yaml
 DataSource:

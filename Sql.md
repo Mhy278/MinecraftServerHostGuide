@@ -26,6 +26,7 @@ MySQL安装
        3. [MySQL8.0修改root用户远程访问权限](#mysql80修改root用户远程访问权限)
        4. [MySQL8.0连接访问问题](#mysql80连接访问问题)
 
+
 ## 数据库的基本介绍
 ### 什么是数据库
 > 数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一个长期存储在计算机内的、有组织 的、有共享的、统一管理的数据集合。
@@ -98,31 +99,31 @@ MySQL安装
 
 3. 打开`Navicat Premium(Mysql)`点击连接-MySQL，填入自己的服务器信息
 
-![](images/sql/2-3.png "images/sql/2-3.png")
+   ![](images/sql/2-3.png "images/sql/2-3.png")
 
-连接名自己可以随便填写，如果是使用其他服务器上的MySQL需要使你现在客户端IP拥有你数据库用户的访问权限，如果不会请看下面安装过程。如果是本地的MySQL服务器可以直接使用localhost或者127.0.0.1，默认端口3306
+   连接名自己可以随便填写，如果是使用其他服务器上的MySQL需要使你现在客户端IP拥有你数据库用户的访问权限，如果不会请看下面安装过程。如果是本地的MySQL服务器可以直接使用localhost或者127.0.0.1，默认端口3306
 
-![](images/sql/2-1.png "images/sql/2-1.png")
+   ![](images/sql/2-1.png "images/sql/2-1.png")
 
 4. 当你添加完连接后，双击左侧你的连接名就会连接你的MySQL数据库，就会列出现在连接的用户中拥有的数据库（我这里之前建过一些数据库）
 
-![](images/sql/2-2.png "images/sql/2-2.png")
+   ![](images/sql/2-2.png "images/sql/2-2.png")
 
 5. 右键你的连接名 - 新建数据库 - 随便输入一个数据库名
 
-![](images/sql/2-4.png "images/sql/2-4.png")
+   ![](images/sql/2-4.png "images/sql/2-4.png")
 
-在这里字符集推荐使用`utf8mb4`,排列顺序使用`utf8mb4_unicode_ci`
+   在这里字符集推荐使用`utf8mb4`,排列顺序使用`utf8mb4_unicode_ci`
 
-![](images/sql/2-5.png "images/sql/2-5.png")
+   ![](images/sql/2-5.png "images/sql/2-5.png")
 
-点击确定之后我们就能在左侧看到我们新建立的数据库了
+   点击确定之后我们就能在左侧看到我们新建立的数据库了
 
-![](images/sql/2-6.png "images/sql/2-6.png")
+   ![](images/sql/2-6.png "images/sql/2-6.png")
 
 6. 修改Minecraft服务器AuthMe插件配置文件“plugins/AuthMe/config.yml”文件
 
-我们只用得到配置文件的前21行
+   我们只用得到配置文件的前21行
 
 ```yaml
 DataSource:
@@ -157,7 +158,7 @@ DataSource:
    8. `mySQLDatabase`修改为刚才你创建的数据库名，根据我上面图片的设置，这里我应该设置成"minecraft_server_1"，这里仅做为示例，请各位根据实际情况自行修改
    9. `mySQLTablename`存放数据的表名，可自定义修改，也可不做修改
 
-示例：
+   示例：
 ```yaml
     # 你想使用哪种数据库来储存
     # 数据库类型: SQLITE MYSQL
@@ -189,6 +190,7 @@ DataSource:
     这时使用客户端工具就能看到AuthMe创建的数据表了
 
     ![](images/sql/2-8.png "images/sql/2-8.png")
+    
 
 至此，AuthMe使用MySQL作为数据库的配置就到此结束了
 

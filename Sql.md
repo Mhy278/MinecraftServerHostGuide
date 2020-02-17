@@ -159,7 +159,7 @@ DataSource:
    9. `mySQLTablename`存放数据的表名，可自定义修改，也可不做修改
 
    示例：
-```yaml
+   ```yaml
     # 你想使用哪种数据库来储存
     # 数据库类型: SQLITE MYSQL
     backend: 'MYSQL'
@@ -179,7 +179,7 @@ DataSource:
     mySQLDatabase: 'minecraft_server_1'
     # 数据表名
     mySQLTablename: 'authme'
-```
+   ```
 
 7.启动Minecraft服务器，AuthMe将自动根据设置自动创建数据表
 

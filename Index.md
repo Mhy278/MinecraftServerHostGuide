@@ -18,7 +18,7 @@
 - [x]   * [第四节 什么是报错？](WhatsError.md) #85+苏米杰
 - [x]   * [第五节 配置文件优化](Optimization.md) #搬达达+Nico
 - [x]   * [第六节 什么是跨服？](Bungee.md) #蛋黄酱
-- [ ]   * [第七节 长期运行维护](Maintain.md) #梦
+- [x]   * [第七节 系统运行维护](Maintain.md) #梦
 * 第三单元 扩展
 - [x]  * [第一节 Redis 的安装与配置](Redis.md) #Hmm1313133
 - [x]  * [第二节 MongoDB 的安装与配置](MongoDB.md) #冰冷

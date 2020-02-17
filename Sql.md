@@ -88,16 +88,16 @@ MySQL安装
 
 在这之前请确认您的MySQL服务器是否开启，使用MySQL工具能否访问
 
-1. 使用MySQL客户端工具，或者直接使用MySQL控制台新建一个数据库(由于Minecraft的MySQL数据库基本是本地使用，所以无需建多个MySQL用户，这里我直接使用root用户来建库)
+1.使用MySQL客户端工具，或者直接使用MySQL控制台新建一个数据库(由于Minecraft的MySQL数据库基本是本地使用，所以无需建多个MySQL用户，这里我直接使用root用户来建库)
    
-2. 选择一款MySQL客户端工具，这里推荐两款PhpMyAdmin(需要有web环境)、Navicat Premium(Mysql) 
+2.选择一款MySQL客户端工具，这里推荐两款PhpMyAdmin(需要有web环境)、Navicat Premium(Mysql) 
 
 因为看本教程的大部分都是萌新，所以我这里使用最简单的`Navicat Premium(Mysql)`
 
 官方下载地址:
 > https://www.navicat.com.cn/download/navicat-premium
 
-3. 打开`Navicat Premium(Mysql)`点击连接-MySQL，填入自己的服务器信息
+3.打开`Navicat Premium(Mysql)`点击连接-MySQL，填入自己的服务器信息
 
    ![](images/sql/2-3.png "images/sql/2-3.png")
 
@@ -105,11 +105,11 @@ MySQL安装
 
    ![](images/sql/2-1.png "images/sql/2-1.png")
 
-4. 当你添加完连接后，双击左侧你的连接名就会连接你的MySQL数据库，就会列出现在连接的用户中拥有的数据库（我这里之前建过一些数据库）
+4.当你添加完连接后，双击左侧你的连接名就会连接你的MySQL数据库，就会列出现在连接的用户中拥有的数据库（我这里之前建过一些数据库）
 
    ![](images/sql/2-2.png "images/sql/2-2.png")
 
-5. 右键你的连接名 - 新建数据库 - 随便输入一个数据库名
+5.右键你的连接名 - 新建数据库 - 随便输入一个数据库名
 
    ![](images/sql/2-4.png "images/sql/2-4.png")
 
@@ -121,7 +121,7 @@ MySQL安装
 
    ![](images/sql/2-6.png "images/sql/2-6.png")
 
-6. 修改Minecraft服务器AuthMe插件配置文件“plugins/AuthMe/config.yml”文件
+6.修改Minecraft服务器AuthMe插件配置文件“plugins/AuthMe/config.yml”文件
 
    我们只用得到配置文件的前21行
 
@@ -181,7 +181,7 @@ DataSource:
     mySQLTablename: 'authme'
 ```
 
-7. 启动Minecraft服务器，AuthMe将自动根据设置自动创建数据表
+7.启动Minecraft服务器，AuthMe将自动根据设置自动创建数据表
 
     出现以下字样就说明AuthMe成功使用MySQL作为数据库了
 

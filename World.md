@@ -45,6 +45,8 @@ Minecraft 原版目前有三个世界，分别是主世界`world`，地狱`nethe
 
 
 ### 配置
+关于如何编辑这类`.yml`格式的配置文件，我们将在[第二单元第二节](Yaml.md)进行更细致的讲解。 
+
 `config.yml` MultiverseCore 插件全局配置
 ```yaml
 multiverse-configuration:

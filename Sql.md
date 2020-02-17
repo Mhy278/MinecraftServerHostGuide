@@ -183,13 +183,13 @@ DataSource:
 
 7.启动Minecraft服务器，AuthMe将自动根据设置自动创建数据表
 
-    出现以下字样就说明AuthMe成功使用MySQL作为数据库了
+   出现以下字样就说明AuthMe成功使用MySQL作为数据库了
 
-    ![](images/sql/2-7.png "images/sql/2-7.png")
+   ![](images/sql/2-7.png "images/sql/2-7.png")
 
-    这时使用客户端工具就能看到AuthMe创建的数据表了
+   这时使用客户端工具就能看到AuthMe创建的数据表了
 
-    ![](images/sql/2-8.png "images/sql/2-8.png")
+   ![](images/sql/2-8.png "images/sql/2-8.png")
     
 
 至此，AuthMe使用MySQL作为数据库的配置就到此结束了

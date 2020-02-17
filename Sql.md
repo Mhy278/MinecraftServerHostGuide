@@ -125,8 +125,8 @@ MySQL安装
 
    我们只用得到配置文件的前21行
 
-```yaml
-DataSource:
+   ```yaml
+    DataSource:
     # 你想使用哪种数据库来储存
     # 数据库类型: SQLITE MYSQL
     backend: 'SQLITE'
@@ -146,7 +146,7 @@ DataSource:
     mySQLDatabase: 'authme'
     # 数据表名
     mySQLTablename: 'authme'
-```
+   ```
 
    1. 首先我们需要把`backend`的值改为`MYSQL`使用MySQL作为存储数据库
    2. 如果你想开一个群服或者和你的网站或者论坛对接数据请将`caching`改为false，如果没有以上两种需求可以不做调整
@@ -190,7 +190,6 @@ DataSource:
    这时使用客户端工具就能看到AuthMe创建的数据表了
 
    ![](images/sql/2-8.png "images/sql/2-8.png")
-    
 
 至此，AuthMe使用MySQL作为数据库的配置就到此结束了
 

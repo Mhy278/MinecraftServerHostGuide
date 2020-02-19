@@ -92,7 +92,7 @@ JDK5.0以后,JVM可以根据当前系统配置进行判断
 **纯净服**推荐脚本
 ```bash
 @ECHO OFF
-java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
+java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseFastAccessorMethods -XX:ParallelGCThreads=8 -XX:-DisableExplicitGC -jar 核心名.jar
 pause
 ```
 根据我这个配置算出的CMSInitiatingOccupancyFraction值应小于或等于77所以这里我直接设置了70，大部分服务器可以直接设置70不需要改
@@ -100,14 +100,14 @@ pause
 **MOD服**建议使用下面的脚本，将`-Xms`与`-Xmx`的大小设置相同
 ```bash
 @ECHO OFF
-java -server -Xincgc -Xmx8g -Xms8g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
+java -server -Xincgc -Xmx8g -Xms8g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseFastAccessorMethods -XX:ParallelGCThreads=8 -XX:-DisableExplicitGC -jar 核心名.jar
 pause
 ```
 
 如果你的jdk版本较高`java 8+`建议使用以下脚本
 ```bash
 @ECHO OFF
-java -server -Xms8g -Xmx8g -XX:+UseG1GC -XX:SurvivorRatio=6 -XX:MaxGCPauseMillis=400 -XX:G1ReservePercent=15 -XX:ParallelGCThreads=4 -XX:ConcGCThreads=1 -XX:InitiatingHeapOccupancyPercent=40 -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -jar 核心名.jar
+java -server -Xms8g -Xmx8g -XX:+UseG1GC -XX:MaxGCPauseMillis=400 -XX:G1ReservePercent=15 -XX:ParallelGCThreads=4 -XX:ConcGCThreads=1 -XX:InitiatingHeapOccupancyPercent=40 -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -jar 核心名.jar
 pause
 ```
 
@@ -124,7 +124,7 @@ pause
 ```bash
 @ECHO OFF
 :start
-java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseCMSCompactAtFullCollection -XX:+UseFastAccessorMethods -XX:CMSFullGCsBeforeCompaction=5 -XX:ParallelGCThreads=8 -XX:CMSInitiatingOccupancyFraction=70 -XX:-DisableExplicitGC -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSParallelRemarkEnabled -XX:SurvivorRatio=1 -jar 核心名.jar
+java -server -Xincgc -Xmx8g -Xms4g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseFastAccessorMethods -XX:ParallelGCThreads=8 -jar 核心名.jar
 cls
 goto start
 pause

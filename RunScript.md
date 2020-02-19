@@ -1,16 +1,16 @@
 # 第一节 认识启动脚本
 
-搭建我的世界服务器离不开启动脚本（不建议使用开服器）(作者使用jdk1.8.0_171 x64测试)
-
+  Minecraft开服离不开启动脚本（不建议使用开服器）(作者使用jdk1.8.0_171 x64测试)
 ###   配置好的开服脚本:[点击跳转](#jump)
 
-```bash
+```
+bash
 @ECHO OFF
 java -Xmx1G -Xms1G -jar paper.jar
 pause
 ```
 
-这就是我们在[第一章第一节](First.md)所使用的启动脚本，我们会以这个为基础进行修改与优化。
+这就是我们在[第一章第一节](First.md)所使用的启动脚本，我们会以这个为基础进行修改与优化。本部分着重讲解JVM优化
 
 启动参数分为3类：
 
@@ -57,8 +57,6 @@ Java中有四种不同的回收算法，对应的启动参数为
 
     -XX:+UseSerialGC	设置串行收集器
 	-XX:+UseParallelGC	设置并行收集器
-	-XX:+UseParalledlOldGC	设置并行年老代收集器
-	-XX:+UseConcMarkSweepGC	设置并发收集器
 
 下面涉及很多概念，如果不想看可以直接跳过看推荐使用
 > 1. Serial Collector(串行收集器)
@@ -69,41 +67,8 @@ Java中有四种不同的回收算法，对应的启动参数为
 > 在linux x64上默认是这种，其他平台要加 java -server 参数才会默认选用这种。
 > 优点：年轻代回收更快。因为系统大部分时间做的gc都是新生代的，这样提高了throughput(cpu用于非gc时间)
 > 缺点：当运行在8G/16G服务器上年老代live object太多时候pause time过长
->
-> 3. Parallel Compact Collector (ParallelOld)(并行年老代收集器)
-> 优点：年老代上性能较 parallel 方式有提高
-> 缺点：大部分server系统年老代内存占用会达到60%-80%, 没有那么多理想的单元live object很少方便迅速回收，同时compact方面开销比起parallel并没明显减少。
-> 
-> 4. Concurent Mark-Sweep(CMS) Collector (并发收集器)
-> 优点：pause time会降低, pause敏感但CPU有空闲的场景需要建议使用策略4.
-> 缺点：cpu占用过多，cpu密集型服务器不适合。另外碎片太多，每个object的存储都要通过链表连续跳n个地方，空间浪费问题也会增大。
 
 JDK5.0以后,JVM可以根据当前系统配置进行判断
-
-这里我推荐使用`–XX:+UseConcMarkSweepGC` 并发收集器（并发收集器主要是保证系统的响应时间,减少垃圾收集时的停顿时间）
-##### 1. 并行收集器设置
-|参数|说明|
-| :------------ | :------------ |
-|-XX:ParallelGCThreads=n|设置并行收集器收集时使用的CPU数 并行收集线程数|
-|-XX:MaxGCPauseMillis=n|设置并行收集最大暂停时间|
-|-XX:GCTimeRatio=n|设置垃圾回收时间占程序运行时间的百分比.公式为1/(1+n)|
-
-##### 2. 并发收集器设置
-|参数|说明|
-| :------------ | :------------ |
-|-XX:+UseCMSCompactAtFullCollection|打开对年老代(内存设置中已解释)的压缩。可能会影响性能，但是可以消除碎片|
-|-XX:CMSFullGCsBeforeCompaction=n|上面配置开启的情况下，此值设置运行多少次GC以后对内存空间进行压缩，整理。由于并发收集器不对内存空间进行压缩，整理，所以运行一段时间以后会产生"碎片"，使得运行效率降低。推荐设置为5|
-|-XX:+CMSIncrementalMode|设置为增量模式。适用于单CPU情况|
-|-XX:ParallelGCThreads=n|设置并发收集器年轻代收集方式为并行收集时使用的CPU数 并行收集线程数 建议设置大小小于或等于CPU核心数|
-|-XX:CMSInitiatingOccupancyFraction=70|设置CMS在对内存占用率达到70%的时候开始GC，为了保证不出现promotion failed错误①，该值的设置需要满足下文公式②|
-|-XX:+UseCMSInitiatingOccupancyOnly|只使用设定的回收阈值(上面指定的70%),如果不指定,JVM仅在第一次使用设定值,后续则自动调整|
-|-XX:+CMSParallelRemarkEnabled|降低标记停顿|
-
-`-XX:CMSInitiatingOccupancyFraction=70`和`-XX:+UseCMSInitiatingOccupancyOnly`这两个设置一般配合使用，有助于**降低CMS GC频率或者增加频率、减少GC时长**
-
-注解：
-- ①、如果出现promotion failed错误可以尝试添加`-XX:SurvivorRatio=1`
-- ②、CMSInitiatingOccupancyFraction值与Xmn的关系公式：值<=((Xmx-Xmn)-(Xmn-Xmn/(SurvivorRatior+2)))/(Xmx-Xmn)*100
 
 #### 4.行为参数
 
@@ -139,7 +104,7 @@ java -server -Xincgc -Xmx8g -Xms8g -Xss512k -Xmn2g -XX:+AggressiveOpts -XX:+UseC
 pause
 ```
 
-如果你的jdk版本较高jdk8+建议使用以下脚本
+如果你的jdk版本较高`java 8+`建议使用以下脚本
 ```bash
 @ECHO OFF
 java -server -Xms8g -Xmx8g -XX:+UseG1GC -XX:SurvivorRatio=6 -XX:MaxGCPauseMillis=400 -XX:G1ReservePercent=15 -XX:ParallelGCThreads=4 -XX:ConcGCThreads=1 -XX:InitiatingHeapOccupancyPercent=40 -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -jar 核心名.jar

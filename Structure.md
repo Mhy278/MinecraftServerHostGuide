@@ -3,7 +3,7 @@
 ## 前言
 
 - 根据上节的内容，您应该已经可以成功启动您的服务器了。本节内容将继续带您简单了解服务端的结构。
-- 由于 Sponge 服务端不太适合新手使用，故不做介绍，如有需要请自行查看官方教程。
+- 由于 Sponge 服务端不太适合新手使用，故不做介绍，如有需要请自行查看[官方教程](https://docs.spongepowered.org/stable/zh-CN/server/quickstart.html)（含中文）。
 
 ## 服务端结构概览
 
@@ -104,7 +104,7 @@ op们的游戏昵称 UUID 等信息会在这里出现。
 
 是默认的权限定义YAML文件，在启动时自动生成。它的主要功能是将权限节点组合到一个文件中，以便权限插件（以及使用权限的插件）可以在整个系统中使用它。
 
-- `server.properties`
+- [`server.properties`](https://minecraft-zh.gamepedia.com/Server.properties)
 
 服务端的一些基本设置就在里面，如设置端口，设置游戏难度，设置游戏模式（生存、创造等）等。
 
@@ -122,6 +122,6 @@ op们的游戏昵称 UUID 等信息会在这里出现。
 
 - `whitelist.json`
 
-白名单列表。（如果您在`server.properties`中开启了白名单，您就可以在该文件中添加和管理谁被允许或不被允许进入服务器。）
+白名单列表。（如果您在[`server.properties`](https://minecraft-zh.gamepedia.com/Server.properties)中开启了白名单，您就可以在该文件中添加和管理谁被允许或不被允许进入服务器。）
 
 至此，大部分的以 Bukkit 为基础的服务器核心服务端的结构已经大致呈现在您眼前。

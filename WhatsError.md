@@ -126,7 +126,7 @@ at 的位置越靠后，他们和报错的关系就越疏远。所以我们需�
     [14:48:03 ERROR]: [PlaceholderAPI] GameTime is currently using a deprecated method to hook into PlaceholderAPI. 
     Placeholders for that plugin no longer work. Please consult [a, asougi85] and urge them to update it ASAP.
 
-中文： GameTime 插件正使用一种过时的方法与PAPI联动，现在该功能已经无法使用，请联系作者。  
+翻译： [GameTime](https://www.mcbbs.net/thread-714090-1-1.html) 插件正使用一种过时的方法与PAPI联动，现在该功能已经无法使用，请联系作者。  
 一目了然，看来这位不知名开发者有必要进行版本升级了。
 
 ##### 2.Expcetion/Error法  

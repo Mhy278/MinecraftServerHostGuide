@@ -26,7 +26,6 @@
 
 ID | 介绍
 ---|---
-[zzzz](https://github.com/ustc-zzzz) | 给予一定指导
 [贺兰星辰](https://www.mcbbs.net/home.php?mod=space&uid=495221) | 给予一定建议
 [XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 授权参考翻译
 
@@ -46,6 +45,7 @@ ID | 介绍
 [tdiant](https://github.com/tdiant) | 参与编写 
 [蛋黄酱](https://github.com/huangshize) | 参与编写
 [Hmm1313133](https://www.mcbbs.net/home.php?mod=space&uid=193264) | 参与编写
+[zzzz](https://github.com/ustc-zzzz) | 审阅  
 [Smokey_Days](https://www.mcbbs.net/home.php?mod=space&uid=2065001) | 审阅  
 [叁只小羽](https://github.com/xiaoyuowo) | 审阅  
 [叁只仓鼠](https://github.com/ViosinDeng) | 审阅  

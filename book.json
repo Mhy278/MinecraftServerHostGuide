@@ -1,7 +1,7 @@
 {
   "title": "我的世界服务器搭建指南",
   "description": "Minecraft 我的世界开服零基础教学",
-  "author": "Mhy278,...",
+  "author": "Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕",
   "language": "zh-hans",
   "styles": {
     "website": "styles/website.css"
@@ -16,7 +16,7 @@
     "expandable-chapters",
     "code",
     "baidu-tongji",
-    "anchor-navigation-ex"
+    "back-to-top-button"
   ],
   "pluginsConfig": {
     "github": {
@@ -28,8 +28,5 @@
     "baidu-tongji": {
     "token": "cca0c761e4a87fbda2f8f29168e49bd7"
     },
-	"anchor-navigation-ex": {
-    "showLevel": false
-    }
   }
 }

@@ -1,5 +1,5 @@
 # 第三节 什么是插件？
-> 插件（Plugin）是遵循 Bukkit 或 Sponge 接口规范编写的ava程序。
+> 插件（Plugin）是遵循 Bukkit 或 Sponge 接口规范编写的 Java 程序。
 
 插件只能运行在支持 BukkitAPI 或SpongeAPI 的服务端下，一般无法独立运行。因为插件需要调用的服务端的函数和数据。
 

@@ -217,9 +217,12 @@ MySQL5.7官方下载地址：
 3. `OS Version`         选择`Windows (x86, 64-bit)`
 4. 点击`ZIP Archive`后的Download进行下载
 
-    温馨提示：如果使用浏览器下载可以使用IDM等下载工具，如果速度还是非常慢请使用VPN
+华为开源镜像站下载地址：
+> https://mirrors.huaweicloud.com/mysql/Downloads/MySQL-5.7/mysql-5.7.28-winx64.zip
 
-    ![](images/sql/3-1-1.png "images/sql/3-1-1.png")
+温馨提示：如果使用浏览器下载可以使用IDM等下载工具，如果速度还是非常慢请使用VPN
+
+![](images/sql/3-1-1.png "images/sql/3-1-1.png")
 
 #### MySQL5.7安装
 1. 将下载好的`mysql-5.7.28-winx64.zip`解压放在合适的位置（我这里放在了"C:\mysql\5.7.28\"）

@@ -399,7 +399,7 @@ MySQL8.0官方下载地址：
 
 ![](images/sql/3-2-1.png "images/sql/3-2-1.png")
 
-华为开源镜像站下载地址：
+华为云开源镜像站下载地址：
 > https://mirrors.huaweicloud.com/mysql/Downloads/MySQL-8.0/mysql-8.0.19-winx64.zip
 
 腾讯云开源镜像站下载地址：

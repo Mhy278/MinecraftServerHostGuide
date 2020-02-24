@@ -128,7 +128,7 @@ log_pings: true
 ```yaml
 host: 0.0.0.0:61390
 #定义为 0.0.0.0 指接受任意地址连接
-#端口需要根据服务商提供的对外开放的端口设置，独立IP则自选。
+#端口需要设置为服务商提供的对外开放的端口，独立IP则自选。
 servers:
   服务器名称(可以中文最好英文):
     motd: '子端标语（可以保留不变）'
@@ -158,25 +158,37 @@ server:
 #### 服务器目录框架
 ![ServerList](./images/bungee/ServerList.png)
 
-对应的修改每一个子服务端的server.properties
+对应的修改每一个子服务端的`server.properties`
 
 ```
 登入服
 server-ip=127.0.0.1
 server-port=21000
+
 生存服
 server-ip=127.0.0.1
 server-port=22000
+
 创造服
 server-ip=127.0.0.1
 server-port=23000
 ```
-**注意：设置`server-ip=127.0.0.1` 可以防止玩家不经过登陆服直接访问到子服务端，务必设置到内网地址**
 
-如果是使用 Spigot 类型的端一般目录下会有一个`spigot.yml`文件，在其中需要将 bungeecord 项修改为 true 来支持跨服的协议：
+**注意：设置`server-ip=127.0.0.1` 可以防止玩家不经过登陆服直接访问到子服务端，务必设置到内网地址！**
+**注意：子服端口`server-port=` 不需要设置为服务商提供的对外开放的端口！**
+
+如果使用 Spigot 类型的端，一般目录下会有一个`spigot.yml`文件，在其中需要将`bungeecord`项修改为`true`来支持跨服的协议：
+
 ```yaml
 bungeecord: true
 ```
+
+如果使用 Paper 服务端，一般目录下会有一个`paper.yml`文件，若你搭建的是非正版服务器，则需要将其中的`bungee-online-mode`项修改为`false`：
+
+```yaml
+bungee-online-mode: false
+```
+
 如此一来，我们便成功地搭建了一个有三个子端的Bungee群组服务器。
 
 ![CmdCap](./images/bungee/CmdCap.png)

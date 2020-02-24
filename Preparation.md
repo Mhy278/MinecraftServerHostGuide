@@ -192,6 +192,7 @@ BGP多线：ex.example.com:端口
 [Chrome](https://www.google.cn/intl/zh-CN/chrome/) 或 [FireFox](https://www.firefox.com.cn/) 任选其一
 
 **注意：若安装上述软件出现问题，请查阅该软件的帮助文档，或通过该软件官方求助渠道取得帮助。**
+**注意：如需将自己电脑上的东西上传到服务器上，只需要先连接上远程桌面，再在自己电脑上复制你需要的文件，最后在服务器上右键粘贴即可！**
 
 ## 完成
 

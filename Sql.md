@@ -221,8 +221,11 @@ MySQL5.7官方下载地址：
 
 ![](images/sql/3-1-1.png "images/sql/3-1-1.png")
 
-华为开源镜像站下载地址：
+华为云开源镜像站下载地址：
 > https://mirrors.huaweicloud.com/mysql/Downloads/MySQL-5.7/mysql-5.7.28-winx64.zip
+
+腾讯云开源镜像站下载地址：
+> https://mirrors.cloud.tencent.com/mysql/downloads/MySQL-5.7/mysql-5.7.28-winx64.zip
 
 #### MySQL5.7安装
 1. 将下载好的`mysql-5.7.28-winx64.zip`解压放在合适的位置（我这里放在了"C:\mysql\5.7.28\"）
@@ -398,6 +401,9 @@ MySQL8.0官方下载地址：
 
 华为开源镜像站下载地址：
 > https://mirrors.huaweicloud.com/mysql/Downloads/MySQL-8.0/mysql-8.0.19-winx64.zip
+
+腾讯云开源镜像站下载地址：
+> https://mirrors.cloud.tencent.com/mysql/downloads/MySQL-8.0/mysql-8.0.19-winx64.zip
 
 #### MySQL8.0的安装
 

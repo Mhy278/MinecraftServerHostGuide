@@ -28,10 +28,14 @@
 
 权限就是可以让服主和管理组能有效地管理用户的权限，能够准确地控制一个玩家能干什么、不能干什么，权限的配置并不是很困难
 
-我的世界服务器主要的权限插件有以下三个：
+我的世界服务器 Bukkit 系主要的权限插件有几个：
 
-- Luckperms
-- GroupManager
+- PermissionsEX
+- PowerfulPerms
+- bPermissions
+- GroupManagerX
+- zPermissions
+- LuckPerms
 
 服务器基本的权限主要分为以下几种,并且以下的几种权限组使用了组继承，从最上方的新人(Newbie)用户组开始，一直到最下方的服主(Owner)
 

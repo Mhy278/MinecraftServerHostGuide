@@ -190,6 +190,11 @@ bungeecord: true
 bungee-online-mode: false
 ```
 
+安全起见，建议将 BungeeCord 的`config.yml`中的`groups`项进行如下修改：
+```yaml
+groups: {}
+```
+
 如此一来，我们便成功地搭建了一个有三个子端的Bungee群组服务器。
 
 ![CmdCap](./images/bungee/CmdCap.png)

@@ -198,7 +198,7 @@ at 的位置越靠后，他们和报错的关系就越疏远。所以我们需�
 
 ## 扩展阅读
 
-[《[教程] 自己动手排查报错》](https://www.mcbbs.net/thread-729487-1-1.html)，海螺螺著。
+[[教程] 自己动手排查报错](https://www.mcbbs.net/thread-729487-1-1.html)，海螺螺著。
 
-[《怎么看崩溃报告和Timings？》](https://www.mcbbs.net/thread-860103-1-1.html)，森林蝙蝠著。
+[怎么看崩溃报告和Timings？](https://www.mcbbs.net/thread-860103-1-1.html)，森林蝙蝠著。
 

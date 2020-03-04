@@ -54,7 +54,7 @@ timeout: 30000
 log_commands: false 
 #记录命令
 network_compression_threshold: 256 
-#这个参数只有1.8的服务端才有，含义是网络封包压缩的阀值。
+#这个参数只有1.8的服务端才有，含义是网络封包压缩的阀值。当封包长度高于这个值时，封包会被压缩。(适当调整可提高性能)
 online_mode: true 
 #正版验证，如果是盗版服请关闭
 disabled_commands: 

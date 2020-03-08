@@ -11,7 +11,7 @@
 本教程主要发布于[Github](https://github.com/Mhy278/MinecraftServerHostGuide)。
 
 
-本作品采用[![image](./images/cc-by-sa4.0.png)知识共享 署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/)进行许可。
+本作品采用[知识共享 署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/)进行许可。
 
 本教程中出现的代码均以[Apache 2.0 许可协议](https://www.apache.org/licenses/LICENSE-2.0.html)进行许可。
 

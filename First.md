@@ -19,6 +19,14 @@
 |Vanilla|支持Sponge插件但不支持Mod的轻型核心|https://www.spongepowered.org/|
 |Glowstone|一个完全开源的服务端，支持Bukkit插件。版本为1.12.2，中文介绍 https://www.mcbbs.net/thread-926208-1-1.html |https://www.glowstone.net/|
 
+ **您也可以通过以下网站快速便捷地找出您所需要的服务端核心**
+
+> - https://mcmirror.io
+>
+> - https://yivesmirror.com
+>
+> - https://serverjars.com
+
 #### 2.添加启动脚本并运行
 
 > - 这里我们选用 Paper 1.12.2 进行演示。

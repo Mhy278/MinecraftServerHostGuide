@@ -183,7 +183,7 @@ BGP多线：ex.example.com:端口
 
 这时，我们需要在服务器上安装以下软件：
 
-[Java SE Development Kit 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
+[Java](https://www.java.com)（推荐小白选择） 或 [Java SE Development Kit 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 任选其一
 
 [Notepad++](https://notepad-plus-plus.org/downloads/)
 

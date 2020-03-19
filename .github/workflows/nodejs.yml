@@ -36,5 +36,6 @@ jobs:
         git commit -m "update"
         git push --force  "https://${{ secrets.THE_GITHUB_TOKEN }}@${{ secrets.THE_GITHUB_REF }}" master:${{ secrets.RES_FOR_PAGES }}
         git push --force  "https://${{ secrets.THE_CODING_TOKEN }}@${{ secrets.THE_CODING_REF }}" master:${{ secrets.RES_FOR_CODING_PAGES }}
+        git push --force  "https://${{ secrets.THE_GITHUB_TOKEN }}@${{ secrets.THE_MonoHelp_REF }}" master:${{ secrets.RES_FOR_PAGES }}
       env:
         CI: true

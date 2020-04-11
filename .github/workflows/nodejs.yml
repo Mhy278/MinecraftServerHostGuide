@@ -1,4 +1,4 @@
-name: 'Gitbook Action'
+name: 'Gitbook Action@v1.06'
 
 on:
   push:

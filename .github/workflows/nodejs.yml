@@ -1,4 +1,4 @@
-name: 'Gitbook Action Build'
+name: 'Gitbook Action'
 
 on:
   push:

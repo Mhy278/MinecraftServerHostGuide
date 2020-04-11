@@ -1,4 +1,4 @@
-name: 'Gitbook Action@v1.06'
+name: 'Gitbook Action Build'
 
 on:
   push:
@@ -18,6 +18,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - name: Gitbook Action
+      uses: zanderzhao/gitbook-action@v1.06
     - name: install_gitbook_plugins
       run: |
         npm install gitbook-cli  -g

@@ -36,7 +36,7 @@ jobs:
         git commit -m "Github Actions Auto-Push"
         git push  --force "https://${{ secrets.THE_GITHUB_TOKEN }}@${{ secrets.THE_GITHUB_REF }}" master:${{ secrets.RES_FOR_PAGES }}
         git push  --force "https://${{ secrets.THE_CODING_TOKEN }}@${{ secrets.THE_CODING_REF }}" master:${{ secrets.RES_FOR_CODING_PAGES }}
-        wget https://raw.githubusercontent.com/Mhy278/MonogatariHelp/master/CNAME
+        wget https://${{ secrets.MHELP_CNAME_RAW }}
         git init
         git config --local user.name "${{ secrets.GIT_NAME }}"
         git config --local user.email "${{ secrets.GIT_EMAIL }}"

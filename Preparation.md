@@ -185,7 +185,7 @@ BGP多线：ex.example.com:端口
 
 [Java](https://www.java.com)（推荐小白选择） 或 [Java SE Development Kit 8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 任选其一
 
-[Notepad++](https://notepad-plus-plus.org/downloads/)
+[EditPlus](https://www.editplus.com/) 或 [UltraEdit](https://www.ultraedit.com/) 或 [Sublime Text](http://www.sublimetext.com/) 任选其一
 
 [BandiZip](https://www.bandisoft.com/bandizip/) 或 [7Zip](https://www.7-zip.org/) 任选其一
 

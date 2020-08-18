@@ -52,4 +52,4 @@
 
 ![](images/permission/1.png)
 
-更多详细建议查阅 [Minecraft 插件百科](mineplugin.org/GroupManager)
+更多详细建议查阅 [Minecraft 插件百科](https://mineplugin.org/)

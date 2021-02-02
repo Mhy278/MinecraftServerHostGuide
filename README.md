@@ -40,7 +40,7 @@ ID | 介绍
 ---|---
 [梦彗業](https://www.mcbbs.net/home.php?mod=space&uid=1071472) | 主要编写者
 [Drenal](https://www.mcbbs.net/home.php?mod=space&uid=1013348) | 主要编写者 
-[冰冷](https://github.com/gdenga/) | 主要编写者  
+[冰冷](https://github.com/GceCold/) | 主要编写者  
 [asougi85](https://www.mcbbs.net/home.php?mod=space&uid=527243) | 主要编写者   
 [MIdCoard](https://github.com/MIdCoard)| 主要编写者  
 [弱鸡绿毛怪](https://www.mcbbs.net/home.php?mod=space&uid=2149109) | 参与编写 

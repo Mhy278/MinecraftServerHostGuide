@@ -51,7 +51,7 @@ ID | 介绍
 [zzzz](https://github.com/ustc-zzzz) | 审阅  
 [酷车手BB弹](https://www.mcbbs.net/home.php?mod=space&uid=284709) | 审阅  
 [叁只小羽](https://github.com/xiaoyuowo) | 审阅  
-[叁只仓鼠](https://github.com/ViosinDeng) | 审阅  
+[叁只仓鼠](https://github.com/MiniDay) | 审阅  
 [耗子](https://github.com/Mouse0w0) | 审阅  
 [星空](https://www.mcbbs.net/home.php?mod=space&uid=281332) | 审阅  
 [c7w](https://www.mcbbs.net/home.php?mod=space&uid=564032) | 审阅  

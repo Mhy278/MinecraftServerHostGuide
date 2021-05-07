@@ -26,10 +26,10 @@
 
 ID | 介绍
 ---|---
+[LocusAzzurro](https://www.mcbbs.net/home.php?mod=space&uid=266277) | 给予不少帮助
+[Sand](https://www.mcbbs.net/home.php?mod=space&uid=645182) | 给予不少帮助
 [银狼](https://www.mcbbs.net/home.php?mod=space&uid=200097) | 给予一定建议
-[LocusAzzurro](https://www.mcbbs.net/home.php?mod=space&uid=266277) | 给予一定建议
 [贺兰星辰](https://www.mcbbs.net/home.php?mod=space&uid=495221) | 给予一定建议
-[XJue_DaDa](https://www.mcbbs.net/home.php?mod=space&uid=1101813) | 授权参考翻译
 
 # 编写委员会
 由衷地感谢本教程编委会各位成员在本教程编写过程中所作出的贡献！

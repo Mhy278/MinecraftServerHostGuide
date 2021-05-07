@@ -1,6 +1,6 @@
 # 第六节 配置文件优化
 
-**译者注：本文翻译自 YouHaveTrouble 的 *[Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization)* ，后文中以“~~删除线~~”标识的内容均为译者添加，不代表原文作者意见。**
+**译者注：本文翻译自 YouHaveTrouble 的 *[Minecraft server optimization guide](https://github.com/YouHaveTrouble/minecraft-optimization)* ，有删减。后文中以“~~删除线~~”标识的内容均为译者添加，不代表原文作者意见。**
 
 针对游戏版本 1.16.5
 

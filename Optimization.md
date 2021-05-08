@@ -24,7 +24,7 @@
 * Yatopia - "这个 Paper 的分支未曾设想地反向优化!" - [KennyTV点名批评](https://github.com/KennyTV/list-of-shame) ，我无Fuck说。
 * 任何声称可以完美多线程的服务端核心 - 99.99% 都是画饼带师 ~~（Arclight赛高！）~~
 * Bukkit/Craftbukkit/Spigot - 老到掉牙了
-* 在运行时启用/禁用/重新加载插件的任何插件/软件。别问，问就是[看这儿](#plugins-enablingdisabling-other-plugins)
+* 在运行时启用/禁用/重新加载插件的任何插件/软件。别问，问就是[看这儿](#加载卸载其他插件的管理插件)
 
 ## 地图预生成
 预生成地图是优化低性能服务器最重要步骤之一。这对面板服帮助巨大,因为它们无法完全异步加载区块。  你可以尝试像 **[chunky](https://github.com/pop4959/Chunky)** 插件来预生成世界。记得设定好一个世界边界，这样就不会再产生新的区块了。根据您设置的地图预生成大小不同，预生成需要的时间可能会很长。

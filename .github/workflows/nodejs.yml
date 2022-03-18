@@ -26,22 +26,11 @@ jobs:
     - name: build_gitbook
       run: |
         gitbook build
-    - name: push_to_pages
-      run: |
-        cd ./_book
-        git init
-        git config --local user.name "${{ secrets.GIT_NAME }}"
-        git config --local user.email "${{ secrets.GIT_EMAIL }}"
-        git add *
-        git commit -m "Github Actions Auto-Push"
-        git push  --force "https://${{ secrets.THE_GITHUB_TOKEN }}@${{ secrets.THE_GITHUB_REF }}" master:${{ secrets.RES_FOR_PAGES }}
-        git push  --force "https://${{ secrets.THE_CODING_TOKEN }}@${{ secrets.THE_CODING_REF }}" master:${{ secrets.RES_FOR_CODING_PAGES }}
-        wget https://${{ secrets.MHELP_CNAME_RAW }}
-        git init
-        git config --local user.name "${{ secrets.GIT_NAME }}"
-        git config --local user.email "${{ secrets.GIT_EMAIL }}"
-        git add *
-        git commit -m "Github Actions Auto-Push"
-        git push  --force "https://${{ secrets.THE_GITHUB_TOKEN }}@${{ secrets.THE_MonoHelp_REF }}" master:${{ secrets.RES_FOR_PAGES }}
-      env:
-        CI: true
+    - name: Release to Build Branch
+      uses: casperdcl/push-dir@v1
+      with:
+          message: update build
+          branch: build
+          dir: _book
+          history: false
+          force: true

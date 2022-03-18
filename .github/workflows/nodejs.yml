@@ -26,11 +26,12 @@ jobs:
     - name: build_gitbook
       run: |
         gitbook build
+        cd ./_book
     - name: Release to Build Branch
       uses: casperdcl/push-dir@v1
       with:
         message: update build
         branch: build
-        dir: _book
+        dir: .
         history: false
         force: true

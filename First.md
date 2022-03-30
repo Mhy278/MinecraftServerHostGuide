@@ -14,7 +14,7 @@
 |KCauldron|可以安装Mod及Bukkit插件，但最高支持版本仅到1.7.10|https://sourceforge.net/projects/kcauldron/|
 |Thermos|KC的优化版本，最高支持版本1.7.10|https://cyberdynecc.github.io/Thermos/install|
 |Uranium|KC的优化版本，最高支持版本1.7.10|https://www.uraniummc.cc/|
-|Catserver|国人开发的1.12.2 Mod+Bukkit插件服务端|https://www.mcbbs.net/thread-840599-1-1.html|
+|Catserver|国人开发的1.12.2 Mod+Bukkit插件服务端|https://github.com/Luohuayu/CatServer|
 |Sponge Forge|拥有自己的插件体系，在1.8及以上版本能做到Mod与Sponge插件的共同使用|https://www.spongepowered.org/|
 |Sponge Vanilla|支持Sponge插件但不支持Mod的轻型核心|https://www.spongepowered.org/|
 |Glowstone|一个完全开源的服务端，支持Bukkit插件。版本为1.12.2，中文介绍 https://www.mcbbs.net/thread-926208-1-1.html |https://www.glowstone.net/|

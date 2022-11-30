@@ -164,6 +164,5 @@ pause
 @ECHO OFF
 :start
 java -server -Xms4g -Xmx8g -XX:+AggressiveOpts -XX:+UseFastAccessorMethods -XX:+UseG1GC -XX:SurvivorRatio=6 -XX:G1ReservePercent=15 -XX:ParallelGCThreads=4 -XX:ConcGCThreads=1 -XX:InitiatingHeapOccupancyPercent=40 -jar 核心名.jar
-cls
 goto start
 ```

@@ -1,0 +1,843 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第二节 认识YAML语法 · 我的世界服务器搭建指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Permission.html" />
+    
+    
+    <link rel="prev" href="RunScript.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    开始
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="Preparation.html">
+            
+                <a href="Preparation.html">
+            
+                    
+                    准备工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一单元 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="First.html">
+            
+                <a href="First.html">
+            
+                    
+                    第一节 第一次的开服
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Structure.html">
+            
+                <a href="Structure.html">
+            
+                    
+                    第二节 服务端的结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Plugin.html">
+            
+                <a href="Plugin.html">
+            
+                    
+                    第三节 什么是插件？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Mod.html">
+            
+                <a href="Mod.html">
+            
+                    
+                    第四节 什么是模组？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="World.html">
+            
+                <a href="World.html">
+            
+                    
+                    第五节 什么是世界？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Log.html">
+            
+                <a href="Log.html">
+            
+                    
+                    第六节 什么是日志？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二单元 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="RunScript.html">
+            
+                <a href="RunScript.html">
+            
+                    
+                    第一节 认识启动脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.2" data-path="Yaml.html">
+            
+                <a href="Yaml.html">
+            
+                    
+                    第二节 认识YAML语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="Permission.html">
+            
+                <a href="Permission.html">
+            
+                    
+                    第三节 什么是权限？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Sql.html">
+            
+                <a href="Sql.html">
+            
+                    
+                    第四节 数据库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="WhatsError.html">
+            
+                <a href="WhatsError.html">
+            
+                    
+                    第五节 什么是报错？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="Optimization.html">
+            
+                <a href="Optimization.html">
+            
+                    
+                    第六节 配置文件优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="Bungee.html">
+            
+                <a href="Bungee.html">
+            
+                    
+                    第七节 什么是跨服？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="Maintain.html">
+            
+                <a href="Maintain.html">
+            
+                    
+                    第八节 系统运行维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三单元 扩展
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="Redis.html">
+            
+                <a href="Redis.html">
+            
+                    
+                    第一节 Redis 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="MongoDB.html">
+            
+                <a href="MongoDB.html">
+            
+                    
+                    第二节 MongoDB 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="Texture.html">
+            
+                <a href="Texture.html">
+            
+                    
+                    第三节 认识资源包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="Skin.html">
+            
+                <a href="Skin.html">
+            
+                    
+                    第四节 什么是皮肤？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="Model.html">
+            
+                <a href="Model.html">
+            
+                    
+                    第五节 什么是3D建模？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四单元 开发
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="Java.html">
+            
+                <a href="Java.html">
+            
+                    
+                    第一节 Java 编程基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="Bukkit.html">
+            
+                <a href="Bukkit.html">
+            
+                    
+                    第二节 Bukkit插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="Sponge.html">
+            
+                <a href="Sponge.html">
+            
+                    
+                    第三节 Sponge插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="Forge.html">
+            
+                <a href="Forge.html">
+            
+                    
+                    第四节 Forge 模组开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    附录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="SearchEngine.html">
+            
+                <a href="SearchEngine.html">
+            
+                    
+                    认识搜索引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                <a href="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                    
+                    提问的智慧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第二节 认识YAML语法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;&#x4E8C;&#x8282;-&#x8BA4;&#x8BC6;yaml&#x8BED;&#x6CD5;">&#x7B2C;&#x4E8C;&#x8282; &#x8BA4;&#x8BC6;YAML&#x8BED;&#x6CD5;</h1>
+<blockquote>
+<p>&#x672C;&#x8282;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#x5F15;&#x7528;&#x81EA; <a href="https://github.com/tdiant" target="_blank">tdiant</a> &#x7F16;&#x5199;&#x7684; <a href="https://github.com/tdiant/BukkitDevelopmentNote" target="_blank">BukkitDevelopmentNote</a> &#x3002;</p>
+</blockquote>
+<p>&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x670D;&#x4E3B;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#x7684;&#x529F;&#x80FD;&#x3002;<br>&#x540C;&#x65F6;&#xFF0C;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x6709;&#x65F6;&#x4E5F;&#x4F1A;&#x628A;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x3002;</p>
+<p>&#x672C;&#x6587;&#x4EE5; Essentials &#x63D2;&#x4EF6;&#x4E3E;&#x4F8B;&#x3002;</p>
+<h2 id="&#x6211;&#x5982;&#x4F55;&#x627E;&#x5230;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1F;">&#x6211;&#x5982;&#x4F55;&#x627E;&#x5230;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1F;</h2>
+<p>&#x901A;&#x5E38;&#xFF0C;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E0E;&#x63D2;&#x4EF6;&#x751F;&#x6210;&#x5728;&#x4E00;&#x8D77;&#xFF08;&#x90E8;&#x5206;&#x5C0F;&#x578B;&#x63D2;&#x4EF6;&#x6CA1;&#x6709;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF09;&#x4F60;&#x53EF;&#x4EE5;&#x5728;<code>/plugins/&#x63D2;&#x4EF6;&#x540D;/</code>&#x4E2D;&#x627E;&#x5230;&#x5B83;&#x4EEC;&#x3002; 
+&#x8B6C;&#x5982; Essentials &#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5C31;&#x5728;<code>/plugins/Essentials/</code>&#x4E2D;&#x3002;</p>
+<h2 id="&#x4EC0;&#x4E48;&#x662F;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1F;">&#x4EC0;&#x4E48;&#x662F;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF1F;</h2>
+<p>&#x4E00;&#x4E9B;&#x7B80;&#x5355;&#x7684;&#x63D2;&#x4EF6;&#x4E0D;&#x5E26;&#x6709;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;&#x5F53;&#x63D2;&#x4EF6;&#x52A0;&#x8F7D;&#x5931;&#x8D25;&#x65F6;&#xFF08;&#x5982;&#x7248;&#x672C;&#x4E0D;&#x5BF9;&#xFF09;&#xFF0C;&#x4E5F;&#x4E0D;&#x4F1A;&#x751F;&#x6210;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x8B6C;&#x5982;&#x4F60;&#x6253;&#x5F00;&#x6587;&#x4EF6;&#x5939;<code>/plugins/Essentials/</code>&#x540E;&#xFF0C;&#x770B;&#x5230;&#x4E86;&#x4E00;&#x5806;&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x8FD9;&#x4E9B;&#x6587;&#x4EF6;&#x4E2D;&#xFF0C;&#x53EA;&#x6709;&#x7ED3;&#x5C3E;&#x662F;<code>.yml</code>&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x624D;&#x662F;&#x6211;&#x4EEC;&#x8BA8;&#x8BBA;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x5176;&#x4ED6;&#x7684;&#x4E0D;&#x662F;&#x7531;<code>.yml</code>&#x7ED3;&#x5C3E;&#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x56E0;&#x63D2;&#x4EF6;&#x800C;&#x5F02;&#xFF0C;&#x90A3;&#x4E9B;&#x6587;&#x4EF6;&#x5C31;&#x4E0D;&#x5728;&#x4ECA;&#x5929;&#x8BA8;&#x8BBA;&#x8303;&#x56F4;&#x5185;&#x4E86;&#xFF0C;&#x5982;&#x6709;&#x9700;&#x8981;&#x8BF7;&#x67E5;&#x9605;&#x63D2;&#x4EF6;&#x5B98;&#x65B9;&#x6587;&#x6863;&#x3002;  </p>
+<h2 id="&#x6211;&#x8BE5;&#x5982;&#x4F55;&#x6253;&#x5F00;-yml-&#x8FD9;&#x6837;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x6211;&#x8BE5;&#x5982;&#x4F55;&#x6253;&#x5F00; .yml &#x8FD9;&#x6837;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;?</h2>
+<p>&#x6211;&#x4EEC;&#x5728;&#x5F00;&#x59CB;&#x524D;&#x6240;&#x505A;&#x7684;<a href="Preparation.html">&#x51C6;&#x5907;&#x5DE5;&#x4F5C;</a>&#x4E2D;&#xFF0C;&#x5B89;&#x88C5;&#x4E86; Notepad++ &#x8F6F;&#x4EF6;&#x3002;</p>
+<p>&#x73B0;&#x5728;&#x8BA9;&#x6211;&#x4EEC;&#x53F3;&#x952E;<code>.yml</code>&#x6587;&#x4EF6;&#xFF0C;&#x5355;&#x51FB;&quot;Edit with Notepad++&quot;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5F00;&#x59CB;&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E86;&#xFF01;</p>
+<p>&#x5BF9;&#x4E8E;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x6765;&#x8BF4;&#xFF0C;&#x8BED;&#x6CD5;&#x662F;&#x5F88;&#x91CD;&#x8981;&#x7684;&#xFF0C;&#x5426;&#x5219;&#x4E00;&#x5B9A;&#x4F1A;&#x5BFC;&#x81F4;&#x63D2;&#x4EF6;&#x62A5;&#x9519;&#x3002;</p>
+<h2 id="&#x8BED;&#x6CD5;&#x4E00;-&#x6CE8;&#x91CA;">&#x8BED;&#x6CD5;&#x4E00;: &#x6CE8;&#x91CA;</h2>
+<p>&#x8B6C;&#x5982;&#x4F60;&#x6253;&#x5F00; Essentials &#x540E;&#xFF0C;&#x5F00;&#x7BC7;&#x5C31;&#x6709;&#x4E00;&#x5806;&#x6CE8;&#x91CA;&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-comment"># &#x6587;&#x672C;&#x5927;&#x90E8;&#x5206;&#x5F15;&#x81EA; XXXXXX XX&quot;  </span>
+<span class="hljs-comment"># &#x6587;&#x672C;&#x524D;&#x5E26;&#x6709;&quot;#&quot;&#x7684;&#x90FD;&#x662F;&#x9610;&#x91CA;&#x8BF4;&#x660E;&#x7684;&#x5185;&#x5BB9;,&#x4E0D;&#x4F1A;&#x5BF9;&#x683C;&#x5F0F;&#x4EA7;&#x751F;&#x5F71;&#x54CD;.&quot;  </span>
+<span class="hljs-comment"># &#x5982;&#x679C;&#x4F60;&#x60F3;&#x8981;&#x5728;&#x8BE5;&#x6587;&#x4EF6;&#x5185;&#x6DFB;&#x52A0;&#x975E;&#x5355;&#x5B57;&#x8282;&#x5185;&#x5BB9;,&#x8BF7;&#x4FDD;&#x5B58;&#x4E3A;UTF-8&#x683C;&#x5F0F;,&#x800C;&#x4E0D;&#x662F;ANSI,&#x5426;&#x5219;&#x53EF;&#x80FD;&#x51FA;&#x73B0;&#x4E71;&#x7801;  </span>
+<span class="hljs-comment"># &#x5982;&#x679C;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;&#x65F6;&#x51FA;&#x73B0;&#x4E86;&#x95EE;&#x9898;(&#x4F8B;&#x5982;:ERROR:null),&#x8BF7;&#x6CE8;&#x610F;:  </span>
+<span class="hljs-comment">#   - &#x6CA1;&#x6709;tab&#x8FD9;&#x6837;&#x7684;&#x95F4;&#x9694;:YAML&#x6587;&#x4EF6;&#x4EC5;&#x652F;&#x6301;&#x666E;&#x901A;&#x7684;&#x7A7A;&#x683C;  </span>
+<span class="hljs-comment">#   - &#x6B63;&#x786E;&#x7684;&quot;&#x7F29;&#x4E66;&#x5199;&quot;(&#x8BD1;&#x6CE8;:&#x4E0D;&#x61C2;&#x7684;&#x53BB;&#x767E;&#x5EA6;&#x4E00;&#x4E0B;Indent):YAML&#x6587;&#x4EF6;&#x7684;&#x5C42;&#x6B21;&#x7ED3;&#x6784;&#x5B8C;&#x5168;&#x4F9D;&#x8D56;&#x4E8E;&#x9996;&#x884C;&#x7F29;&#x6392;.  </span>
+<span class="hljs-comment">#   - &#x5982;&#x679C;&#x6587;&#x4E2D;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x5355;&#x5F15;&#x53F7; &apos; , &#x8BF7;&#x540C;&#x65F6;&#x4F7F;&#x7528;&#x4E24;&#x4E2A;&#x5355;&#x5F15;&#x53F7;, &#x4F8B;&#x5982;&#xFF1A;&apos;&apos;  </span>
+<span class="hljs-comment">#   - &#x5E26;&#x6709;&#x7B26;&#x53F7;&#x7684;&#x6587;&#x672C;&#x88AB;&#x7528;&#x5355;&#x5F15;&#x53F7;&#x6216;&#x53CC;&#x5F15;&#x53F7;&#x9694;&#x7EDD;&#x5F00;&#x6765;.  </span>
+<span class="hljs-comment">#   - &#x5982;&#x679C;&#x4E00;&#x4E2A;&#x5192;&#x53F7;&#x540E;&#x9762;&#x6709;&#x6587;&#x672C;,&#x5219;&#x5192;&#x53F7;&#x4E0E;&#x6587;&#x672C;&#x95F4;&#x5FC5;&#x987B;&#x6709;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;.  </span>
+<span class="hljs-comment">#   - &#x6709;&#x4E9B;&#x8BBE;&#x7F6E;&#x53EA;&#x80FD;&#x8BBE;&#x7F6E;&quot;true&quot;&#x6216;&quot;false&quot;  </span>
+<span class="hljs-comment">#   - &#x4F60;&#x4FDD;&#x5B58;&#x8BE5;&#x6587;&#x672C;&#x4E3A;UTF-8&#x683C;&#x5F0F;,&#x800C;&#x4E0D;&#x662F;&#x5176;&#x4ED6;default,ANSI&#x7B49;&#x683C;&#x5F0F;.&quot;</span>
+</code></pre>
+<p>&#x8FD9;&#x4E9B;&#x4EE5; &quot;#&quot; &#x5F00;&#x5934;&#x7684;&#x5C31;&#x662F;&#x6CE8;&#x91CA;&#x4E86;&#xFF0C;&#x6CE8;&#x91CA;&#x662F;&#x7ED9;&#x63D2;&#x4EF6;&#x7528;&#x6237;&#x770B;&#x7684;&#xFF0C;&#x8BA9;&#x7528;&#x6237;&#x83B7;&#x5F97;&#x66F4;&#x597D;&#x7684;&#x63D2;&#x4EF6;&#x4F53;&#x9A8C;&#xFF0C;&#x4F46;&#x5E76;&#x975E;&#x6240;&#x6709;&#x63D2;&#x4EF6;&#x4F5C;&#x8005;&#x90FD;&#x4F1A;&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x5199;&#x6CE8;&#x91CA;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x4F60;&#x89C9;&#x5F97;&#x6CE8;&#x91CA;&#x788D;&#x773C;&#x53EF;&#x4EE5;&#x628A;&#x6CE8;&#x91CA;&#x5220;&#x4E86;&#xFF0C;&#x4E0D;&#x4F1A;&#x5BF9;&#x63D2;&#x4EF6;&#x529F;&#x80FD;&#x9020;&#x6210;&#x5F71;&#x54CD;&#x3002;</p>
+<p>&#x540C;&#x65F6;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x5199;&#x6CE8;&#x91CA;&#xFF0C;&#x4F46;&#x6CE8;&#x91CA;&#x4E0D;&#x63A8;&#x8350;&#x4E0E;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x540C;&#x884C;&#xFF0C;&#x5982;:</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">heal-cooldown:</span> <span class="hljs-number">60</span> <span class="hljs-comment">#&#x6211;&#x662F;&#x4E0E;&#x914D;&#x7F6E;&#x8282;&#x70B9;&#x540C;&#x884C;&#x7684;&#x6CE8;&#x91CA;</span>
+</code></pre>
+<h2 id="&#x8BED;&#x6CD5;&#x4E8C;&#xFF1A;&#x8282;&#x70B9;">&#x8BED;&#x6CD5;&#x4E8C;&#xFF1A;&#x8282;&#x70B9;</h2>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x770B;&#x5230;&#x8B6C;&#x5982;:</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">ABCABC:</span> XXXXXXX
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x8FD9;&#x91CC;&#x7684;&#x5192;&#x53F7;&#x662F; &#x82F1; &#x6587; &#x534A; &#x89D2; &#x72B6; &#x6001; &#x4E0B;&#x7684;&#x5192;&#x53F7;&#xFF0C;&#x662F; : &#x800C;&#x4E0D;&#x662F;&#xFF1A;&#xFF0C;&#x4ED4;&#x7EC6;&#x770B;&#x770B;&#x533A;&#x522B;&#xFF0C;&#x6781;&#x5176;&#x5BB9;&#x6613;&#x5FFD;&#x7565;&#x3002;</strong></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x8FD9;&#x91CC;&#x7684;&#x5192;&#x53F7;&#x540E;&#x9762;&#x6709;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;&#xFF0C;&#x6781;&#x5176;&#x5BB9;&#x6613;&#x5FFD;&#x7565;&#x3002;</strong></p>
+<p>&#x5176;&#x4E2D;ABCABC&#x79F0;&#x4E3A;&#x8282;&#x70B9;&#x540D;&#xFF0C;&#x8BFB;&#x4F5C;&quot;&#x8282;&#x70B9;ABCABC&quot;<br>&#x800C;XXXXXXX&#x5C31;&#x662F;&#x8282;&#x70B9;&#x4E0B;&#x7684;&#x5185;&#x5BB9;&#x4E86;  </p>
+<h3 id="&#x5185;&#x5BB9;&#x7684;&#x8BED;&#x6CD5;">&#x5185;&#x5BB9;&#x7684;&#x8BED;&#x6CD5;</h3>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x586B;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#xFF1A;</p>
+<h4 id="&#x6C49;&#x5B57;">&#x6C49;&#x5B57;</h4>
+<p>&#x8B6C;&#x5982;:  </p>
+<pre><code class="lang-yaml"><span class="hljs-attr">welcome:</span> <span class="hljs-string">&quot;&#x6B22;&#x8FCE;&#x6765;&#x5230;&#x670D;&#x52A1;&#x5668;&quot;</span>
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x6C49;&#x5B57;&#x8981;&#x7528; &#x82F1; &#x6587; &#x534A; &#x89D2; &#x72B6; &#x6001; &#x4E0B;&#x7684;&#x5F15;&#x53F7;&#x6269;&#x8D77;&#x6765;&#xFF0C;&#x662F; &quot; &#x800C;&#x4E0D;&#x662F; &#x201C;&#xFF0C;&#x6781;&#x5176;&#x5BB9;&#x6613;&#x5FFD;&#x7565;&#x3002;</strong></p>
+<h4 id="&#x6570;&#x5B57;">&#x6570;&#x5B57;</h4>
+<p>&#x8B6C;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">player-health:</span> <span class="hljs-number">20</span>
+</code></pre>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x5F53;&#x6B64;&#x5904;&#x53EA;&#x80FD;&#x586B;&#x6570;&#x5B57;&#x65F6;&#xFF0C;&#x4F60;&#x586B;&#x4E86;&#x975E;&#x6570;&#x5B57;&#x5185;&#x5BB9;&#xFF0C;&#x63D2;&#x4EF6;&#x5C31;&#x4F1A;&#x62A5;&#x9519;</strong>&#xFF0C;&#x8B6C;&#x5982;&#xFF1A;</p>
+<p>&#x6B64;&#x5904; <code>player-health</code> &#x7684;&#x610F;&#x601D;&#x662F;&#x73A9;&#x5BB6;&#x7684;&#x8840;&#x91CF;&#xFF0C;&#x63D2;&#x4EF6;&#x4F5C;&#x8005;&#x672C;&#x610F;&#x8BA9;&#x4F60;&#x586B;&#x5199;&#x4E00;&#x4E2A;&#x6570;&#x5B57;&#xFF0C;&#x4F60;&#x5374;&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">player-health:</span> &#x73A9;&#x5BB6;&#x8840;&#x91CF;
+</code></pre>
+<p>&#x6B64;&#x65F6;&#x5982;&#x679C;&#x63D2;&#x4EF6;&#x4F5C;&#x8005;&#x6CA1;&#x6709;&#x505A;&#x9632;&#x62A4;&#x63AA;&#x65BD;&#xFF0C;&#x63D2;&#x4EF6;&#x5C31;&#x4F1A;&#x5D29;&#x6E83;&#x62A5;&#x9519;&#x3002;</p>
+<h4 id="true&#x6216;-false">&quot;true&quot;&#x6216; &quot;false&quot;</h4>
+<p><strong>&quot;true&quot;&#x4EE3;&#x8868;&#x5F00;&#x542F;&#xFF0C;&quot;false&quot;&#x4EE3;&#x8868;&#x5173;&#x95ED;</strong>&#xFF0C;&#x8B6C;&#x5982;:  </p>
+<pre><code class="lang-yaml"><span class="hljs-comment"># &#x5982;&#x679C;&#x4F60;&#x60F3;&#x7528;&#x5176;&#x4ED6;&#x7684;&#x63D2;&#x4EF6;&#x6765;&#x8BBE;&#x7F6E;&#x73A9;&#x5BB6;&#x540D;&#x5B57;,&#x5C06;&#x5176;&#x6539;&#x4E3A;&quot;false&quot;</span>
+<span class="hljs-attr">change-displayname:</span> <span class="hljs-literal">true</span>
+</code></pre>
+<p>&#x8FD9;&#x91CC;&#x53EA;&#x80FD;&#x586B;&#x5199;<code>true</code>&#x6216;<code>false</code>&#xFF0C;&#x82E5;&#x586B;&#x5199;&#x4E86;&#x5176;&#x4ED6;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x800C;&#x63D2;&#x4EF6;&#x4F5C;&#x8005;&#x672A;&#x505A;&#x9632;&#x62A4;&#x63AA;&#x65BD;&#xFF0C;&#x63D2;&#x4EF6;&#x5C31;&#x4F1A;&#x5D29;&#x6E83;&#x62A5;&#x9519;&#x3002;</p>
+<h4 id="&#x5217;">&#x5217;</h4>
+<p>&#x8B6C;&#x5982;:</p>
+<pre><code class="lang-yaml"><span class="hljs-comment"># &#x8FD9;&#x4E9B;&#x547D;&#x4EE4;&#x662F;&#x5F53;&#x5F00;&#x542F;&#x4E86;/socialspy&#x547D;&#x4EE4;&#x65F6;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x7684;&#x73A9;&#x5BB6;&#x79C1;&#x804A;     </span>
+<span class="hljs-comment"># &#x4F60;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x4E00;&#x4E9B;&#x6765;&#x81EA;&#x5176;&#x4ED6;&#x63D2;&#x4EF6;&#x7684;&#x547D;&#x4EE4;    </span>
+<span class="hljs-comment"># &#x6216;&#x8005;&#x79FB;&#x9664;&#x4E00;&#x4E9B;&#x4F60;&#x4E0D;&#x60F3;&#x770B;&#x5230;&#x7684;&#x79C1;&#x804A;&#x547D;&#x4EE4;    </span>
+<span class="hljs-attr">socialspy-commands:</span>  
+<span class="hljs-bullet">  -</span> msg      
+<span class="hljs-bullet">  -</span> w    
+<span class="hljs-bullet">  -</span> r  
+<span class="hljs-bullet">  -</span> mail  
+<span class="hljs-bullet">  -</span> m  
+<span class="hljs-bullet">  -</span> t  
+<span class="hljs-bullet">  -</span> whisper  
+<span class="hljs-bullet">  -</span> emsg  
+<span class="hljs-bullet">  -</span> tell  
+<span class="hljs-bullet">  -</span> er  
+<span class="hljs-bullet">  -</span> reply  
+<span class="hljs-bullet">  -</span> ereply  
+<span class="hljs-bullet">  -</span> email  
+<span class="hljs-bullet">  -</span> action  
+<span class="hljs-bullet">  -</span> describe  
+<span class="hljs-bullet">  -</span> eme  
+<span class="hljs-bullet">  -</span> eaction  
+<span class="hljs-bullet">  -</span> edescribe  
+<span class="hljs-bullet">  -</span> etell    
+<span class="hljs-bullet">  -</span> ewhisper  
+<span class="hljs-bullet">  -</span> pm
+</code></pre>
+<p>&#x8FD9;&#x6837;&#x4EE5;&apos;-&apos;&#x5F15;&#x8D77;&#x7684;&#x4E00;&#x4E9B;&#x5B57;&#x7B26;&#xFF0C;&#x53EF;&#x4EE5;&#x5199;&#x5F88;&#x591A;&#x884C;  </p>
+<p><strong>&#x6CE8;&#x610F;: &apos;-&apos; &#x524D;&#x9762; &#x6709; &#x4E24; &#x4E2A; &#x7A7A; &#x683C;&#xFF0C;  &apos;-&apos; &#x540E;&#x9762; &#x6709; &#x4E00; &#x4E2A; &#x7A7A;  &#x683C;&#x3002;</strong></p>
+<h4 id="&#x518D;&#x4E00;&#x4E2A;&#x8282;&#x70B9;">&#x518D;&#x4E00;&#x4E2A;&#x8282;&#x70B9;</h4>
+<blockquote>
+<p>&#x7981;&#x6B62;&#x5957;&#x5A03;</p>
+</blockquote>
+<p>&#x8B6C;&#x5982;&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-comment"># /kit&#x5FEB;&#x901F;&#x5DE5;&#x5177;&#x547D;&#x4EE4;,&#x6CE8;&#x610F;:&#x6240;&#x6709;&#x7269;&#x54C1;&#x540E;&#x9762;&#x5FC5;&#x987B;&#x5199;&#x660E;&#x6570;&#x91CF;!  </span>
+<span class="hljs-comment"># &#x6240;&#x6709;&#x7684;kit&#x7269;&#x54C1;&#x6700;&#x597D;&#x5BB9;&#x6613;&#x83B7;&#x5F97;, &#x5728;/costs&#x4E2D;&#x4EF7;&#x683C;&#x8F83;&#x4F4E;,&#x6743;&#x9650;&#x8981;&#x6C42;&#x8F83;&#x4F4E;.  </span>
+<span class="hljs-comment"># &#x683C;&#x5F0F;: - &#x7269;&#x54C1;ID[:&#x6570;&#x636E;&#x503C;/&#x8010;&#x4E45;] &#x6570;&#x91CF; [&#x9644;&#x9B54;:&#x9644;&#x9B54;&#x7B49;&#x7EA7;]..[itemmeta:value]...  </span>
+<span class="hljs-comment"># &#x67E5;&#x770B;&#x66F4;&#x591A;&#x4FE1;&#x606F;,&#x8BF7;&#x8BBF;&#x95EE; http://wiki.ess3.net/wiki/Item_Meta  </span>
+<span class="hljs-comment"># &#x5EF6;&#x8FDF;&#x65F6;&#x95F4;(delay)&#x4EE5;&#x79D2;&#x4E3A;&#x5355;&#x4F4D;.  </span>
+<span class="hljs-comment"># &#x67E5;&#x770B;&#x66F4;&#x591A;&#x4FE1;&#x606F;,&#x8BF7;&#x8BBF;&#x95EE; http://wiki.ess3.net/wiki/Kits  </span>
+<span class="hljs-attr">kits:</span>  
+<span class="hljs-attr">  tools:</span>  
+<span class="hljs-attr">    delay:</span> <span class="hljs-number">10</span>  
+<span class="hljs-attr">    items:</span>  
+<span class="hljs-bullet">      -</span> <span class="hljs-number">272</span> <span class="hljs-number">1</span>  
+<span class="hljs-bullet">      -</span> <span class="hljs-number">273</span> <span class="hljs-number">1</span>  
+<span class="hljs-bullet">      -</span> <span class="hljs-number">274</span> <span class="hljs-number">1</span>  
+<span class="hljs-bullet">      -</span> <span class="hljs-number">275</span> <span class="hljs-number">1</span>
+</code></pre>
+<p>&#x53EF;&#x89C1;&#xFF0C;&#x5728;&#x8282;&#x70B9;<code>kits</code>&#x4E0B;&#xFF0C;&#x53C8;&#x5199;&#x4E86;&#x4E00;&#x4E2A;<code>tools</code>&#x8282;&#x70B9;&#xFF0C;&#x800C;<code>tools</code>&#x8282;&#x70B9;&#x4E0B;&#xFF0C;&#x53C8;&#x6709;&#x4E00;&#x4E2A;<code>delay</code>&#x4E0E;<code>items</code>&#x8282;&#x70B9;</p>
+<p>&#x6211;&#x4EEC;&#x79F0;&#x5B83;&#x4EEC;&#x4E3A;&#xFF1A;&#x5B50;&#x8282;&#x70B9;<code>tools</code>&#x3001;&#x5B50;&#x8282;&#x70B9;<code>delay</code>&#x3001;&#x5B50;&#x8282;&#x70B9;<code>items</code></p>
+<p>&#x5176;&#x4E2D;<code>delay</code>&#x8282;&#x70B9;&#x662F;&#x53EA;&#x80FD;&#x5199; &#x6570;&#x5B57;&#xFF0C;<code>items</code>&#x8282;&#x70B9;&#x662F;&#x53EA;&#x80FD;&#x5199; &#x5217;&#xFF0C;&#x800C;&#x4E14;&#x8FD9;&#x4E2A;&#x5217;&#x5728;&#x8FD9;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x63D2;&#x4EF6;&#x91CC;&#x662F;&#x6709;&#x7279;&#x5B9A;&#x7684;&#x683C;&#x5F0F;&#x8981;&#x6C42;&#x7684;&#x3002;</p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x6BCF;&#x4E2A;&#x5B50;&#x8282;&#x70B9;&#x524D;&#x9762;&#x90FD;&#x8981;&#x6709;&#x4E24; &#x4E2A; &#x7A7A; &#x683C;&#x3002;</strong>  </p>
+<p>&#x90A3;&#x95EE;&#x9898;&#x5C31;&#x6765;&#x4E86;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;<code>items</code>&#x524D;&#x9762;&#x6CA1;&#x6709;&#x4E24;&#x4E2A;&#x7A7A;&#x683C;&#x5462;&#xFF1F;  </p>
+<p>&#x8FD9;&#x662F;&#x56E0;&#x4E3A;<code>delay</code>&#x4E0E;<code>items</code>&#x90FD;&#x662F;<code>tools</code>&#x7684;&#x5B50;&#x8282;&#x70B9;&#xFF0C;&#x5982;&#x679C;:</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">kits:</span>
+<span class="hljs-attr">  tools:</span>
+<span class="hljs-attr">    delay:</span> <span class="hljs-number">10</span>
+<span class="hljs-attr">      items:</span>
+<span class="hljs-bullet">        -</span> <span class="hljs-number">272</span> <span class="hljs-number">1</span>
+<span class="hljs-bullet">        -</span> <span class="hljs-number">273</span> <span class="hljs-number">1</span>
+<span class="hljs-bullet">        -</span> <span class="hljs-number">274</span> <span class="hljs-number">1</span>
+<span class="hljs-bullet">        -</span> <span class="hljs-number">275</span> <span class="hljs-number">1</span>
+</code></pre>
+<p>&#x8FD9;&#x6837;&#x5B50;&#x7684;&#x610F;&#x601D;&#x5C31;&#x662F;<code>tools</code>&#x662F;<code>kits</code>&#x7684;&#x5B50;&#x8282;&#x70B9;&#xFF0C;<code>delay</code>&#x662F;<code>tools</code>&#x7684;&#x5B50;&#x8282;&#x70B9;&#xFF0C;<code>items</code>&#x662F;<code>delay</code>&#x7684;&#x5B50;&#x8282;&#x70B9;&#xFF0C;&#x4E0E;&#x539F;&#x610F;&#x5B8C;&#x5168;&#x4E0D;&#x76F8;&#x7B26;&#x3002;</p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x4EE5;&#x4E0A;&#x51E0;&#x4E2A;&#x8BED;&#x6CD5;&#x53EA;&#x662F;&#x63D2;&#x4EF6;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x666E;&#x904D;&#x5B58;&#x5728;&#x7684;&#xFF0C;&#x800C;&#x4E0D;&#x540C;&#x7684;&#x63D2;&#x4EF6;&#x5BF9;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x8981;&#x6C42;&#x4E5F;&#x662F;&#x4E0D;&#x540C;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5927;&#x4F53;&#x90FD;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x4EE5;&#x4E0A;&#x51E0;&#x70B9;&#x3002;</strong>  </p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x4E00;&#x5B9A;&#x8981;&#x6309;&#x7167;&#x63D2;&#x4EF6;&#x539F;&#x4F5C;&#x8005;&#x7684;&#x8981;&#x6C42;&#x5199;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF01;</strong>  </p>
+<p>&#x6700;&#x540E;&#xFF0C;&#x6539;&#x5B8C;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x522B;&#x5FD8;&#x4E86;&#x70B9;&#x51FB;&#x5DE6;&#x4E0A;&#x89D2;&#x7684;&#x4FDD;&#x5B58;&#x6309;&#x94AE;&#xFF0C;&#x518D;&#x5728;&#x670D;&#x52A1;&#x5668;&#x4E2D;&#x91CD;&#x8F7D;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF01;  </p>
+<h2 id="&#x4E71;&#x7801;">&#x4E71;&#x7801;</h2>
+<blockquote>
+<p>&#x6307;&#x7684;&#x662F;&#x7531;&#x4E8E;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x6253;&#x5F00;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x65F6;&#xFF0C;&#x4F7F;&#x7528;&#x4E86;&#x4E0D;&#x76F8;&#x5E94;&#x5B57;&#x7B26;&#x96C6;&#x800C;&#x9020;&#x6210;&#x90E8;&#x5206;&#x6216;&#x6240;&#x6709;&#x5B57;&#x7B26;&#x65E0;&#x6CD5;&#x88AB;&#x9605;&#x8BFB;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x5B57;&#x7B26;&#x3002;</p>
+</blockquote>
+<p>&#x5728; NotePad++ &#x754C;&#x9762;&#x4E0A;&#x65B9;&#x7684;&quot;&#x7F16;&#x7801;&quot;&#x5904;&#xFF0C;&#x70B9;&#x51FB;&#x8F6C;&#x4E3A; ANSI &#x6216; UTF-8&#x65E0;BOM &#x7F16;&#x7801;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x4FDD;&#x5B58;&#x3002;</p>
+<p>&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;Windows &#x7CFB;&#x7EDF;&#x7684;&#x7F16;&#x7801;&#x4E3A;<code>ANSI</code>&#xFF0C;&#x800C;Linux&#x7CFB;&#x7EDF;&#x4E3A;<code>UTF-8&#x65E0;BOM</code>&#xFF0C;&#x5982;&#x679C;&#x65E0;&#x6CD5;&#x786E;&#x5B9A;&#xFF0C;&#x4E0D;&#x59A8;&#x4E24;&#x4E2A;&#x90FD;&#x8BD5;&#x4E00;&#x4E0B;&#x3002;</p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;1.9+&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x7EDF;&#x4E00;&#x4F7F;&#x7528;<code>UTF-8&#x65E0;BOM</code>&#x7F16;&#x7801;&#xFF01;</strong></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="RunScript.html" class="navigation navigation-prev " aria-label="Previous page: 第一节 认识启动脚本">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Permission.html" class="navigation navigation-next " aria-label="Next page: 第三节 什么是权限？">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第二节 认识YAML语法","level":"1.4.2","depth":2,"next":{"title":"第三节 什么是权限？","level":"1.4.3","depth":2,"path":"Permission.md","ref":"Permission.md","articles":[]},"previous":{"title":"第一节 认识启动脚本","level":"1.4.1","depth":2,"path":"RunScript.md","ref":"RunScript.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-plus","splitter","github","expandable-chapters","code","ga","back-to-top-button"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Mhy278/MinecraftServerHostGuide"},"splitter":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"ga":{"configuration":"auto","token":"UA-161510371-1"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的世界服务器搭建指南","language":"zh-hans","gitbook":"*","description":"Minecraft 我的世界开服零基础教学"},"file":{"path":"Yaml.md","mtime":"2022-11-30T10:09:10.558Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T10:09:58.494Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

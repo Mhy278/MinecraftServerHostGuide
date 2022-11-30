@@ -1,0 +1,917 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第二节 MongoDB 的安装与配置 · 我的世界服务器搭建指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Texture.html" />
+    
+    
+    <link rel="prev" href="Redis.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    开始
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="Preparation.html">
+            
+                <a href="Preparation.html">
+            
+                    
+                    准备工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一单元 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="First.html">
+            
+                <a href="First.html">
+            
+                    
+                    第一节 第一次的开服
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Structure.html">
+            
+                <a href="Structure.html">
+            
+                    
+                    第二节 服务端的结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Plugin.html">
+            
+                <a href="Plugin.html">
+            
+                    
+                    第三节 什么是插件？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Mod.html">
+            
+                <a href="Mod.html">
+            
+                    
+                    第四节 什么是模组？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="World.html">
+            
+                <a href="World.html">
+            
+                    
+                    第五节 什么是世界？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Log.html">
+            
+                <a href="Log.html">
+            
+                    
+                    第六节 什么是日志？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二单元 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="RunScript.html">
+            
+                <a href="RunScript.html">
+            
+                    
+                    第一节 认识启动脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="Yaml.html">
+            
+                <a href="Yaml.html">
+            
+                    
+                    第二节 认识YAML语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="Permission.html">
+            
+                <a href="Permission.html">
+            
+                    
+                    第三节 什么是权限？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Sql.html">
+            
+                <a href="Sql.html">
+            
+                    
+                    第四节 数据库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="WhatsError.html">
+            
+                <a href="WhatsError.html">
+            
+                    
+                    第五节 什么是报错？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="Optimization.html">
+            
+                <a href="Optimization.html">
+            
+                    
+                    第六节 配置文件优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="Bungee.html">
+            
+                <a href="Bungee.html">
+            
+                    
+                    第七节 什么是跨服？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="Maintain.html">
+            
+                <a href="Maintain.html">
+            
+                    
+                    第八节 系统运行维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三单元 扩展
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="Redis.html">
+            
+                <a href="Redis.html">
+            
+                    
+                    第一节 Redis 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.2" data-path="MongoDB.html">
+            
+                <a href="MongoDB.html">
+            
+                    
+                    第二节 MongoDB 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="Texture.html">
+            
+                <a href="Texture.html">
+            
+                    
+                    第三节 认识资源包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="Skin.html">
+            
+                <a href="Skin.html">
+            
+                    
+                    第四节 什么是皮肤？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="Model.html">
+            
+                <a href="Model.html">
+            
+                    
+                    第五节 什么是3D建模？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四单元 开发
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="Java.html">
+            
+                <a href="Java.html">
+            
+                    
+                    第一节 Java 编程基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="Bukkit.html">
+            
+                <a href="Bukkit.html">
+            
+                    
+                    第二节 Bukkit插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="Sponge.html">
+            
+                <a href="Sponge.html">
+            
+                    
+                    第三节 Sponge插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="Forge.html">
+            
+                <a href="Forge.html">
+            
+                    
+                    第四节 Forge 模组开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    附录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="SearchEngine.html">
+            
+                <a href="SearchEngine.html">
+            
+                    
+                    认识搜索引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                <a href="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                    
+                    提问的智慧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第二节 MongoDB 的安装与配置</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;&#x4E8C;&#x8282;-mongodb-&#x7684;&#x5B89;&#x88C5;&#x4E0E;&#x914D;&#x7F6E;">&#x7B2C;&#x4E8C;&#x8282; MongoDB &#x7684;&#x5B89;&#x88C5;&#x4E0E;&#x914D;&#x7F6E;</h1>
+<p>&#x4F5C;&#x8005;&#x73AF;&#x5883;&#xFF1A; Windows10 1809</p>
+<p><strong>&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x514D;&#x5B89;&#x88C5;&#x7248;</strong></p>
+<p>Msi&#x5B89;&#x88C5;&#x5305;&#x5B89;&#x88C5;&#xFF1A;<a href="#msi&#x5B89;&#x88C5;&#x5305;&#x5B89;&#x88C5;">&#x70B9;&#x6211;&#x8F6C;&#x8DF3;</a></p>
+<p><code>mongo.config</code>&#x8BE6;&#x89E3;&#xFF1A;<a href="#mongoconfig&#x8BE6;&#x89E3;">&#x70B9;&#x51FB;&#x8DF3;&#x8F6C;</a></p>
+<h2 id="&#x514D;&#x5B89;&#x88C5;&#x7248;">&#x514D;&#x5B89;&#x88C5;&#x7248;</h2>
+<ol>
+<li><p>&#x5148;&#x5230;&#x5B98;&#x7F51;&#xFF1A;<a href="https://www.mongodb.com/download-center/community" title="https://www.mongodb.com/download-center/community" target="_blank">https://www.mongodb.com/download-center/community</a>
+<img src="images/mongodb/download.png" alt="" title="&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;">
+&#x6216;&#x8005;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x70B9;&#x8FD9;&#x4E2A;&#x94FE;&#x63A5;&#x4E0B;&#x8F7D;&#xFF1A;<a href="https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2012plus-4.2.3.zip" title="https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2012plus-4.2.3.zip" target="_blank">https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2012plus-4.2.3.zip</a></p>
+</li>
+<li><p>&#x5728;&#x6709;&#x6761;&#x4EF6;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x6700;&#x597D;&#x5C06;MongoDB&#x653E;&#x5728;&#x9664;&#x7CFB;&#x7EDF;&#x5206;&#x533A;&#x5916;&#x7684;&#x5176;&#x4ED6;&#x5206;&#x533A;
+&#x5728;&#x8FD9;&#x91CC;&#x6211;&#x653E;&#x5728;&#x4E86;&#x201C;D:\MongoDB\4.2&#x201D;
+<img src="images/mongodb/7-1.png" alt=""></p>
+</li>
+<li><p>&#x521B;&#x5EFA;&quot;/data&quot; &#x548C; &quot;/log&quot; &#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#xFF08;&quot;/data&quot;&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#xFF0C;&#x7528;&#x4E8E;&#x5B58;&#x653E;&#x6570;&#x636E;&#x5E93;&#x6570;&#x636E;&#xFF1B;&quot;/log&quot;&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#xFF0C;&#x7528;&#x4E8E;&#x5B58;&#x653E;&#x65E5;&#x5FD7;&#xFF09;</p>
+<ol>
+<li>&#x5728;data&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x521B;&#x5EFA;&quot;/db&quot;&#x7A7A;&#x6587;&#x4EF6;&#x5939;</li>
+</ol>
+</li>
+</ol>
+<pre><code>![](./images/mongodb/10.png)
+
+2. &#x5728;log&#x6587;&#x4EF6;&#x5939;&#x4E0B;&#x521B;&#x5EFA;&quot;mongo.log&quot;&#x7A7A;&#x6587;&#x4EF6;
+
+
+![](./images/mongodb/11.png)
+</code></pre><p><code>data</code>&#x548C;<code>log</code>&#x4E24;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x7684;&#x4F4D;&#x7F6E;&#x53EF;&#x4EE5;&#x968F;&#x610F;&#xFF0C;&#x4E0D;&#x5FC5;&#x987B;&#x653E;&#x5728;MongoDB&#x7A0B;&#x5E8F;&#x7684;&#x76EE;&#x5F55;&#x4E0B;&#xFF0C;&#x540E;&#x9762;&#x5C06;&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5185;&#x8BBE;&#x7F6E;&#xFF0C;&#x6211;&#x8FD9;&#x91CC;&#x5C31;&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x5C31;&#x653E;&#x5728;&#x4E00;&#x8D77;&#x4E86;</p>
+<ol>
+<li><p>&#x914D;&#x7F6E;&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#x53D8;&#x91CF;path&#xFF08;&#x53EF;&#x9009;&#xFF09;
+&#x6211;&#x7684;&#x7535;&#x8111;-&gt;&#x5C5E;&#x6027;-&gt;&#x9AD8;&#x7EA7;&#x7CFB;&#x7EDF;&#x8BBE;&#x7F6E;-&gt;&#x73AF;&#x5883;&#x53D8;&#x91CF;-&gt;&#x7CFB;&#x7EDF;&#x53D8;&#x91CF;-&gt;&#x9009;&#x62E9;&#x201C;Path&#x201D;-&gt;&#x7F16;&#x8F91;-&gt;&#x5728;&#x540E;&#x9762;&#x6DFB;&#x52A0;MongoDB&#x7684;bin&#x76EE;&#x5F55;&#x4F8B;&#x5982;&#x201C;;D:\MongoDB\4.2\bin&#x201D;(&#x6CE8;&#x610F;&#xFF1A;&#x65B0;&#x7248;&#x672C;&#x7684;Windows 10 &#x4E0D;&#x9700;&#x8981;&#x52A0;;)&#x4E0D;&#x660E;&#x767D;&#x8BF7;&#x8DF3;&#x8FC7;&#x6B65;&#x9AA4;4
+<img src="images/mongodb/7.png" alt="">
+<img src="images/mongodb/8.png" alt="">
+<img src="images/mongodb/9.png" alt=""></p>
+</li>
+<li><p>&#x5728;MongoDB&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#x4E0B;&#x521B;&#x5EFA;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x201C;mongo.config&#x201D;
+&#x5B89;&#x88C5;&#x8DEF;&#x5F84;&#x4F8B;&#xFF1A;D:\MongoDB\4.2
+<img src="images/mongodb/12-1.png" alt=""></p>
+</li>
+<li><p>&#x4E3A;&#x201C;mongo.config&#x201D;&#x6DFB;&#x52A0;&#x5185;&#x5BB9;
+&#x4E0B;&#x9762;&#x7684;<code>dbpath</code>&#x548C;<code>logpath</code>&#x8BF7;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x586B;&#x5199;</p>
+<pre><code>#&#x6570;&#x636E;&#x5E93;&#x6587;&#x4EF6;&#x7684;&#x5B58;&#x653E;&#x4F4D;&#x7F6E;
+dbpath=D:\MongoDB\4.2\data\db
+#&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x5B58;&#x653E;&#x7684;&#x8DEF;&#x5F84;
+logpath=D:\MongoDB\4.2\log\mongo.log
+# &#x8BBE;&#x7F6E;&#x7ED1;&#x5B9A;ip
+bind_ip = 127.0.0.1
+# &#x8BBE;&#x7F6E;&#x7AEF;&#x53E3;
+port = 27017
+# &#x662F;&#x5426;&#x4EE5;&#x5B89;&#x5168;&#x8BA4;&#x8BC1;&#x65B9;&#x5F0F;&#x8FD0;&#x884C;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;&#x4E0D;&#x8BA4;&#x8BC1;&#x7684;&#x975E;&#x5B89;&#x5168;&#x65B9;&#x5F0F;
+auth = true
+</code></pre><p>&#x201C;mongo.config&#x201D;&#x8BE6;&#x89E3;:<a href="#mongo.config&#x8BE6;&#x89E3;">&#x70B9;&#x51FB;&#x8DF3;&#x8F6C;</a></p>
+</li>
+<li><p>&#x8BF7;&#x4EE5;&#x7BA1;&#x7406;&#x5458;&#x8EAB;&#x4EFD;&#x8FD0;&#x884C;cmd&#x6216;&#x8005;PowerShell
+&#x6CE8;&#x610F;&#xFF1A;&#x5982;&#x679C;&#x8DF3;&#x8FC7;&#x4E86;&#x6B65;&#x9AA4;4&#xFF0C;&#x8BF7;&#x4F7F;&#x7528;cd&#x547D;&#x4EE4;&#x8F6C;&#x8DF3;&#x5230;MongoDB&#x7684;bin&#x76EE;&#x5F55;&#x4E0B;
+&#xFF08;&#x4F8B;&#xFF1A;cd D:\MongoDB\4.2\bin &#x5982;&#x679C;&#x4E0D;&#x5728;D:\&#x78C1;&#x76D8;&#x7B26;&#x4E0B;&#x8FD8;&#x9700;&#x8F93;&#x5165;D:&#x8F6C;&#x8DF3;&#x5230;D&#x5206;&#x533A;&#x4E0B;&#xFF09;&#x5982;&#x679C;&#x8BBE;&#x7F6E;&#x4E86;&#x6B65;&#x9AA4;4&#x53EF;&#x8DF3;&#x8FC7;
+&#x4E4B;&#x540E;&#x590D;&#x5236;&#x4EE5;&#x4E0B;&#x6307;&#x4EE4;</p>
+<pre><code class="lang-bash">mongod --config <span class="hljs-string">&quot;D:\MongoDB\4.2\mongo.config&quot;</span> --serviceName <span class="hljs-string">&quot;MongoDB&quot;</span> --serviceDisplayName <span class="hljs-string">&quot;MongoDB&quot;</span> --install
+</code></pre>
+<p>&#x8BF7;&#x5C06;<code>D:\MongoDB\4.2\mongo.config</code>&#x6362;&#x6210;&#x4F60;<code>mongo.config</code>&#x7684;&#x4F4D;&#x7F6E;
+<img src="images/mongodb/13.png" alt="">
+&#x5F53;&#x4F60;&#x770B;&#x5230;&#x7C7B;&#x4F3C;&#x4E0B;&#x56FE;&#x7684;&#x4FE1;&#x606F;&#x662F;&#x8BF4;&#x660E;MongoDB&#x5C31;&#x5B89;&#x88C5;&#x6210;&#x529F;&#x4E86;
+<img src="images/mongodb/20.png" alt="">
+&#x5230;&#x8FD9;&#x91CC;&#x4E0D;&#x8981;&#x6025;&#x7740;&#x5173;cmd</p>
+</li>
+<li><p>&#x540C;&#x6837;&#x9700;&#x8981;&#x6709;&#x7BA1;&#x7406;&#x6743;&#x9650;&#x7684;cmd
+&#x8F93;&#x5165;&#x4E0B;&#x9762;&#x6307;&#x4EE4;&#x6765;&#x8FD0;&#x884C;MongoDB</p>
+<pre><code class="lang-bash">net start MongoDB
+</code></pre>
+<p><img src="images/mongodb/14.png" alt="">
+&#x770B;&#x5230;&#x201C;&#x5DF2;&#x7ECF;&#x542F;&#x52A8;&#x6210;&#x529F;&#x201D;&#x5C31;&#x8BF4;&#x660E;MongoDB&#x5DF2;&#x7ECF;&#x6B63;&#x5E38;&#x542F;&#x52A8;&#x4E86;</p>
+</li>
+</ol>
+<p>&#x5982;&#x679C;&#x4F60;&#x8FD8;&#x4E0D;&#x653E;&#x5FC3;&#x4F60;&#x53EF;&#x4EE5;&#x6253;&#x5F00;&#x6D4F;&#x89C8;&#x5668;&#x8F93;&#x5165;<code>127.0.0.1:27017</code>&#x8FD9;&#x91CC;&#x7684;&#x7AEF;&#x53E3;&#x5C31;&#x662F;&#x4F60;&#x4E0A;&#x9762;&#x8BBE;&#x7F6E;&#x7684;
+<img src="images/mongodb/15.png" alt="">
+&#x770B;&#x5230;&#x8FD9;&#x4E2A;&#x9875;&#x9762;&#x4F60;&#x7684;MongoDB&#x5C31;&#x6210;&#x529F;&#x8FD0;&#x884C;&#x4E86;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5BA2;&#x6237;&#x7AEF;&#x64CD;&#x4F5C;MongoDB&#x4E86;</p>
+<hr>
+<h2 id="msi&#x5B89;&#x88C5;&#x5305;&#x5B89;&#x88C5;">Msi&#x5B89;&#x88C5;&#x5305;&#x5B89;&#x88C5;</h2>
+<ol>
+<li>&#x4E0E;&#x514D;&#x5B89;&#x88C5;&#x7248;&#x76F8;&#x540C;&#x5230;&#x5B98;&#x7F51;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x5305;&#xFF1A;<a href="https://www.mongodb.com/download-center/community" title="https://www.mongodb.com/download-center/community" target="_blank">https://www.mongodb.com/download-center/community</a>
+<img src="images/mongodb/1.png" alt="">
+&#x8FDE;&#x7F51;&#x7AD9;&#x90FD;&#x61D2;&#x5F97;&#x6253;&#x5F00;&#x7684;&#x7AE5;&#x978B;&#x4EEC;&#x5462;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x70B9;&#x51FB;&#x94FE;&#x63A5;&#x4E0B;&#x8F7D;&#xFF1A;<a href="https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2012plus-4.2.3-signed.msi" title="https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2012plus-4.2.3-signed.msi" target="_blank">https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2012plus-4.2.3-signed.msi</a></li>
+</ol>
+<p>&#x4E0B;&#x5B8C;&#x5E94;&#x8BE5;&#x662F;&#x8FD9;&#x4E48;&#x4E2A;&#x56FE;&#x6807;&#x7684;&#x4E1C;&#x897F;
+<img src="images/mongodb/2.png" alt=""></p>
+<ol>
+<li>&#x53CC;&#x51FB;&#x8FD0;&#x884C;&#x201C;Next&#x201D;&#x5230;&#x7B2C;&#x4E8C;&#x4E2A;&#x754C;&#x9762;</li>
+</ol>
+<p><img src="images/mongodb/4-1.png" alt=""></p>
+<p>&#x5982;&#x679C;&#x4F60;&#x60F3;&#x81EA;&#x5B9A;&#x4E49;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;&#x6216;&#x8005;MongoDB&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x8BF7;&#x9009;&#x62E9;<code>Custom</code>&#x5982;&#x679C;&#x4E0D;&#x60F3;&#x8C03;&#x76F4;&#x63A5;&#x9009;&#x62E9;<code>Complete</code>&#xFF08;&#x8FD9;&#x91CC;&#x6211;&#x5EFA;&#x8BAE;&#x8C03;&#x6574;MongoDB&#x7684;&#x5B89;&#x88C5;&#x76EE;&#x5F55;&#x5230;&quot;D:\MongoDB\4.2&quot;&#xFF09;</p>
+<p><img src="images/mongodb/4-2.png" alt=""></p>
+<ol>
+<li>&#x8C03;&#x6574;&#x6570;&#x636E;&#x5E93;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x4F4D;&#x7F6E;&#x548C;Log&#x5B58;&#x50A8;&#x4F4D;&#x7F6E;</li>
+</ol>
+<p><img src="images/mongodb/4-3.png" alt=""></p>
+<p>&#x8FD9;&#x91CC;&#x6211;&#x5206;&#x522B;&#x653E;&#x5728;&#x4E86;&quot;D:\MongoDB\4.2\data&quot;&#x548C;&#x201C;D:\MongoDB\4.2\log&#x201D;(&#x5F3A;&#x70C8;&#x5EFA;&#x8BAE;&#x4FEE;&#x6539;&#x9ED8;&#x8BA4;&#x4F4D;&#x7F6E;&#xFF0C;&#x8FD9;&#x4E2A;&#x90FD;&#x61D2;&#x5F97;&#x8C03;&#x4E0D;&#x5EFA;&#x8BAE;&#x7528;&#x6570;&#x636E;&#x5E93;&#x4E86;)</p>
+<ol>
+<li><p>&#x8FD9;&#x4E2A;&#x754C;&#x9762;&#x4F1A;&#x8BA9;&#x4F60;&#x9009;&#x62E9;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x4E00;&#x4E2A;&#x53EB;&quot;Compass&quot;&#x7684;&#x4E1C;&#x897F;
+<code>Compass</code>&#x662F;4.x&#x4E4B;&#x540E;&#x7684;&#x4E00;&#x4E2A;&#x65B0;&#x529F;&#x80FD;&#xFF0C;&#x5C31;&#x662F;GUI&#x529F;&#x80FD;&#xFF08;&#x53EF;&#x89C6;&#x5316;&#x5DE5;&#x5177;&#xFF09; &#x8FD9;&#x91CC;&#x4E0D;&#x5EFA;&#x8BAE;&#x52FE;&#x9009;&#xFF08;&#x6CA1;&#x5FC5;&#x8981;&#x3001;&#x52A0;&#x957F;&#x5B89;&#x88C5;&#x65F6;&#x95F4;&#x3001;&#x5360;&#x7A7A;&#x95F4;&#xFF09;
+<img src="images/mongodb/5.png" alt=""></p>
+</li>
+<li><p>Next&#x4E4B;&#x540E;&#xFF0C;MongoDB&#x5C31;&#x5F00;&#x59CB;&#x5B89;&#x88C5;&#x4E86;&#xFF0C;&#x7B49;&#x5F85;&#x5B89;&#x88C5;&#x6210;&#x529F;&#x5373;&#x53EF;
+<img src="images/mongodb/6.png" alt=""></p>
+</li>
+</ol>
+<hr>
+<h2 id="mongoconfig&#x8BE6;&#x89E3;">mongo.config&#x8BE6;&#x89E3;</h2>
+<pre><code># &#x6570;&#x636E;&#x5E93;&#x6587;&#x4EF6;&#x4F4D;&#x7F6E;
+dbpath=/var/lib/mongodb
+
+#&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;
+logpath=/var/log/mongodb/mongodb.log
+
+# &#x662F;&#x5426;&#x8FFD;&#x52A0;&#x65B9;&#x5F0F;&#x5199;&#x5165;&#x65E5;&#x5FD7;&#xFF0C;&#x9ED8;&#x8BA4;True
+logappend=true
+
+# &#x8BBE;&#x7F6E;&#x7ED1;&#x5B9A;ip
+bind_ip = 127.0.0.1
+# &#x8BBE;&#x7F6E;&#x7AEF;&#x53E3;
+port = 27017
+
+# &#x662F;&#x5426;&#x4EE5;&#x5B88;&#x62A4;&#x8FDB;&#x7A0B;&#x65B9;&#x5F0F;&#x8FD0;&#x884C;&#xFF0C;&#x9ED8;&#x8BA4;false
+fork = true
+
+# &#x542F;&#x7528;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#xFF0C;&#x9ED8;&#x8BA4;&#x542F;&#x7528;
+journal=true
+
+# &#x542F;&#x7528;&#x5B9A;&#x671F;&#x8BB0;&#x5F55;CPU&#x5229;&#x7528;&#x7387;&#x548C; I/O &#x7B49;&#x5F85;,&#x9ED8;&#x8BA4;false
+#cpu = true
+
+# &#x662F;&#x5426;&#x4EE5;&#x5B89;&#x5168;&#x8BA4;&#x8BC1;&#x65B9;&#x5F0F;&#x8FD0;&#x884C;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;&#x4E0D;&#x8BA4;&#x8BC1;&#x7684;&#x975E;&#x5B89;&#x5168;&#x65B9;&#x5F0F;
+#noauth = true
+#auth = true
+
+# &#x8BE6;&#x7EC6;&#x8BB0;&#x5F55;&#x8F93;&#x51FA;&#xFF0C;&#x9ED8;&#x8BA4;false
+#verbose = true
+
+#&#x7528;&#x4E8E;&#x5F00;&#x53D1;&#x9A71;&#x52A8;&#x7A0B;&#x5E8F;&#x65F6;&#x9A8C;&#x8BC1;&#x5BA2;&#x6237;&#x7AEF;&#x8BF7;&#x6C42;
+#objcheck = true
+
+# # &#x542F;&#x7528;&#x6570;&#x636E;&#x5E93;&#x914D;&#x989D;&#x7BA1;&#x7406;,&#x9ED8;&#x8BA4;false
+#quota = true
+
+# &#x8BBE;&#x7F6E;oplog&#x65E5;&#x5FD7;&#x8BB0;&#x5F55;&#x7B49;&#x7EA7;&#xFF0C;&#x9ED8;&#x8BA4;0
+#   0=off (default)
+#   1=W
+#   2=R
+#   3=both
+#   7=W+some reads
+#oplog = 0
+
+# &#x662F;&#x5426;&#x6253;&#x5F00;&#x52A8;&#x6001;&#x8C03;&#x8BD5;&#x9879;&#xFF0C;&#x9ED8;&#x8BA4;false
+#nocursors = true
+
+# &#x5FFD;&#x7565;&#x67E5;&#x8BE2;&#x63D0;&#x793A;&#xFF0C;&#x9ED8;&#x8BA4;false
+#nohints = true
+
+# &#x7981;&#x7528;http&#x754C;&#x9762;&#xFF0C;&#x9ED8;&#x8BA4;&#x4E3A;localhost&#xFF1A;28017
+#nohttpinterface = true
+
+# &#x5173;&#x95ED;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x811A;&#x672C;&#xFF0C;&#x8FD9;&#x5C06;&#x6781;&#x5927;&#x7684;&#x9650;&#x5236;&#x529F;&#x80FD;&#xFF0C;&#x9ED8;&#x8BA4;false
+#noscripting = true
+
+# &#x5173;&#x95ED;&#x626B;&#x63CF;&#x8868;&#xFF0C;&#x4EFB;&#x4F55;&#x67E5;&#x8BE2;&#x5C06;&#x4F1A;&#x662F;&#x626B;&#x63CF;&#x5931;&#x8D25;
+#notablescan = true
+
+# &#x5173;&#x95ED;&#x6570;&#x636E;&#x6587;&#x4EF6;&#x9884;&#x5206;&#x914D;
+#noprealloc = true
+
+# &#x4E3A;&#x65B0;&#x6570;&#x636E;&#x5E93;&#x6307;&#x5B9A;.ns&#x6587;&#x4EF6;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x5355;&#x4F4D;:MB
+# nssize = &lt;size&gt;
+
+# &#x7528;&#x4E8E;Mongo&#x76D1;&#x63A7;&#x670D;&#x52A1;&#x5668;&#x7684;Accout token&#x3002;
+#mms-token = &lt;token&gt;
+
+# Mongo&#x76D1;&#x63A7;&#x670D;&#x52A1;&#x5668;&#x7684;&#x670D;&#x52A1;&#x5668;&#x540D;&#x79F0;&#x3002;
+#mms-name = &lt;server-name&gt;
+
+# Mongo&#x76D1;&#x63A7;&#x670D;&#x52A1;&#x5668;&#x7684;Ping&#x95F4;&#x9694;&#x65F6;&#x95F4;&#xFF0C;&#x5373;&#x5FC3;&#x8DF3;
+#mms-interval = &lt;seconds&gt;
+
+# Replication Options
+
+# &#x8BBE;&#x7F6E;&#x4E3B;&#x4ECE;&#x590D;&#x5236;&#x53C2;&#x6570;
+#slave = true # &#x8BBE;&#x7F6E;&#x4ECE;&#x8282;&#x70B9;
+#source = master.example.com # &#x6307;&#x5B9A;&#x4ECE;&#x8282;&#x70B9;&#x7684;&#x4E3B;&#x8282;&#x70B9;
+# Slave only: &#x6307;&#x5B9A;&#x8981;&#x590D;&#x5236;&#x7684;&#x5355;&#x4E2A;&#x6570;&#x636E;&#x5E93;
+#only = master.example.com
+# or
+#master = true # &#x8BBE;&#x7F6E;&#x4E3B;&#x8282;&#x70B9;
+#source = slave.example.com 
+
+# &#x8BBE;&#x7F6E;&#x526F;&#x672C;&#x96C6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x6240;&#x6709;&#x7684;&#x5B9E;&#x4F8B;&#x6307;&#x5B9A;&#x76F8;&#x540C;&#x7684;&#x540D;&#x5B57;&#x5C5E;&#x4E8E;&#x4E00;&#x4E2A;&#x526F;&#x672C;&#x96C6;
+replSet = name
+
+#pairwith = &lt;server:port&gt;
+
+# &#x4EF2;&#x88C1;&#x670D;&#x52A1;&#x5668;&#x5730;&#x5740;
+#arbiter = &lt;server:port&gt;
+
+# &#x9ED8;&#x8BA4;&#x4E3A;false&#xFF0C;&#x7528;&#x4E8E;&#x4ECE;&#x5B9E;&#x4F8B;&#x8BBE;&#x7F6E;&#x3002;&#x662F;&#x5426;&#x81EA;&#x52A8;&#x91CD;&#x65B0;&#x540C;&#x6B65;
+#autoresync = true
+
+# &#x6307;&#x5B9A;&#x7684;&#x590D;&#x5236;&#x64CD;&#x4F5C;&#x65E5;&#x5FD7;&#xFF08;OPLOG&#xFF09;&#x7684;&#x6700;&#x5927;&#x5927;&#x5C0F;
+#oplogSize = &lt;MB&gt;
+
+# &#x9650;&#x5236;&#x590D;&#x5236;&#x64CD;&#x4F5C;&#x7684;&#x5185;&#x5B58;&#x4F7F;&#x7528;
+#opIdMem = &lt;bytes&gt;
+
+# &#x8BBE;&#x7F6E;ssl&#x8BA4;&#x8BC1;
+# Enable SSL on normal ports
+#sslOnNormalPorts = true
+
+# SSL Key file and password
+#sslPEMKeyFile = /etc/ssl/mongodb.pem
+#sslPEMKeyPassword = pass
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Redis.html" class="navigation navigation-prev " aria-label="Previous page: 第一节 Redis 的安装与配置">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Texture.html" class="navigation navigation-next " aria-label="Next page: 第三节 认识资源包">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第二节 MongoDB 的安装与配置","level":"1.5.2","depth":2,"next":{"title":"第三节 认识资源包","level":"1.5.3","depth":2,"path":"Texture.md","ref":"Texture.md","articles":[]},"previous":{"title":"第一节 Redis 的安装与配置","level":"1.5.1","depth":2,"path":"Redis.md","ref":"Redis.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-plus","splitter","github","expandable-chapters","code","ga","back-to-top-button"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Mhy278/MinecraftServerHostGuide"},"splitter":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"ga":{"configuration":"auto","token":"UA-161510371-1"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的世界服务器搭建指南","language":"zh-hans","gitbook":"*","description":"Minecraft 我的世界开服零基础教学"},"file":{"path":"MongoDB.md","mtime":"2022-11-30T10:09:10.554Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T10:09:58.494Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

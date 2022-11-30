@@ -1,0 +1,865 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第七节 什么是跨服？ · 我的世界服务器搭建指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Maintain.html" />
+    
+    
+    <link rel="prev" href="Optimization.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    开始
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="Preparation.html">
+            
+                <a href="Preparation.html">
+            
+                    
+                    准备工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一单元 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="First.html">
+            
+                <a href="First.html">
+            
+                    
+                    第一节 第一次的开服
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Structure.html">
+            
+                <a href="Structure.html">
+            
+                    
+                    第二节 服务端的结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Plugin.html">
+            
+                <a href="Plugin.html">
+            
+                    
+                    第三节 什么是插件？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Mod.html">
+            
+                <a href="Mod.html">
+            
+                    
+                    第四节 什么是模组？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="World.html">
+            
+                <a href="World.html">
+            
+                    
+                    第五节 什么是世界？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Log.html">
+            
+                <a href="Log.html">
+            
+                    
+                    第六节 什么是日志？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二单元 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="RunScript.html">
+            
+                <a href="RunScript.html">
+            
+                    
+                    第一节 认识启动脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="Yaml.html">
+            
+                <a href="Yaml.html">
+            
+                    
+                    第二节 认识YAML语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="Permission.html">
+            
+                <a href="Permission.html">
+            
+                    
+                    第三节 什么是权限？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Sql.html">
+            
+                <a href="Sql.html">
+            
+                    
+                    第四节 数据库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="WhatsError.html">
+            
+                <a href="WhatsError.html">
+            
+                    
+                    第五节 什么是报错？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="Optimization.html">
+            
+                <a href="Optimization.html">
+            
+                    
+                    第六节 配置文件优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.7" data-path="Bungee.html">
+            
+                <a href="Bungee.html">
+            
+                    
+                    第七节 什么是跨服？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="Maintain.html">
+            
+                <a href="Maintain.html">
+            
+                    
+                    第八节 系统运行维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三单元 扩展
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="Redis.html">
+            
+                <a href="Redis.html">
+            
+                    
+                    第一节 Redis 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="MongoDB.html">
+            
+                <a href="MongoDB.html">
+            
+                    
+                    第二节 MongoDB 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="Texture.html">
+            
+                <a href="Texture.html">
+            
+                    
+                    第三节 认识资源包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="Skin.html">
+            
+                <a href="Skin.html">
+            
+                    
+                    第四节 什么是皮肤？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="Model.html">
+            
+                <a href="Model.html">
+            
+                    
+                    第五节 什么是3D建模？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四单元 开发
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="Java.html">
+            
+                <a href="Java.html">
+            
+                    
+                    第一节 Java 编程基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="Bukkit.html">
+            
+                <a href="Bukkit.html">
+            
+                    
+                    第二节 Bukkit插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="Sponge.html">
+            
+                <a href="Sponge.html">
+            
+                    
+                    第三节 Sponge插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="Forge.html">
+            
+                <a href="Forge.html">
+            
+                    
+                    第四节 Forge 模组开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    附录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="SearchEngine.html">
+            
+                <a href="SearchEngine.html">
+            
+                    
+                    认识搜索引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                <a href="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                    
+                    提问的智慧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第七节 什么是跨服？</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;&#x4E03;&#x8282;-&#x4EC0;&#x4E48;&#x662F;&#x8DE8;&#x670D;&#xFF1F;">&#x7B2C;&#x4E03;&#x8282; &#x4EC0;&#x4E48;&#x662F;&#x8DE8;&#x670D;&#xFF1F;</h1>
+<p>&#x8DE8;&#x670D;&#x540C;&#x65F6;&#x4E5F;&#x662F;&#x642D;&#x5EFA;&#x6211;&#x7684;&#x4E16;&#x754C;&#x670D;&#x52A1;&#x5668;&#x4E2D;&#x7684;&#x4E00;&#x9879;&#x590D;&#x6742;&#x7684;&#x4E00;&#x95E8;&#x6280;&#x672F;&#xFF0C;&#x5728;&#x642D;&#x5EFA;&#x591A;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x65F6;&#xFF0C;&#x8981;&#x505A;&#x4E00;&#x4E9B;&#x7814;&#x7A76;&#x4EE5;&#x53CA;&#x4E86;&#x89E3;&#x7684;&#x5DE5;&#x4F5C;&#x3002;</p>
+<h2 id="&#x81EA;&#x6211;&#x601D;&#x8003;">&#x81EA;&#x6211;&#x601D;&#x8003;</h2>
+<ol>
+<li>&#x6211;&#x662F;&#x4E0D;&#x662F;&#x9700;&#x8981;&#x8DE8;&#x670D;&#xFF1F;</li>
+<li>&#x6211;&#x7684;&#x670D;&#x52A1;&#x5668;&#x662F;&#x5426;&#x6709;&#x90A3;&#x4E48;&#x591A;&#x7684;&#x73A9;&#x5BB6;&#x5728;&#x6E38;&#x73A9;&#xFF1F;</li>
+<li>&#x6211;&#x7684;&#x670D;&#x52A1;&#x5668;&#x662F;&#x4E0D;&#x662F;&#x6027;&#x80FD;&#x591A;&#x4F59;&#xFF0C;&#x6838;&#x5FC3;&#x8001;&#x662F;&#x6EE1;&#x4E0D;&#x8D77;&#x6765;&#xFF1F;</li>
+<li>&#x60F3;&#x4E0D;&#x60F3;&#x628A;&#x670D;&#x52A1;&#x5668;&#x505A;&#x5927;&#xFF0C;&#x6E38;&#x620F;&#x5185;&#x5BB9;&#x591A;&#x6837;&#x8BDD;&#xFF0C;&#x540C;&#x65F6;&#x73A9;&#x5BB6;&#x5728;&#x6E38;&#x73A9;&#x7684;&#x65F6;&#x5019;&#x4F53;&#x9A8C;&#x7684;&#x975E;&#x5E38;&#x8212;&#x9002;&#xFF1F;</li>
+</ol>
+<p>&#x5982;&#x679C;&#x662F;&#x7684;&#x8BF7;&#x7EE7;&#x7EED;&#x5F80;&#x4E0B;</p>
+<h2 id="&#x4E86;&#x89E3;">&#x4E86;&#x89E3;</h2>
+<p>&#x8DE8;&#x670D;&#x5927;&#x81F4;&#x5C31;&#x662F;&#x201C;<a href="https://baike.baidu.com/item/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/4905336?fr=aladdin" target="_blank">&#x5206;&#x5E03;&#x5F0F;&#x90E8;&#x7F72;</a>&#x201C;&#x6211;&#x7684;&#x4E16;&#x754C;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x670D;&#x52A1;&#x5668;&#x786C;&#x4EF6;&#x7684;&#x5229;&#x7528;&#x7387;&#x7684;&#x4E00;&#x79CD;&#x6280;&#x672F;&#x624B;&#x6BB5;&#x3002;</p>
+<p>&#x4E5F;&#x5C31;&#x662F;<a href="https://baike.baidu.com/item/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8/97996?fr=aladdin" target="_blank">&#x4EE3;&#x7406;&#x670D;&#x52A1;&#x5668;</a>&#xFF0C;&#x4ED6;&#x7684;&#x4F5C;&#x7528;&#x5C31;&#x662F;&#x4EE3;&#x7406;&#x73A9;&#x5BB6;&#x8FDB;&#x5165;&#x5230;&#x670D;&#x52A1;&#x5668;&#x5185;&#x90E8;&#x7684;&#x4E00;&#x4E2A;&#x4E2A;&#x5B50;&#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x4F5C;&#x4E3A;&#x5185;&#x7F51;&#x4E0E;&#x5916;&#x7F51;&#x4E4B;&#x95F4;&#x7684;&#x6865;&#x6881;&#x3002;</p>
+<h4 id="&#x4ECE;&#x524D;&#x5230;&#x540E;&#x3001;&#x4ECE;&#x540E;&#x5230;&#x524D;&#x3001;&#x8DE8;&#x670D;&#x7248;&#x672C;&#x6570;&#x91CF;&#x7E41;&#x591A;">&#x4ECE;&#x524D;&#x5230;&#x540E;&#x3001;&#x4ECE;&#x540E;&#x5230;&#x524D;&#x3001;&#x8DE8;&#x670D;&#x7248;&#x672C;&#x6570;&#x91CF;&#x7E41;&#x591A;</h4>
+<p><a href="https://www.spigotmc.org/wiki/bungeecord/" target="_blank">BungeeCord</a>&#x3001;<a href="https://www.velocitypowered.com/downloads" target="_blank">Velocity</a>&#x3001;<a href="http://ci.lilypadmc.org/" target="_blank">Lilypad</a>&#x3001;<a href="https://papermc.io/downloads#Waterfall" target="_blank">WaterFall</a>&#x3001;<a href="https://yivesmirror.com/downloads/hexacord" target="_blank">HexaCord</a>&#x3001;<a href="https://papermc.io/downloads#Travertine" target="_blank">Travertine</a>&#x3001;<a href="https://github.com/bangbang93/minecraft-proxy" target="_blank">Minecraft-Proxy</a></p>
+<h2 id="&#x672C;&#x6B21;&#x91C7;&#x7528;&#x7684;&#x662F;-bungeecord">&#x672C;&#x6B21;&#x91C7;&#x7528;&#x7684;&#x662F; BungeeCord</h2>
+<p>&#x9996;&#x5148;&#x6784;&#x601D;&#x4E00;&#x4E0B;&#x670D;&#x52A1;&#x5668;&#x7684;&#x6846;&#x67B6;&#x4EE5;&#x53CA;&#x914D;&#x7F6E;&#x6587;&#x4EF6;</p>
+<h2 id="&#x5B66;&#x4E60;-&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF08;configyml&#xFF09;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;">&#x5B66;&#x4E60; &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF08;<code>Config.yml</code>&#xFF09;&#x8BE6;&#x7EC6;&#x4ECB;&#x7ECD;</h2>
+<pre><code class="lang-yaml"><span class="hljs-attr">server_connect_timeout:</span> <span class="hljs-number">5000</span> 
+<span class="hljs-comment">#&#x670D;&#x52A1;&#x5668;&#x65E0;&#x54CD;&#x5E94;&#xFF0C;&#x591A;&#x5C11;&#x6BEB;&#x79D2;&#x540E;BungeeCord&#x4F1A;&#x5173;&#x95ED;&#x8FD9;&#x4E2A;&#x8FDE;&#x63A5;</span>
+<span class="hljs-attr">remote_ping_cache:</span> <span class="hljs-bullet">-1</span> 
+<span class="hljs-comment">#&#x8FDC;&#x7A0B;Ping&#x7F13;&#x5B58;</span>
+<span class="hljs-attr">forge_support:</span> <span class="hljs-literal">false</span> 
+<span class="hljs-comment">#ForgeMOD&#x652F;&#x6301;&#xFF0C;&#x5982;&#x679C;&#x6709;MOD&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x8BF7;&#x6253;&#x5F00;&#x8FD9;&#x4E2A;&#x9009;&#x9879;</span>
+<span class="hljs-attr">player_limit:</span> <span class="hljs-bullet">-1</span> 
+<span class="hljs-comment">#&#x73A9;&#x5BB6;&#x9650;&#x5236;&#xFF0C;&#x5B83;&#x5C06;&#x9650;&#x5236;&#x6574;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x7684;&#x73A9;&#x5BB6;&#x4EBA;&#x6570;&#xFF0C;-1&#x4E3A;&#x4E0D;&#x9650;</span>
+<span class="hljs-attr">permissions:</span> 
+<span class="hljs-comment"># BungeeCord&#x670D;&#x52A1;&#x5668;&#x6743;&#x9650;&#x7EC4; &#x4E5F;&#x5C31;&#x662F;&#x6307;&#x4EE4;&#x6743;&#x9650;</span>
+<span class="hljs-attr">  default:</span> 
+<span class="hljs-bullet">  -</span> bungeecord.command.server 
+  <span class="hljs-comment">#&#x670D;&#x52A1;&#x5668;</span>
+<span class="hljs-bullet">  -</span> bungeecord.command.list 
+  <span class="hljs-comment">#&#x663E;&#x793A;&#x5728;&#x7EBF;&#x73A9;&#x5BB6;</span>
+<span class="hljs-attr">  admin:</span> 
+<span class="hljs-bullet">  -</span> bungeecord.command.alert 
+  <span class="hljs-comment">#&#x5168;&#x670D;&#x516C;&#x544A;</span>
+<span class="hljs-bullet">  -</span> bungeecord.command.end 
+  <span class="hljs-comment">#&#x5173;&#x95ED;BungeeCord</span>
+<span class="hljs-bullet">  -</span> bungeecord.command.ip 
+  <span class="hljs-comment">#IP</span>
+<span class="hljs-bullet">  -</span> bungeecord.command.reload 
+  <span class="hljs-comment">#BungeeCord&#x91CD;&#x8F7D;&#x63D2;&#x4EF6;&#x6743;&#x9650;</span>
+<span class="hljs-attr">timeout:</span> <span class="hljs-number">30000</span> 
+<span class="hljs-comment">#&#x5F53;&#x73A9;&#x5BB6;&#x5728;BungeeCord&#x4E2D;&#x65E0;&#x54CD;&#x5E94;&#x591A;&#x957F;&#x65F6;&#x95F4;&#xFF0C;BungeeCord&#x624D;&#x4F1A;&#x5C06;&#x4ED6;&#x8E22;&#x51FA;&#x53BB;&#xFF0C;</span>
+<span class="hljs-attr">log_commands:</span> <span class="hljs-literal">false</span> 
+<span class="hljs-comment">#&#x8BB0;&#x5F55;&#x547D;&#x4EE4;</span>
+<span class="hljs-attr">network_compression_threshold:</span> <span class="hljs-number">256</span> 
+<span class="hljs-comment">#&#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x53EA;&#x6709;1.8&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x624D;&#x6709;&#xFF0C;&#x542B;&#x4E49;&#x662F;&#x7F51;&#x7EDC;&#x5C01;&#x5305;&#x538B;&#x7F29;&#x7684;&#x9600;&#x503C;&#x3002;&#x5F53;&#x5C01;&#x5305;&#x957F;&#x5EA6;&#x9AD8;&#x4E8E;&#x8FD9;&#x4E2A;&#x503C;&#x65F6;&#xFF0C;&#x5C01;&#x5305;&#x4F1A;&#x88AB;&#x538B;&#x7F29;&#x3002;(&#x9002;&#x5F53;&#x8C03;&#x6574;&#x53EF;&#x63D0;&#x9AD8;&#x6027;&#x80FD;)</span>
+<span class="hljs-attr">online_mode:</span> <span class="hljs-literal">true</span> 
+<span class="hljs-comment">#&#x6B63;&#x7248;&#x9A8C;&#x8BC1;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x76D7;&#x7248;&#x670D;&#x8BF7;&#x5173;&#x95ED;</span>
+<span class="hljs-attr">disabled_commands:</span> 
+<span class="hljs-comment">#&#x670D;&#x52A1;&#x5668;&#x7981;&#x6B62;&#x7684;&#x6307;&#x4EE4;</span>
+<span class="hljs-bullet">-</span> disabledcommandhere
+<span class="hljs-attr">servers:</span> 
+<span class="hljs-comment">#&#x5B50;&#x670D;&#x52A1;&#x5668;&#x5217;&#x8868;</span>
+<span class="hljs-attr">  lobby:</span> 
+  <span class="hljs-comment">#&#x670D;&#x52A1;&#x5668;&#x540D;&#x79F0;</span>
+<span class="hljs-attr">    motd:</span> <span class="hljs-string">&apos;&amp;1Just another BungeeCord - Forced Host&apos;</span> 
+    <span class="hljs-comment">#&#x670D;&#x52A1;&#x5668;MOTD &#x652F;&#x6301;&#x989C;&#x8272;&#x5B57;&#x7B26;</span>
+<span class="hljs-attr">    address:</span> localhost:<span class="hljs-number">25565</span> 
+    <span class="hljs-comment">#&#x670D;&#x52A1;&#x5668;&#x7684;&#x5185;&#x7F51;ip&#x5730;&#x5740;&#x4EE5;&#x53CA;&#x7AEF;&#x53E3;</span>
+<span class="hljs-attr">    restricted:</span> <span class="hljs-literal">false</span> 
+<span class="hljs-attr">listeners:</span> 
+<span class="hljs-attr">- query_port:</span> <span class="hljs-number">25577</span> 
+<span class="hljs-comment">#UDP&#x67E5;&#x8BE2;&#x7AEF;&#x53E3;</span>
+<span class="hljs-attr">  motd:</span> <span class="hljs-string">&apos;&amp;1Another Bungee server&apos;</span> 
+  <span class="hljs-comment">#&#x5BA2;&#x6237;&#x7AEF;&#x5217;&#x8868;&#x770B;&#x5230;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4ECB;&#x7ECD;</span>
+<span class="hljs-attr">  tab_list:</span> GLOBAL_PING 
+<span class="hljs-attr">  query_enabled:</span> <span class="hljs-literal">false</span> 
+  <span class="hljs-comment">#&#x662F;&#x5426;&#x5F00;&#x542F;UDP&#x76D1;&#x542C;&#x67E5;&#x8BE2;</span>
+<span class="hljs-attr">  proxy_protocol:</span> <span class="hljs-literal">false</span> 
+  <span class="hljs-comment">#&#x4EE3;&#x7406;&#x534F;&#x8BAE;</span>
+<span class="hljs-attr">  forced_hosts:</span> 
+  <span class="hljs-comment">#&#x53EF;&#x4EE5;&#x7528;&#x57DF;&#x540D;&#x7ED1;&#x5B9A;&#x901A;&#x8FC7;&#x57DF;&#x540D;&#x76F4;&#x63A5;&#x8FDB;&#x5165;&#x6307;&#x5B9A;&#x670D;&#x52A1;&#x5668;</span>
+    pvp.md<span class="hljs-bullet">-5.</span>net: pvp
+<span class="hljs-attr">  ping_passthrough:</span> <span class="hljs-literal">false</span> 
+  <span class="hljs-comment">#&#x662F;&#x5426;&#x7A7F;&#x900F;BungeeCord&#x76F4;&#x63A5;&#x83B7;&#x53D6;&#x540E;&#x7AEF;&#x670D;&#x52A1;&#x5668;ping&#x4FE1;&#x606F;&#xFF0C;&#x5982;motd&#x7B49;&#x3002;</span>
+<span class="hljs-attr">  priorities:</span> 
+  <span class="hljs-comment">#&#x4F18;&#x5148;&#x670D;&#x52A1;&#x5668;&#x5217;&#x8868;&#xFF0C;&#x5C31;&#x662F;&#x767B;&#x5F55;&#x670D;&#x52A1;&#x5668;&#x6216;&#x8005;&#x5927;&#x5385;&#x670D;&#x52A1;&#x5668;</span>
+<span class="hljs-bullet">  -</span> lobby
+<span class="hljs-attr">  bind_local_address:</span> <span class="hljs-literal">true</span> 
+  <span class="hljs-comment">#&#x662F;&#x5426;&#x628A;BungeeCord&#x7AEF;&#x548C;&#x4F60;&#x670D;&#x52A1;&#x5668;&#x901A;&#x8BAF;&#x7684;IP&#x5730;&#x5740;&#x8BBE;&#x7F6E;&#x4E3A;BungeeCord&#x7AEF;&#x76D1;&#x542C;&#x7684;&#x5730;&#x5740;</span>
+<span class="hljs-attr">  host:</span> <span class="hljs-number">0.0</span><span class="hljs-number">.0</span><span class="hljs-number">.0</span>:<span class="hljs-number">25577</span> 
+  <span class="hljs-comment">#BungeeCord&#x7684;IP&#x5730;&#x5740;&#xFF0C;&#x8BBF;&#x95EE;&#x5B83;&#x5C31;&#x80FD;&#x8FDB;&#x5165;BC&#x670D;&#x52A1;&#x5668;&#x8FDB;&#x5165;&#x5176;&#x4ED6;&#x670D;&#x52A1;&#x5668;&#x3002;</span>
+<span class="hljs-attr">  max_players:</span> <span class="hljs-number">1</span> 
+  <span class="hljs-comment">#&#x670D;&#x52A1;&#x5668;&#x663E;&#x793A;&#x7684;&#x6700;&#x5927;&#x4EBA;&#x6570; &#x4E0D;&#x662F;&#x771F;&#x5B9E;&#x4EBA;&#x6570;</span>
+<span class="hljs-attr">  tab_size:</span> <span class="hljs-number">60</span> 
+  <span class="hljs-comment">#&#x6309;Tab&#x952E;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x663E;&#x793A;&#x7684;&#x73A9;&#x5BB6;&#x5217;&#x8868;&#x603B;&#x5BB9;&#x91CF;&#x3002;60&#x7684;&#x65F6;&#x5019;&#x662F;&#x4E09;&#x5217;&#xFF0C;80&#x7684;&#x65F6;&#x5019;&#x662F;&#x56DB;&#x5217;</span>
+<span class="hljs-attr">  force_default_server:</span> <span class="hljs-literal">false</span> 
+  <span class="hljs-comment">#&#x5F3A;&#x5236;&#x8DF3;&#x8F6C;&#x5230;&#x9ED8;&#x8BA4;&#x670D;&#x52A1;&#x5668;</span>
+<span class="hljs-attr">ip_forward:</span> <span class="hljs-literal">false</span> 
+<span class="hljs-comment">#&#x662F;&#x5426;&#x542F;&#x7528;&#x771F;&#x5B9E;IP&#x4E0E;UUID&#x8F6C;&#x53D1;&#x529F;&#x80FD;</span>
+<span class="hljs-attr">remote_ping_timeout:</span> <span class="hljs-number">5000</span> 
+<span class="hljs-comment">#&#x8FDC;&#x7AEF;&#x670D;&#x52A1;&#x5668;&#x65E0;&#x54CD;&#x5E94;&#xFF0C;&#x591A;&#x5C11;&#x6BEB;&#x79D2;&#x540E;BungeeCord&#x4F1A;&#x5173;&#x95ED;&#x8FD9;&#x4E2A;&#x8FDE;&#x63A5;</span>
+<span class="hljs-attr">prevent_proxy_connections:</span> <span class="hljs-literal">false</span> 
+<span class="hljs-comment">#&#x9632;&#x6B62;&#x8FDC;&#x7AEF;&#x4F7F;&#x7528;&#x4EE3;&#x7406;&#x767B;&#x5165;</span>
+<span class="hljs-attr">groups:</span> 
+<span class="hljs-comment">#&#x73A9;&#x5BB6;&#x7EC4;&#x6743;&#x9650;</span>
+<span class="hljs-attr">  md_5:</span>
+<span class="hljs-bullet">  -</span> admin
+<span class="hljs-attr">connection_throttle:</span> <span class="hljs-number">4000</span> 
+<span class="hljs-comment">#&#x8FDE;&#x63A5;&#x95F4;&#x9694;&#xFF0C;&#x5F53;&#x73A9;&#x5BB6;&#x9000;&#x51FA;&#x540E;&#x591A;&#x5C31;&#x80FD;&#x52A0;&#x5165;</span>
+<span class="hljs-attr">stats:</span> b2bd44d7-c14e<span class="hljs-bullet">-4</span>a4c<span class="hljs-bullet">-8</span>s67-e5ecdf22d160 
+<span class="hljs-comment">#&#x673A;&#x5668;&#x7801;&#xFF0C;&#x8BF7;&#x4E0D;&#x8981;&#x4FEE;&#x6539;&#xFF0C;&#x670D;&#x52A1;&#x7AEF;&#x4F1A;&#x81EA;&#x5DF1;&#x751F;&#x6210;&#x7684;</span>
+<span class="hljs-attr">log_pings:</span> <span class="hljs-literal">true</span> 
+<span class="hljs-comment"># &#x8BB0;&#x5F55;ping&#x503C;</span>
+</code></pre>
+<h2 id="bungeecord-&#x642D;&#x5EFA;">BungeeCord &#x642D;&#x5EFA;</h2>
+<p>&#x6211;&#x4EEC;&#x5047;&#x8BBE;&#x4EE5;&#x4E09;&#x4E2A;&#x670D;&#x4E3A;&#x51C6;&#xFF1A;&#x767B;&#x5165;&#x670D;&#x3001;&#x751F;&#x5B58;&#x670D;&#x548C;&#x521B;&#x9020;&#x670D;&#x3002;</p>
+<p>&#x73A9;&#x5BB6;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x6307;&#x4EE4;&#x3001;&#x83DC;&#x5355;&#x548C;&#x4F20;&#x9001;&#x95E8;&#x5230;&#x8FBE;&#x5404;&#x5B50;&#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x540C;&#x6B65;&#x73A9;&#x5BB6;&#x7684;&#x80CC;&#x5305;&#x4EE5;&#x53CA;&#x72B6;&#x6001;&#x3001;&#x804A;&#x5929;&#x4EE5;&#x53CA;&#x516C;&#x544A;&#x3002;</p>
+<p><img src="images/bungee/BungeeCordstructure.png" alt="Structure"></p>
+<h4 id="&#x5728;-bungeecord&#x76EE;&#x5F55;&#x4E0B;-configyml-&#x914D;&#x7F6E;-servers&#x548C;host">&#x5728; BungeeCord&#x76EE;&#x5F55;&#x4E0B; <code>config.yml</code> &#x914D;&#x7F6E; <code>servers:</code>&#x548C;<code>host:</code></h4>
+<pre><code class="lang-yaml"><span class="hljs-attr">host:</span> <span class="hljs-number">0.0</span><span class="hljs-number">.0</span><span class="hljs-number">.0</span>:<span class="hljs-number">61390</span>
+<span class="hljs-comment">#&#x5B9A;&#x4E49;&#x4E3A; 0.0.0.0 &#x6307;&#x63A5;&#x53D7;&#x4EFB;&#x610F;&#x5730;&#x5740;&#x8FDE;&#x63A5;</span>
+<span class="hljs-comment">#&#x7AEF;&#x53E3;&#x9700;&#x8981;&#x8BBE;&#x7F6E;&#x4E3A;&#x670D;&#x52A1;&#x5546;&#x63D0;&#x4F9B;&#x7684;&#x5BF9;&#x5916;&#x5F00;&#x653E;&#x7684;&#x7AEF;&#x53E3;&#xFF0C;&#x72EC;&#x7ACB;IP&#x5219;&#x81EA;&#x9009;&#x3002;</span>
+<span class="hljs-attr">servers:</span>
+  &#x670D;&#x52A1;&#x5668;&#x540D;&#x79F0;(&#x53EF;&#x4EE5;&#x4E2D;&#x6587;&#x6700;&#x597D;&#x82F1;&#x6587;):
+<span class="hljs-attr">    motd:</span> <span class="hljs-string">&apos;&#x5B50;&#x7AEF;&#x6807;&#x8BED;&#xFF08;&#x53EF;&#x4EE5;&#x4FDD;&#x7559;&#x4E0D;&#x53D8;&#xFF09;&apos;</span>
+<span class="hljs-attr">    address:</span> &#x5B50;&#x7AEF;&#x5730;&#x5740;:&#x5B50;&#x7AEF;&#x7AEF;&#x53E3;
+<span class="hljs-attr">    restricted:</span> <span class="hljs-literal">false</span>
+</code></pre>
+<p>&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">server:</span>
+  &#x767B;&#x5165;&#x670D;:
+<span class="hljs-attr">    motd:</span> <span class="hljs-string">&apos;&amp;1Just another BungeeCord - Forced Host&apos;</span>
+<span class="hljs-attr">    address:</span> localhost:<span class="hljs-number">21000</span>
+<span class="hljs-attr">    restricted:</span> <span class="hljs-literal">false</span>
+  &#x751F;&#x5B58;&#x670D;:
+<span class="hljs-attr">    motd:</span> <span class="hljs-string">&apos;&amp;1Just another BungeeCord - Forced Host&apos;</span>
+<span class="hljs-attr">    address:</span> localhost:<span class="hljs-number">22000</span>
+<span class="hljs-attr">    restricted:</span> <span class="hljs-literal">false</span>
+  &#x521B;&#x9020;&#x670D;:
+<span class="hljs-attr">    motd:</span> <span class="hljs-string">&apos;&amp;1Just another BungeeCord - Forced Host&apos;</span>
+<span class="hljs-attr">    address:</span> localhost:<span class="hljs-number">23000</span>
+<span class="hljs-attr">    restricted:</span> <span class="hljs-literal">false</span>
+</code></pre>
+<h4 id="&#x670D;&#x52A1;&#x5668;&#x76EE;&#x5F55;&#x6846;&#x67B6;">&#x670D;&#x52A1;&#x5668;&#x76EE;&#x5F55;&#x6846;&#x67B6;</h4>
+<p><img src="images/bungee/ServerList.png" alt="ServerList"></p>
+<p>&#x5BF9;&#x5E94;&#x7684;&#x4FEE;&#x6539;&#x6BCF;&#x4E00;&#x4E2A;&#x5B50;&#x670D;&#x52A1;&#x7AEF;&#x7684;<code>server.properties</code></p>
+<pre><code>&#x767B;&#x5165;&#x670D;
+server-ip=127.0.0.1
+server-port=21000
+
+&#x751F;&#x5B58;&#x670D;
+server-ip=127.0.0.1
+server-port=22000
+
+&#x521B;&#x9020;&#x670D;
+server-ip=127.0.0.1
+server-port=23000
+</code></pre><p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x8BBE;&#x7F6E;<code>server-ip=127.0.0.1</code> &#x53EF;&#x4EE5;&#x9632;&#x6B62;&#x73A9;&#x5BB6;&#x4E0D;&#x7ECF;&#x8FC7;&#x767B;&#x9646;&#x670D;&#x76F4;&#x63A5;&#x8BBF;&#x95EE;&#x5230;&#x5B50;&#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x52A1;&#x5FC5;&#x8BBE;&#x7F6E;&#x5230;&#x5185;&#x7F51;&#x5730;&#x5740;&#xFF01;</strong></p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;&#x5B50;&#x670D;&#x7AEF;&#x53E3;<code>server-port=</code> &#x4E0D;&#x9700;&#x8981;&#x8BBE;&#x7F6E;&#x4E3A;&#x670D;&#x52A1;&#x5546;&#x63D0;&#x4F9B;&#x7684;&#x5BF9;&#x5916;&#x5F00;&#x653E;&#x7684;&#x7AEF;&#x53E3;&#xFF01;</strong></p>
+<p>&#x5982;&#x679C;&#x4F7F;&#x7528; Spigot &#x7C7B;&#x578B;&#x7684;&#x7AEF;&#xFF0C;&#x4E00;&#x822C;&#x76EE;&#x5F55;&#x4E0B;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;<code>spigot.yml</code>&#x6587;&#x4EF6;&#xFF0C;&#x5728;&#x5176;&#x4E2D;&#x9700;&#x8981;&#x5C06;<code>bungeecord</code>&#x9879;&#x4FEE;&#x6539;&#x4E3A;<code>true</code>&#x6765;&#x652F;&#x6301;&#x8DE8;&#x670D;&#x7684;&#x534F;&#x8BAE;&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">bungeecord:</span> <span class="hljs-literal">true</span>
+</code></pre>
+<p>&#x5982;&#x679C;&#x4F7F;&#x7528; Paper &#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x4E00;&#x822C;&#x76EE;&#x5F55;&#x4E0B;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;<code>paper.yml</code>&#x6587;&#x4EF6;&#xFF0C;&#x82E5;&#x4F60;&#x642D;&#x5EFA;&#x7684;&#x662F;&#x975E;&#x6B63;&#x7248;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x5C06;&#x5176;&#x4E2D;&#x7684;<code>bungee-online-mode</code>&#x9879;&#x4FEE;&#x6539;&#x4E3A;<code>false</code>&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">bungee-online-mode:</span> <span class="hljs-literal">false</span>
+</code></pre>
+<p>&#x5B89;&#x5168;&#x8D77;&#x89C1;&#xFF0C;&#x5EFA;&#x8BAE;&#x5C06; BungeeCord &#x7684;<code>config.yml</code>&#x4E2D;&#x7684;<code>groups</code>&#x9879;&#x8FDB;&#x884C;&#x5982;&#x4E0B;&#x4FEE;&#x6539;&#xFF1A;</p>
+<pre><code class="lang-yaml"><span class="hljs-attr">groups:</span> {}
+</code></pre>
+<p>&#x5982;&#x6B64;&#x4E00;&#x6765;&#xFF0C;&#x6211;&#x4EEC;&#x4FBF;&#x6210;&#x529F;&#x5730;&#x642D;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x6709;&#x4E09;&#x4E2A;&#x5B50;&#x7AEF;&#x7684;Bungee&#x7FA4;&#x7EC4;&#x670D;&#x52A1;&#x5668;&#x3002;</p>
+<p><img src="images/bungee/CmdCap.png" alt="CmdCap"></p>
+<p>&#x5728;&#x540E;&#x671F;&#x4E5F;&#x53EF;&#x4EE5;&#x5B89;&#x88C5;BungeeCord&#x5B89;&#x88C5;&#x76F8;&#x5173;&#x7684;<a href="https://www.spigotmc.org/resources/categories/bungee-proxy.3/" target="_blank">&#x63D2;&#x4EF6;</a>&#x6765;&#x52A0;&#x5F3A;Bungee&#x7684;&#x529F;&#x80FD;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Optimization.html" class="navigation navigation-prev " aria-label="Previous page: 第六节 配置文件优化">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Maintain.html" class="navigation navigation-next " aria-label="Next page: 第八节 系统运行维护">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第七节 什么是跨服？","level":"1.4.7","depth":2,"next":{"title":"第八节 系统运行维护","level":"1.4.8","depth":2,"path":"Maintain.md","ref":"Maintain.md","articles":[]},"previous":{"title":"第六节 配置文件优化","level":"1.4.6","depth":2,"path":"Optimization.md","ref":"Optimization.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-plus","splitter","github","expandable-chapters","code","ga","back-to-top-button"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Mhy278/MinecraftServerHostGuide"},"splitter":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"ga":{"configuration":"auto","token":"UA-161510371-1"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的世界服务器搭建指南","language":"zh-hans","gitbook":"*","description":"Minecraft 我的世界开服零基础教学"},"file":{"path":"Bungee.md","mtime":"2022-11-30T10:09:10.554Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T10:09:58.494Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

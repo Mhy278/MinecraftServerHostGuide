@@ -1,0 +1,834 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第五节 什么是报错？ · 我的世界服务器搭建指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Optimization.html" />
+    
+    
+    <link rel="prev" href="Sql.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    开始
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="Preparation.html">
+            
+                <a href="Preparation.html">
+            
+                    
+                    准备工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一单元 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="First.html">
+            
+                <a href="First.html">
+            
+                    
+                    第一节 第一次的开服
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Structure.html">
+            
+                <a href="Structure.html">
+            
+                    
+                    第二节 服务端的结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Plugin.html">
+            
+                <a href="Plugin.html">
+            
+                    
+                    第三节 什么是插件？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Mod.html">
+            
+                <a href="Mod.html">
+            
+                    
+                    第四节 什么是模组？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="World.html">
+            
+                <a href="World.html">
+            
+                    
+                    第五节 什么是世界？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Log.html">
+            
+                <a href="Log.html">
+            
+                    
+                    第六节 什么是日志？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二单元 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="RunScript.html">
+            
+                <a href="RunScript.html">
+            
+                    
+                    第一节 认识启动脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="Yaml.html">
+            
+                <a href="Yaml.html">
+            
+                    
+                    第二节 认识YAML语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="Permission.html">
+            
+                <a href="Permission.html">
+            
+                    
+                    第三节 什么是权限？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Sql.html">
+            
+                <a href="Sql.html">
+            
+                    
+                    第四节 数据库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.5" data-path="WhatsError.html">
+            
+                <a href="WhatsError.html">
+            
+                    
+                    第五节 什么是报错？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="Optimization.html">
+            
+                <a href="Optimization.html">
+            
+                    
+                    第六节 配置文件优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="Bungee.html">
+            
+                <a href="Bungee.html">
+            
+                    
+                    第七节 什么是跨服？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="Maintain.html">
+            
+                <a href="Maintain.html">
+            
+                    
+                    第八节 系统运行维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三单元 扩展
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="Redis.html">
+            
+                <a href="Redis.html">
+            
+                    
+                    第一节 Redis 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="MongoDB.html">
+            
+                <a href="MongoDB.html">
+            
+                    
+                    第二节 MongoDB 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="Texture.html">
+            
+                <a href="Texture.html">
+            
+                    
+                    第三节 认识资源包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="Skin.html">
+            
+                <a href="Skin.html">
+            
+                    
+                    第四节 什么是皮肤？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="Model.html">
+            
+                <a href="Model.html">
+            
+                    
+                    第五节 什么是3D建模？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四单元 开发
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="Java.html">
+            
+                <a href="Java.html">
+            
+                    
+                    第一节 Java 编程基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="Bukkit.html">
+            
+                <a href="Bukkit.html">
+            
+                    
+                    第二节 Bukkit插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="Sponge.html">
+            
+                <a href="Sponge.html">
+            
+                    
+                    第三节 Sponge插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="Forge.html">
+            
+                <a href="Forge.html">
+            
+                    
+                    第四节 Forge 模组开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    附录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="SearchEngine.html">
+            
+                <a href="SearchEngine.html">
+            
+                    
+                    认识搜索引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                <a href="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                    
+                    提问的智慧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第五节 什么是报错？</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;&#x56DB;&#x8282;-&#x4EC0;&#x4E48;&#x662F;&#x62A5;&#x9519;&#xFF1F;">&#x7B2C;&#x56DB;&#x8282; &#x4EC0;&#x4E48;&#x662F;&#x62A5;&#x9519;&#xFF1F;</h1>
+<p><strong>&#x62A5;&#x9519;</strong>&#x662F;&#x670D;&#x52A1;&#x5668;&#x8FD0;&#x884C;&#x4E2D;&#x6240;&#x9047;&#x5230;&#x7684;&#x5F02;&#x5E38;&#x60C5;&#x51B5;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x6765;&#x6E90;&#x4E8E;<strong>&#x670D;&#x52A1;&#x7AEF;&#x672C;&#x8EAB;</strong>&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x6765;&#x81EA;<strong>&#x63D2;&#x4EF6;</strong>&#x548C;<strong>&#x6A21;&#x7EC4;</strong>&#x7B49;&#x7EC4;&#x4EF6;&#xFF0C;&#x53EF;&#x80FD;&#x662F;<strong>&#x4F60;&#x7684;&#x9505;</strong>&#x4E5F;&#x53EF;&#x80FD;&#x662F;<strong>&#x5F00;&#x53D1;&#x8005;&#x7684;&#x9505;</strong>&#xFF0C;&#x8FD9;&#x4E24;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#x9762;&#x4F1A;&#x5206;&#x522B;&#x8003;&#x8651;&#x3002;</p>
+<ul>
+<li><strong>&#x63D2;&#x4EF6;&#x62A5;&#x9519;</strong>&#x5F80;&#x5F80;&#x5BFC;&#x81F4;&#x8BE5;&#x63D2;&#x4EF6;&#x548C;&#x5B83;&#x7684;&#x9644;&#x5C5E;&#x63D2;&#x4EF6;<strong>&#x65E0;&#x6CD5;&#x6B63;&#x5E38;&#x8FD0;&#x884C;</strong>&#xFF0C;&#x90E8;&#x5206;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;<strong>&#x73A9;&#x5BB6;&#x7684;&#x4FE1;&#x606F;&#x4F1A;&#x6D41;&#x5931;</strong>&#xFF0C;&#x73A9;&#x5BB6;&#x4E5F;&#x53EF;&#x80FD;&#x901A;&#x8FC7;&#x8FD9;&#x4E9B;&#x9519;&#x8BEF;&#x6765;<strong>&#x7834;&#x574F;&#x6E38;&#x620F;&#x5E73;&#x8861;</strong>,&#x6781;&#x5C11;&#x90E8;&#x5206;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;<strong>&#x670D;&#x52A1;&#x5668;&#x4F1A;&#x5D29;&#x6E83;</strong>&#x3002;</li>
+<li><strong>&#x6A21;&#x7EC4;&#x62A5;&#x9519;</strong>&#x662F;&#x66F4;&#x4E3A;&#x81F4;&#x547D;&#x7684;&#xFF0C;&#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;&#x4F1A;&#x8BA9;<strong>&#x670D;&#x52A1;&#x5668;&#x76F4;&#x63A5;&#x5D29;&#x6E83;</strong>&#xFF0C;&#x8FD9;&#x53EF;&#x80FD;&#x4F1A;&#x5BFC;&#x81F4;<strong>&#x73A9;&#x5BB6;&#x6570;&#x636E;&#x548C;&#x5730;&#x56FE;&#x6570;&#x636E;&#x6D41;&#x5931;&#x635F;&#x574F;</strong>&#x3002;(&#x67D0;&#x4F4D;&#x4E0D;&#x77E5;&#x540D;OP&#x4E5F;&#x6DF1;&#x53D7;&#x5176;&#x5BB3;...<br>&#x53EF;&#x5E78;&#x7684;&#x662F;&#x4E00;&#x4E9B;&#x6A21;&#x7EC4;&#x7684;&#x62A5;&#x9519;&#x51FA;&#x73B0;&#x5728;&#x670D;&#x52A1;&#x5668;<strong>&#x542F;&#x52A8;&#x5B8C;&#x6210;&#x4E4B;&#x524D;</strong>&#xFF0C;&#x4E0D;&#x4F1A;&#x7559;&#x4E0B;&#x9690;&#x60A3;&#x3002;</li>
+</ul>
+<p><strong>&#x5F88;&#x591A;&#x670D;&#x4E3B;&#x5728;&#x9762;&#x5BF9;&#x4E0D;&#x5F71;&#x54CD;&#x6B63;&#x5E38;&#x4F53;&#x9A8C;&#x7684;&#x62A5;&#x9519;&#x65F6;&#x91C7;&#x53D6;&#x653E;&#x4EFB;&#x7684;&#x6001;&#x5EA6;&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x65F6;&#x5019;&#x786E;&#x5B9E;&#x76F8;&#x5B89;&#x65E0;&#x4E8B;&#xFF0C;&#x4F46;&#x89E3;&#x51B3;&#x9519;&#x8BEF;&#x5E94;&#x8BE5;&#x4F5C;&#x4E3A;&#x6700;&#x4F18;&#x5148;&#x7684;&#x7B56;&#x7565;</strong></p>
+<p>&#x5F53;&#x670D;&#x52A1;&#x5668;&#x8FD0;&#x884C;&#x51FA;&#x9519;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4F1A;&#x5728;&#x540E;&#x53F0;&#x6253;&#x5370;&#x51FA;&#x5982;&#x4E0B;&#x7C7B;&#x4F3C;&#x7684;<code>ERROR&#x4FE1;&#x606F;</code>&#x3002;&#x5B83;&#x7684;&#x6807;&#x5FD7;&#x662F;&#x4FE1;&#x606F;&#x524D;&#x663E;&#x773C;&#x7684; <strong>ERROR</strong>&#x3002;</p>
+<p>&#x8FD9;&#x6BB5;&#x62A5;&#x9519;&#x6765;&#x81EA;&#x88C5;&#x9519;&#x7248;&#x672C;&#x7684;Citizens&#x63D2;&#x4EF6;</p>
+<pre><code>[17:36:48 ERROR]: [Citizens] Missing preferred location bundle.
+[17:36:48 ERROR]: Error occurred while enabling Citizens v2.0.16-SNAPSHOT (build 1267) (Is it up to date?)
+</code></pre><p>&#x8FD9;&#x6BB5;&#x62A5;&#x9519;&#x6765;&#x81EA;&#x6B8B;&#x5FCD;&#x602A;&#x7269;&#x6A21;&#x7EC4;</p>
+<pre><code>[Server thread/ERROR]: Problem editing navigator: java.lang.NoSuchFieldException: navigator
+</code></pre><p>&#x8FD9;&#x662F;Protocol&#x63D2;&#x4EF6;&#x7684;&#x7248;&#x672C;&#x8B66;&#x544A;&#x3002;WARN&#x7EA7;&#x522B;&#x7684;&#x8B66;&#x544A;&#x4FE1;&#x606F;&#x6709;&#x65F6;&#x5019;&#x4E5F;&#x9700;&#x8981;&#x670D;&#x4E3B;&#x7559;&#x610F;&#x3002;</p>
+<pre><code>[14:11:28] [Server thread/WARN]: [ProtocolLib]
+Version (MC: 1.12.2) has not yet been tested! Proceed with caution.
+</code></pre><p> &#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;,ERROR &#x7EA7;&#x522B;&#x7684;&#x62A5;&#x9519;&#x6BD4; WARN &#x66F4;&#x4E25;&#x91CD;&#x3002;&#x4F46;&#x662F;&#x7559; &#x5FC3; WARN &#x8B66;&#x544A;&#x7684;&#x597D;&#x4E60;&#x60EF;&#x53EF;&#x4EE5;&#x8BA9;&#x6211;&#x4EEC;&#x6CE8;&#x610F;&#x5230;&#x6F5C;&#x5728;&#x7684;&#x95EE;&#x9898;&#x3002;</p>
+<p> Error&#x65E5;&#x5FD7;&#x4F1A;&#x62A5;&#x544A;&#x670D;&#x52A1;&#x5668;&#x8FD0;&#x884C;&#x8FC7;&#x7A0B;&#x4E2D;&#x7684;&#x5F02;&#x5E38;&#x60C5;&#x51B5;&#xFF0C;&#x8FD9;&#x4E9B;&#x60C5;&#x51B5;&#x6709;&#x53EF;&#x80FD;<strong>&#x7834;&#x574F;&#x670D;&#x52A1;&#x5668;&#x7684;&#x6B63;&#x5E38;&#x8FD0;&#x884C;</strong>&#xFF0C;&#x5BFC;&#x81F4;<strong>&#x73A9;&#x5BB6;&#x4F53;&#x9A8C;&#x6076;&#x5316;&#xFF0C;&#x4FE1;&#x606F;&#x635F;&#x574F;&#xFF0C;&#x751A;&#x81F3;&#x670D;&#x52A1;&#x5668;&#x5D29;&#x6E83;</strong>&#x3002;</p>
+<hr>
+<h2 id="&#x5982;&#x4F55;&#x81EA;&#x5DF1;&#x89E3;&#x51B3;&#x62A5;&#x9519;&#xFF1F;">&#x5982;&#x4F55;&#x81EA;&#x5DF1;&#x89E3;&#x51B3;&#x62A5;&#x9519;&#xFF1F;</h2>
+<p>&#x5F88;&#x591A;&#x65F6;&#x5019;&#xFF0C;&#x4E00;&#x4E9B;&#x5E38;&#x89C1;&#x7684;&#x62A5;&#x9519;&#x53EF;&#x4EE5;&#x7528;&#x5E38;&#x8BC6;&#x3001;&#x7ECF;&#x9A8C;&#x4EE5;&#x53CA;&#x4E00;&#x5B9A;&#x7684;&#x82F1;&#x8BED;&#x80FD;&#x529B;(&#x6216;&#x501F;&#x52A9;&#x7FFB;&#x8BD1;&#x8F6F;&#x4EF6;)&#x6765;&#x89E3;&#x51B3;&#x3002;</p>
+<h3 id="&#x4E00;-&#x627E;&#x51FA;&#x95EE;&#x9898;&#x5173;&#x952E;&#x4FE1;&#x606F;">&#x4E00;. &#x627E;&#x51FA;&#x95EE;&#x9898;&#x5173;&#x952E;&#x4FE1;&#x606F;</h3>
+<p>&#x62A5;&#x9519;&#x4F1A;&#x4EA7;&#x751F;&#x6D77;&#x91CF;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x7136;&#x800C;&#x7EDD;&#x5927;&#x591A;&#x6570;&#x5185;&#x5BB9;&#x90FD;&#x65E0;&#x5173;&#x7D27;&#x8981;&#xFF0C;&#x53BB;&#x4F2A;&#x5B58;&#x771F;&#x624D;&#x80FD;&#x5BF9;&#x75C7;&#x4E0B;&#x836F;&#x3002;&#x8FD9;&#x91CC;&#x518D;&#x6B21;&#x7528;&#x4E0A;&#x6587;&#x7684; Cizitens &#x7684;&#x7248;&#x672C;&#x62A5;&#x9519;&#x4E3A;&#x4F8B;&#xFF0C;&#x4F46;&#x4F1A;&#x7ED9;&#x51FA;&#x5B8C;&#x6574;&#x7248;,&#x611F;&#x5174;&#x8DA3;&#x7684;&#x670D;&#x4E3B;&#x53EF;&#x4EE5;&#x501F;&#x6B64;&#x7814;&#x7A76;&#x62A5;&#x9519;&#x7684;&#x7ED3;&#x6784;&#xFF0C;&#x4F46;&#x8FD9;&#x5E76;&#x4E0D;&#x662F;&#x5FC5;&#x987B;&#x7684;&#x3002;</p>
+<pre><code>[17:36:48 ERROR]: [Citizens] Missing preferred location bundle.
+[17:36:48 ERROR]: Error occurred while enabling Citizens v2.0.16-SNAPSHOT (build 1267) (Is it up to date?)
+java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_8_R3/CraftServer
+    at net.citizensnpcs.util.Util.getMinecraftRevision(Util.java:78) ~[?:?]
+    at net.citizensnpcs.Citizens.onEnable(Citizens.java:262) ~[?:?]
+    at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:337) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:402) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:374) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:323) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.craftbukkit.v1_12_R1.CraftServer.reload(CraftServer.java:745) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.Bukkit.reload(Bukkit.java:525) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:141) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchCommand(CraftServer.java:641) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.craftbukkit.v1_12_R1.CraftServer.dispatchServerCommand(CraftServer.java:627) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at net.minecraft.server.v1_12_R1.DedicatedServer.aP(DedicatedServer.java:444) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:407) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:679) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:577) [spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at java.lang.Thread.run(Unknown Source) [?:1.8.0_231]Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.v1_8_R3.CraftServer
+    at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:91) ~[spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+    at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_231]
+    at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_231]
+    ... 18 more
+</code></pre><p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x62A5;&#x9519;&#x7684;&#x6700;&#x540E;&#x51FA;&#x73B0;&#x4E86;&#x4E00;&#x7CFB;&#x5217;&#x7531;at&#x5F15;&#x5BFC;&#x7684;&#x8BED;&#x53E5;&#x3002;&#x4ED6;&#x4EEC;&#x7684;&#x4F5C;&#x7528;&#x662F;<strong>&#x5B9A;&#x4F4D;&#x51FA;&#x9519;&#x7684;&#x4EE3;&#x7801;&#x4F4D;&#x7F6E;</strong>&#x3002;<br><strong>&#x5F53; at &#x8BED;&#x53E5;&#x7ED3;&#x675F;&#xFF0C;&#x4E0B;&#x9762;&#x4ECD;&#x7136;&#x6709;&#x5176;&#x4ED6;&#x7684; Error &#x62A5;&#x9519;&#x65F6;&#xFF0C;&#x8BF4;&#x660E;&#x51FA;&#x73B0;&#x4E86;&#x4E24;&#x4E2A;&#x4EE5;&#x4E0A;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x62A5;&#x9519;&#xFF0C;&#x8BF7;&#x4EE5;&#x6700;&#x540E;&#x4E00;&#x4E2A; at &#x4E3A;&#x5206;&#x754C;&#x7EBF;&#xFF0C;&#x628A;&#x4ED6;&#x4EEC;&#x4F5C;&#x4E3A;&#x4E24;&#x4E2A;&#x72EC;&#x7ACB;&#x7684;&#x62A5;&#x9519;&#x5206;&#x6790;&#xFF0C;&#x4EE5;&#x6B64;&#x7C7B;&#x63A8;</strong>  </p>
+<p>at &#x7684;&#x4F4D;&#x7F6E;&#x8D8A;&#x9760;&#x540E;&#xFF0C;&#x4ED6;&#x4EEC;&#x548C;&#x62A5;&#x9519;&#x7684;&#x5173;&#x7CFB;&#x5C31;&#x8D8A;&#x758F;&#x8FDC;&#x3002;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8BBE;&#x5B9A;&#x4E00;&#x4E2A;&#x5206;&#x754C;&#x7EBF;&#x8BED;&#x53E5;&#xFF0C;&#x5220;&#x53BB;&#x5206;&#x754C;&#x7EBF;&#x540E;&#x7684; at&#xFF0C;&#x4EE5;&#x6B64;&#x7B80;&#x5316;&#x4FE1;&#x606F;&#x3002;(&#x8BF7;&#x4FDD;&#x7559;&#x5206;&#x754C;&#x7EBF;&#x6240;&#x5728;&#x7684;&#x8BED;&#x53E5;)  </p>
+<h3 id="&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x5206;&#x754C;&#x7EBF;&#x7684;&#x8BED;&#x53E5;">&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x5206;&#x754C;&#x7EBF;&#x7684;&#x8BED;&#x53E5;</h3>
+<p>&#x2460; &#x4EE5;<code>at java./sun./org.apache.</code>&#x7B49;&#x5F00;&#x5934;&#x7684;&#x8BED;&#x53E5;&#xFF0C;&#x4ED6;&#x4EEC;&#x662F; java &#x8BED;&#x8A00;&#x7684;&#x5185;&#x90E8;&#x5305;<br>&#x2461; &#x4EE5;<code>at org.bukkit.craftbukkit</code>&#x6216; <code>at net.minecraft.server</code> &#x5F00;&#x5934;&#x7684;&#x8BED;&#x53E5;&#xFF0C;&#x4ED6;&#x4EEC;&#x662F;&#x670D;&#x52A1;&#x5668;&#x7684;&#x5185;&#x90E8;&#x5305;  </p>
+<p>&#x901A;&#x8FC7;&#x4EE5;&#x4E0A;&#x7684;&#x6559;&#x7A0B;&#x81EA;&#x5DF1;&#x52A8;&#x624B;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x5982;&#x4E0B;&#x7B80;&#x5316;&#x540E;&#x7684;&#x62A5;&#x9519;  </p>
+<pre><code>[17:36:48 ERROR]: [Citizens] Missing preferred location bundle.
+[17:36:48 ERROR]: Error occurred while enabling Citizens v2.0.16-SNAPSHOT (build 1267) (Is it up to date?)
+java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_8_R3/CraftServer
+    at net.citizensnpcs.util.Util.getMinecraftRevision(Util.java:78) ~[?:?]
+    at net.citizensnpcs.Citizens.onEnable(Citizens.java:262) ~[?:?]
+    at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-1.12.1.jar:git-Spigot-edd0396-2a927e8]
+</code></pre><p>&#x8FD9;&#x6837;&#x7684;&#x62A5;&#x9519;&#x5C31;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x5206;&#x6790;&#x4E86;&#x3002;&#x8BF7;&#x6CE8;&#x610F;&#xFF0C;&#x4EE5;&#x4E0A;&#x4F7F;&#x7528;&#x63D2;&#x4EF6;&#x62A5;&#x9519;&#x4F5C;&#x4E3A;&#x6837;&#x4F8B;&#xFF0C;&#x5BF9;&#x4E8E;&#x6A21;&#x7EC4;&#x62A5;&#x9519;&#x7406;&#x8BBA;&#x4E0A;&#x6709;&#x6548;&#xFF0C;&#x4F46;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x5F62;&#x5F0F;&#x4E0A;&#x7684;&#x53D8;&#x5316;&#x3002;  </p>
+<p>&#x7F8E;&#x4E3D;&#x5C0F;&#x8D34;&#x58EB;&#xFF1A;<strong>&#x7CBE;&#x7B80;&#x62A5;&#x9519;&#x7684;&#x76EE;&#x7684;&#x662F;&#x65B9;&#x4FBF;&#x81EA;&#x5DF1;&#x5206;&#x6790;</strong>&#xFF0C;&#x5982;&#x679C;&#x76F8;&#x4FE1;&#x81EA;&#x5DF1;&#x7684;&#x6C34;&#x5E73;&#xFF0C;&#x5C31;&#x4E0D;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x3002;   </p>
+<hr>
+<h2 id="&#x4E8C;-&#x95EE;&#x9898;&#x6765;&#x81EA;&#x54EA;&#x4E2A;&#x63D2;&#x4EF6;&#x6A21;&#x7EC4;&#xFF1F;">&#x4E8C;. &#x95EE;&#x9898;&#x6765;&#x81EA;&#x54EA;&#x4E2A;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#xFF1F;</h2>
+<p>&#x5BF9;&#x4E8E;  </p>
+<pre><code>[17:36:48 ERROR]: Error occurred while enabling Citizens
+</code></pre><p>&#x8FD9;&#x6837;&#x7684;&#x62A5;&#x9519;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F88;&#x8F7B;&#x677E;&#x5730;&#x770B;&#x51FA;&#x95EE;&#x9898;&#x53D1;&#x751F;&#x5728;Citizens&#x63D2;&#x4EF6;&#x4E0A;&#x3002;  </p>
+<p>&#x800C;&#x5BF9;&#x4E8E;</p>
+<pre><code>[13:39:13] [Server thread/ERROR]: Could not pass event EntityTeleportEvent to PlotSquared
+</code></pre><p><code>Could not pass event &lt;Event&#x540D;&#x79F0;&gt; to &lt;&#x63D2;&#x4EF6;&#x540D;&#x79F0;&gt;</code>&#x4E5F;&#x662F;&#x4E00;&#x79CD;&#x5E38;&#x89C1;&#x7684;&#x62A5;&#x9519;&#x5F62;&#x5F0F;&#x3002;<br>&#x5728;&#x8FD9;&#x79CD;&#x62A5;&#x9519;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x5B9A;&#x4F4D;&#x5230;&#x5177;&#x4F53;&#x7684;&#x63D2;&#x4EF6;&#x3002;&#x8FD9;&#x91CC;&#x7684;Event&#x540D;&#x79F0;&#x53EF;&#x4EE5;&#x4FDD;&#x5B58;&#x4E0B;&#x6765;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x5728;&#x4E0B;&#x9762;&#x5185;&#x5BB9;&#x4E2D;&#x8C08;&#x5230;&#x3002;   </p>
+<p><strong>&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#x540C;&#x65F6;&#x9002;&#x7528;&#x4E8E;&#x63D2;&#x4EF6;&#x548C;&#x6A21;&#x7EC4;&#xFF1A;</strong></p>
+<p>&#x5E76;&#x975E;&#x6240;&#x6709;&#x62A5;&#x9519;&#x90FD;&#x6709;&#x8FD9;&#x6837;&#x8BE6;&#x7EC6;&#x7684;&#x5F62;&#x5F0F;&#x3002;&#x8FD9;&#x65F6;&#x5019;,&#x6211;&#x4EEC;&#x9700;&#x8981;&#x53D6;&#x51FA;&#x6700;&#x4E0A;&#x65B9;&#x7684;at&#x8BED;&#x53E5;&#xFF0C;&#x6211;&#x4EEC;&#x518D;&#x6B21;&#x8BF7;&#x51FA;&#x6837;&#x4F8B;Citizens&#x63D2;&#x4EF6;&#xFF1A;</p>
+<pre><code>at net.citizensnpcs.util.Util.getMinecraftRevision(Util.java:78)~[?~?]
+</code></pre><p>&#x8FD9;&#x6BB5;&#x62A5;&#x9519;&#x5BF9;&#x4E8E;&#x5BFB;&#x627E;&#x95EE;&#x9898;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#xFF0C;&#x4E5F;&#x662F;&#x4E00;&#x76EE;&#x4E86;&#x7136;&#x7684;&#x3002;&#x6BD5;&#x7ADF;&#x6587;&#x672C;&#x91CC;&#x5DF2;&#x7ECF;&#x51FA;&#x73B0;&#x4E86;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#x540D;  </p>
+<p>&#x5982;&#x679C;&#x8FD9;&#x6837;&#x7684;&#x5206;&#x6790;&#x4F9D;&#x7136;&#x65E0;&#x6CD5;&#x5F97;&#x77E5;&#x5177;&#x4F53;&#x63D2;&#x4EF6;,&#x5EFA;&#x8BAE;&#x5C06;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x53D1;&#x9001;&#x5230;mcbbs&#x95EE;&#x7B54;&#x677F;&#x5757;&#x89E3;&#x51B3;&#x3002;  </p>
+<p>&#x5230;&#x4E86;&#x8FD9;&#x4E2A;&#x5730;&#x6B65;&#xFF0C;&#x670D;&#x4E3B;&#x4ECD;&#x7136;&#x5E0C;&#x671B;&#x81EA;&#x5DF1;&#x627E;&#x5230;&#x62A5;&#x9519;&#x7684;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#x3002;&#x6211;&#x4EEC;&#x5C31;&#x53EA;&#x597D;&#x53D6;&#x51FA;at&#x540E;&#x9762;&#x7684;&#x4E00;&#x5C0F;&#x6BB5;&#x5185;&#x5BB9;&#xFF0C;&#x5982;<code>net.citizensnpcs.util</code>,&#x5C06;&#x4ED6;&#x6539;&#x4E3A;<code>net/ciizensnpcs/util</code>,&#x7136;&#x540E;&#x7528;&#x538B;&#x7F29;&#x8F6F;&#x4EF6;&#x6253;&#x5F00;&#x6BCF;&#x4E2A;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#xFF08;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#x7684;&#x672C;&#x8D28;&#x662F;&#x538B;&#x7F29;&#x6587;&#x4EF6;&#xFF09;&#xFF0C;&#x5BFB;&#x627E;&#x5BF9;&#x5E94;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x3002;&#x5982;&#x679C;&#x80FD;&#x5BFB;&#x627E;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x6216;&#x6587;&#x4EF6;&#xFF0C;&#x5C31;&#x8BF4;&#x660E;&#x95EE;&#x9898;&#x51FA;&#x73B0;&#x5728;&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;/&#x6A21;&#x7EC4;&#x91CC;&#x3002;  </p>
+<p>&#x670D;&#x4E3B;&#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5B89;&#x88C5;&#x67D0;&#x4E9B;&#x670D;&#x52A1;&#x5668;&#x7BA1;&#x7406;&#x63D2;&#x4EF6;&#x6765;&#x5E2E;&#x52A9;&#x5BFB;&#x627E;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x91CC;&#x4E0D;&#x4F5C;&#x5B89;&#x5229;&#x3002;</p>
+<hr>
+<h2 id="&#x4E09;-&#x5206;&#x6790;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;">&#x4E09;. &#x5206;&#x6790;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;</h2>
+<h3 id="1&#x63D2;&#x4EF6;&#x63D0;&#x793A;&#x6CD5;">1.&#x63D2;&#x4EF6;&#x63D0;&#x793A;&#x6CD5;</h3>
+<p>&#x4E00;&#x4E9B;&#x63D2;&#x4EF6;&#x4F1A;&#x5728;&#x62A5;&#x9519;&#x4FE1;&#x606F;&#x4E2D;&#x7ED9;&#x51FA;&#x5177;&#x4F53;&#x7684;&#x63D0;&#x793A;,&#x53EF;&#x4EE5;&#x501F;&#x52A9;&#x82F1;&#x8BED;&#x77E5;&#x8BC6;&#x53CA;&#x7FFB;&#x8BD1;&#x8F6F;&#x4EF6;&#x5E2E;&#x52A9;&#x4EE5;&#x6C42;&#x89E3;&#x51B3;&#x3002;<br>&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>[14:48:03 ERROR]: [PlaceholderAPI] GameTime is currently using a deprecated method to hook into PlaceholderAPI. 
+Placeholders for that plugin no longer work. Please consult [a, asougi85] and urge them to update it ASAP.
+</code></pre><p>&#x7FFB;&#x8BD1;&#xFF1A; <a href="https://www.mcbbs.net/thread-714090-1-1.html" target="_blank">GameTime</a> &#x63D2;&#x4EF6;&#x6B63;&#x4F7F;&#x7528;&#x4E00;&#x79CD;&#x8FC7;&#x65F6;&#x7684;&#x65B9;&#x6CD5;&#x4E0E;PAPI&#x8054;&#x52A8;&#xFF0C;&#x73B0;&#x5728;&#x8BE5;&#x529F;&#x80FD;&#x5DF2;&#x7ECF;&#x65E0;&#x6CD5;&#x4F7F;&#x7528;&#xFF0C;&#x8BF7;&#x8054;&#x7CFB;&#x4F5C;&#x8005;&#x3002;<br>&#x4E00;&#x76EE;&#x4E86;&#x7136;&#xFF0C;&#x770B;&#x6765;&#x8FD9;&#x4F4D;&#x4E0D;&#x77E5;&#x540D;&#x5F00;&#x53D1;&#x8005;&#x6709;&#x5FC5;&#x8981;&#x8FDB;&#x884C;&#x7248;&#x672C;&#x5347;&#x7EA7;&#x4E86;&#x3002;</p>
+<h3 id="2expcetionerror&#x6CD5;">2.Expcetion/Error&#x6CD5;</h3>
+<p>&#x5728;&#x5927;&#x591A;&#x6570;&#x62A5;&#x9519;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5728; at &#x4E4B;&#x524D;&#x770B;&#x5230;&#x8FD9;&#x6837;&#x7684;&#x8BED;&#x53E5;  </p>
+<pre><code>[17:36:48 ERROR]: Error occurred while enabling Citizens v2.0.16-SNAPSHOT (build 1267) (Is it up to date?)
+java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/v1_8_R3/CraftServer/...
+
+
+[14:48:02 ERROR]: Error occurred while enabling Multiverse-Core v2.5-b641 (Is it up to date?)
+java.lang.NoSuchMethodError: org/bukkit/configuration/file/...
+
+[15:24:04 ERROR]: Error occurred while enabling GGC v1.0.0 (Is it up to date?)
+java.lang.NullPointerException: null
+</code></pre><p>&#x800C;&#x8FD9;&#x4E9B;&#x8BED;&#x53E5;&#x4E2D;&#x7684;<code>NoClassDefFoundError</code>,<code>NoSuchMethodError</code>,<code>NullPointerException</code>,&#x4E8B;&#x5B9E;&#x4E0A;&#x63ED;&#x793A;&#x4E86;&#x8FD9;&#x4E2A;&#x62A5;&#x9519;&#x7684;&#x672C;&#x8D28;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x8FD9;&#x4E9B;&#x9519;&#x8BEF;&#xFF0C;&#x91C7;&#x53D6;&#x4E0D;&#x540C;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#x3002;</p>
+<h3 id="&#x63D2;&#x4EF6;&#x7C7B;">&#x63D2;&#x4EF6;&#x7C7B;</h3>
+<ol>
+<li><p><code>NoClassDefFoundException</code> / <code>ClassNotFoundException</code> / <code>NoSuchMethodError</code> / <code>NoSuchFieldError</code><br>&#x539F;&#x56E0;&#xFF1A; <strong>&#x5185;&#x5BB9;&#x7F3A;&#x5931;</strong><br>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A; <strong>&#x5C1D;&#x8BD5;&#x66F4;&#x6362;&#x63D2;&#x4EF6;&#x7248;&#x672C;</strong>,&#x4E00;&#x822C;&#x8FD9;&#x4E2A;&#x9519;&#x8BEF;&#x90FD;&#x662F;&#x8BEF;&#x7528;&#x9AD8;&#x7248;&#x672C;&#x6216;&#x8005;&#x4F4E;&#x7248;&#x672C;&#x63D2;&#x4EF6;&#x5BFC;&#x81F4;&#x7684;,&#x4E5F;&#x53EF;&#x80FD;&#x56E0;&#x4E3A;&#x8BE5;&#x63D2;&#x4EF6;&#x4E0D;&#x517C;&#x5BB9;&#x4F60;&#x6240;&#x7528;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#xFF0C;&#x4F8B;&#x5982;&#x4E00;&#x4E9B;&#x8C03;&#x7528;<code>NMS</code>&#x7684;&#x63D2;&#x4EF6;&#x4F1A;&#x5BF9;&#x6A21;&#x7EC4;&#x670D;&#x52A1;&#x7AEF;&#x4E0D;&#x517C;&#x5BB9;&#x3002;&#x4E5F;&#x6709;&#x53EF;&#x80FD;&#x6765;&#x81EA;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x758F;&#x5FFD;&#x3002;  </p>
+</li>
+<li><p><code>UnknownhostException</code> / <code>&#x4EE5;Http&#x5F00;&#x5934;&#x7684;Exception</code><br>&#x539F;&#x56E0;: <strong>&#x5F80;&#x5F80;&#x662F;&#x63D2;&#x4EF6;&#x8FDE;&#x4E0D;&#x4E0A;&#x81EA;&#x5DF1;&#x7684;&#x66F4;&#x65B0;&#x670D;&#x52A1;&#x5668;&#x5BFC;&#x81F4;&#x7684;&#x3002;&#x5BF9;&#x4E8E;&#x4E0D;&#x60F3;&#x5347;&#x7EA7;&#x63D2;&#x4EF6;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x884C;&#x4E3A;&#x6B63;&#x5E38;&#x7684;&#x670D;&#x4E3B;&#x6CA1;&#x6709;&#x592A;&#x5927;&#x5F71;&#x54CD;</strong><br>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;: &#x5982;&#x679C;&#x5BF9;&#x4E8E;&#x8FD9;&#x4E2A;&#x62A5;&#x9519;&#x611F;&#x5230;&#x538C;&#x70E6;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x4F7F;&#x7528;<a href="https://www.mcbbs.net/thread-912870-1-1.html" target="_blank">&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;</a>&#x8FDB;&#x884C;<strong>&#x5C4F;&#x853D;</strong></p>
+</li>
+<li><p><code>NullPointerException</code><br>&#x539F;&#x56E0;: <strong>&#x5341;&#x5206;&#x5E7F;&#x6CDB;&#xFF0C;&#x4E00;&#x822C;&#x65E0;&#x6CD5;&#x7531;&#x670D;&#x4E3B;&#x81EA;&#x5DF1;&#x89E3;&#x51B3;&#x3002;&#x53EF;&#x80FD;&#x6765;&#x81EA;&#x4E8E;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x758F;&#x5FFD;&#x3002;</strong><br>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;: &#x5982;&#x679C;&#x62A5;&#x9519;&#x63D2;&#x4EF6;&#x8FD0;&#x884C;&#x6B63;&#x5E38;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x4F7F;&#x7528;<a href="https://www.mcbbs.net/thread-912870-1-1.html" target="_blank">&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;</a>&#x5BF9;&#x62A5;&#x9519;&#x8FDB;&#x884C;<strong>&#x5C4F;&#x853D;</strong>&#xFF0C;&#x5982;&#x679C;&#x8FD0;&#x884C;&#x51FA;&#x9519;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;<strong>&#x53C2;&#x8003;&#x4E0B;&#x6587;</strong>&#xFF0C;&#x5411;&#x5F00;&#x53D1;&#x8005;<strong>&#x6C47;&#x62A5;</strong>&#x8FD9;&#x4E2A;&#x95EE;&#x9898;!  </p>
+</li>
+</ol>
+<p><strong>&#x8B66;&#x544A;&#xFF1A;&#x5982;&#x679C;&#x70B9;&#x51FB;&#x7BB1;&#x5B50;&#x9762;&#x677F;/&#x7BB1;&#x5B50;&#x7C7B;&#x63D2;&#x4EF6;&#x65F6;&#x51FA;&#x73B0;&#x8FD9;&#x4E2A;&#x62A5;&#x9519;&#xFF0C;&#x5C31;&#x7B97;&#x6CA1;&#x6709;&#x660E;&#x663E;&#x95EE;&#x9898;&#xFF0C;&#x4E5F;&#x8981;&#x8C28;&#x614E;&#x5C4F;&#x853D;&#xFF01;&#x8FD9;&#x6709;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x73A9;&#x5BB6;&#x5237;&#x53D6;&#x7269;&#x54C1;&#xFF01;&#xFF01;&#xFF01;</strong></p>
+<ol>
+<li>&#x5176;&#x4ED6; <code>Error/Exception</code><br>&#x90E8;&#x5206;&#x95EE;&#x9898;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x63D0;&#x4F9B;&#x7684;&#x62A5;&#x9519;&#x4FE1;&#x606F;&#x5F97;&#x4EE5;&#x89E3;&#x51B3;&#xFF0C;&#x4F8B;&#x5982;:</li>
+</ol>
+<pre><code>IllegalStateException: Cannot make FireworkEffect without any color
+</code></pre><p>&#x8FD9;&#x4E2A;&#x65B9;&#x6CD5;&#x548C;&#x63D2;&#x4EF6;&#x63D0;&#x793A;&#x6CD5;&#x5F02;&#x66F2;&#x540C;&#x5DE5;&#xFF0C;&#x4E0D;&#x53E6;&#x884C;&#x63CF;&#x8FF0;&#x3002;  </p>
+<h2 id="&#x6A21;&#x7EC4;&#x7C7B;">&#x6A21;&#x7EC4;&#x7C7B;</h2>
+<ol>
+<li>&#x5B89;&#x88C5;&#x4E86;&#x5BA2;&#x6237;&#x7AEF;&#x6A21;&#x7EC4;  </li>
+</ol>
+<pre><code>[17:51:11] [main/WARN]: Error loading class:net/minecraft/client/Minecraft
+</code></pre><p>&#x4EFB;&#x4F55;&#x548C;<code>client</code>&#x6709;&#x5173;&#x7684;&#x62A5;&#x9519;&#x90FD;&#x6709;&#x53EF;&#x80FD;&#x6765;&#x81EA;&#x8FD9;&#x4E2A;&#x539F;&#x56E0;  </p>
+<ol>
+<li>&#x91CD;&#x590D;&#x5B89;&#x88C5;&#x4E86;&#x6A21;&#x7EC4;  </li>
+</ol>
+<pre><code>DuplicateModsFoundException
+</code></pre><ol>
+<li>&#x5982;&#x679C;&#x51FA;&#x73B0;&#x8FD9;&#x79CD;&#x62A5;&#x9519;</li>
+</ol>
+<pre><code>NullPointerException: Ticking block entity
+</code></pre><p>&#x8BF7;&#x6253;&#x5F00;&#x670D;&#x52A1;&#x7AEF; <strong>config</strong> &#x6587;&#x4EF6;&#x5939;&#x7684; <strong>forge.cfg</strong> ,&#x5E76;&#x5C06;&#x5176;&#x4E2D;<code>B:removeErroringEntities</code>&#x548C;<code>B:removeErroringTileEntities</code>&#x4E24;&#x9879;&#x6539;&#x4E3A;<strong>true</strong></p>
+<p>&#x5982;&#x679C;&#x4EE5;&#x4E0A;&#x65B9;&#x6CD5;&#x65E0;&#x6CD5;&#x8BA9;&#x60A8;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#xFF0C;&#x8BF7;&#x5411;<strong>&#x5F00;&#x53D1;&#x8005;&#x6C47;&#x62A5;</strong>&#x6216;&#x5728;<strong>&#x95EE;&#x7B54;&#x677F;&#x5757;&#x6C42;&#x52A9;</strong>&#x8FD9;&#x4E2A;&#x95EE;&#x9898;!&#x4E0D;&#x8981;&#x62D8;&#x675F;&#xFF0C;&#x8FD9;&#x662F;&#x53CC;&#x8D62;&#x7684;&#x3002;  </p>
+<hr>
+<h2 id="&#x56DB;&#x5982;&#x4F55;&#x5408;&#x7406;&#x5730;&#x63D0;&#x95EE;&#x548C;&#x6C47;&#x62A5;&#x9519;&#x8BEF;&#xFF1F;">&#x56DB;.&#x5982;&#x4F55;&#x5408;&#x7406;&#x5730;&#x63D0;&#x95EE;&#x548C;&#x6C47;&#x62A5;&#x9519;&#x8BEF;&#xFF1F;</h2>
+<p>&#x5728;&#x6C47;&#x62A5;&#x6216;&#x63D0;&#x95EE;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x8BF7;<strong>&#x8BE6;&#x7EC6;&#x5730;&#x63CF;&#x8FF0;&#x62A5;&#x9519;&#x60C5;&#x666F;</strong>&#xFF0C;&#x63D0;&#x4F9B;<strong>&#x670D;&#x52A1;&#x7AEF;&#x7C7B;&#x578B;&#x548C;&#x7248;&#x672C;&#x53F7;</strong>&#xFF0C;&#x63D0;&#x4F9B;<strong>&#x63D2;&#x4EF6;&#x548C;&#x6A21;&#x7EC4;&#x5217;&#x8868;</strong>&#xFF0C;&#x5E76;&#x63D0;&#x4F9B;<strong>&#x6CA1;&#x6709;&#x7CBE;&#x7B80;&#x8FC7;&#x7684;&#x5B8C;&#x6574;&#x62A5;&#x9519;</strong>&#xFF0C;&#x751A;&#x81F3;<strong>&#x62A5;&#x9519;&#x7684;&#x4E00;&#x90E8;&#x5206;&#x4E0A;&#x4E0B;&#x6587;</strong>&#xFF08;<strong>&#x65E5;&#x5FD7;&#x6587;&#x4EF6;</strong>&#xFF09;&#xFF0C;&#x6216;&#x8005;<strong>&#x5B8C;&#x6574;&#x7684;&#x5D29;&#x6E83;&#x65E5;&#x5FD7;</strong>&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x95EE;&#x9898;&#x90FD;&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x89E3;&#x51B3;&#x3002;</p>
+<h2 id="&#x9644;&#xFF1A;&#x6269;&#x5C55;&#x9605;&#x8BFB;">&#x9644;&#xFF1A;&#x6269;&#x5C55;&#x9605;&#x8BFB;</h2>
+<p><a href="https://www.mcbbs.net/thread-729487-1-1.html" target="_blank">[&#x6559;&#x7A0B;] &#x81EA;&#x5DF1;&#x52A8;&#x624B;&#x6392;&#x67E5;&#x62A5;&#x9519;</a>&#xFF0C;&#x6D77;&#x87BA;&#x87BA;&#x8457;&#x3002;</p>
+<p><a href="https://www.mcbbs.net/thread-860103-1-1.html" target="_blank">&#x600E;&#x4E48;&#x770B;&#x5D29;&#x6E83;&#x62A5;&#x544A;&#x548C;Timings&#xFF1F;</a>&#xFF0C;&#x68EE;&#x6797;&#x8759;&#x8760;&#x8457;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Sql.html" class="navigation navigation-prev " aria-label="Previous page: 第四节 数据库的使用">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Optimization.html" class="navigation navigation-next " aria-label="Next page: 第六节 配置文件优化">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第五节 什么是报错？","level":"1.4.5","depth":2,"next":{"title":"第六节 配置文件优化","level":"1.4.6","depth":2,"path":"Optimization.md","ref":"Optimization.md","articles":[]},"previous":{"title":"第四节 数据库的使用","level":"1.4.4","depth":2,"path":"Sql.md","ref":"Sql.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-plus","splitter","github","expandable-chapters","code","ga","back-to-top-button"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Mhy278/MinecraftServerHostGuide"},"splitter":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"ga":{"configuration":"auto","token":"UA-161510371-1"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的世界服务器搭建指南","language":"zh-hans","gitbook":"*","description":"Minecraft 我的世界开服零基础教学"},"file":{"path":"WhatsError.md","mtime":"2022-11-30T10:09:10.558Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T10:09:58.494Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

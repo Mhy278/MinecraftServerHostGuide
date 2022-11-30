@@ -1,0 +1,1028 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第六节 配置文件优化 · 我的世界服务器搭建指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕">
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Bungee.html" />
+    
+    
+    <link rel="prev" href="WhatsError.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    开始
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="Preparation.html">
+            
+                <a href="Preparation.html">
+            
+                    
+                    准备工作
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    第一单元 基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="First.html">
+            
+                <a href="First.html">
+            
+                    
+                    第一节 第一次的开服
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Structure.html">
+            
+                <a href="Structure.html">
+            
+                    
+                    第二节 服务端的结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Plugin.html">
+            
+                <a href="Plugin.html">
+            
+                    
+                    第三节 什么是插件？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Mod.html">
+            
+                <a href="Mod.html">
+            
+                    
+                    第四节 什么是模组？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="World.html">
+            
+                <a href="World.html">
+            
+                    
+                    第五节 什么是世界？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Log.html">
+            
+                <a href="Log.html">
+            
+                    
+                    第六节 什么是日志？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    第二单元 进阶
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="RunScript.html">
+            
+                <a href="RunScript.html">
+            
+                    
+                    第一节 认识启动脚本
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="Yaml.html">
+            
+                <a href="Yaml.html">
+            
+                    
+                    第二节 认识YAML语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="Permission.html">
+            
+                <a href="Permission.html">
+            
+                    
+                    第三节 什么是权限？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="Sql.html">
+            
+                <a href="Sql.html">
+            
+                    
+                    第四节 数据库的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="WhatsError.html">
+            
+                <a href="WhatsError.html">
+            
+                    
+                    第五节 什么是报错？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.6" data-path="Optimization.html">
+            
+                <a href="Optimization.html">
+            
+                    
+                    第六节 配置文件优化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="Bungee.html">
+            
+                <a href="Bungee.html">
+            
+                    
+                    第七节 什么是跨服？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="Maintain.html">
+            
+                <a href="Maintain.html">
+            
+                    
+                    第八节 系统运行维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    第三单元 扩展
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="Redis.html">
+            
+                <a href="Redis.html">
+            
+                    
+                    第一节 Redis 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="MongoDB.html">
+            
+                <a href="MongoDB.html">
+            
+                    
+                    第二节 MongoDB 的安装与配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="Texture.html">
+            
+                <a href="Texture.html">
+            
+                    
+                    第三节 认识资源包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="Skin.html">
+            
+                <a href="Skin.html">
+            
+                    
+                    第四节 什么是皮肤？
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="Model.html">
+            
+                <a href="Model.html">
+            
+                    
+                    第五节 什么是3D建模？
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    第四单元 开发
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="Java.html">
+            
+                <a href="Java.html">
+            
+                    
+                    第一节 Java 编程基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="Bukkit.html">
+            
+                <a href="Bukkit.html">
+            
+                    
+                    第二节 Bukkit插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="Sponge.html">
+            
+                <a href="Sponge.html">
+            
+                    
+                    第三节 Sponge插件开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="Forge.html">
+            
+                <a href="Forge.html">
+            
+                    
+                    第四节 Forge 模组开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    附录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="SearchEngine.html">
+            
+                <a href="SearchEngine.html">
+            
+                    
+                    认识搜索引擎
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                <a href="How-To-Ask-Questions-The-Smart-Way.html">
+            
+                    
+                    提问的智慧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第六节 配置文件优化</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x7B2C;&#x516D;&#x8282;-&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4F18;&#x5316;">&#x7B2C;&#x516D;&#x8282; &#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4F18;&#x5316;</h1>
+<p><strong>&#x8BD1;&#x8005;&#x6CE8;&#xFF1A;&#x672C;&#x6587;&#x7FFB;&#x8BD1;&#x81EA; YouHaveTrouble &#x7684; <em><a href="https://github.com/YouHaveTrouble/minecraft-optimization" target="_blank">Minecraft server optimization guide</a></em> &#xFF0C;&#x6709;&#x5220;&#x51CF;&#x3002;&#x540E;&#x6587;&#x4E2D;&#x4EE5;&#x201C;<del>&#x5220;&#x9664;&#x7EBF;</del>&#x201D;&#x6807;&#x8BC6;&#x7684;&#x5185;&#x5BB9;&#x5747;&#x4E3A;&#x8BD1;&#x8005;&#x6DFB;&#x52A0;&#xFF0C;&#x4E0D;&#x4EE3;&#x8868;&#x539F;&#x6587;&#x4F5C;&#x8005;&#x610F;&#x89C1;&#x3002;</strong></p>
+<p>&#x9488;&#x5BF9;&#x6E38;&#x620F;&#x7248;&#x672C; 1.16.5</p>
+<p>&#x6839;&#x636E;&#x8FD9;&#x4E2A;<a href="https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/" target="_blank">&#x6559;&#x7A0B;</a>&#x7F16;&#x5199;&#xFF0C;&#x5176;&#x4ED6;&#x5F15;&#x7528;&#x5185;&#x5BB9;&#x4F1A;&#x5728;&#x5F15;&#x7528;&#x5904;&#x58F0;&#x660E;&#x3002;</p>
+<h1 id="&#x524D;&#x8A00;">&#x524D;&#x8A00;</h1>
+<p>&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x6559;&#x7A0B;&#x63D0;&#x4F9B;&#x7684;&#x53C2;&#x6570;&#x662F;&#x5B8C;&#x7F8E;&#x7684;&#xFF0C;&#x6BCF;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x90FD;&#x5E94;&#x8BE5;&#x4ECE;&#x81EA;&#x8EAB;&#x51FA;&#x53D1;&#xFF0C;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x60C5;&#x51B5;&#x4E0D;&#x65AD;&#x5FAE;&#x8C03;&#xFF0C;&#x505A;&#x51FA;&#x7B26;&#x5408;&#x9700;&#x6C42;&#x7684;&#x8BBE;&#x7F6E;&#x3002;&#x672C;&#x6559;&#x7A0B;&#x65E8;&#x5728;&#x5E2E;&#x52A9;&#x60A8;&#x4E86;&#x89E3;&#x54EA;&#x4E9B;&#x53C2;&#x6570;&#x4F1A;&#x5BF9;&#x6027;&#x80FD;&#x4EA7;&#x751F;&#x5F71;&#x54CD;&#xFF0C;&#x4EE5;&#x53CA;&#x5B83;&#x4EEC;&#x53CD;&#x6620;&#x5230;&#x6E38;&#x620F;&#x5185;&#x7684;&#x5B9E;&#x9645;&#x6548;&#x679C;&#x3002; <del>&#xFF08;&#x5982;&#x679C;&#x60A8;&#x8BA4;&#x4E3A;&#x672C;&#x6559;&#x7A0B;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x6709;&#x8BEF;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x539F;&#x6587;&#x4ED3;&#x5E93;&#x53D1;&#x8D77;PR&#xFF09;</del></p>
+<h1 id="&#x51C6;&#x5907;">&#x51C6;&#x5907;</h1>
+<h2 id="&#x670D;&#x52A1;&#x7AEF;&#x6838;&#x5FC3;">&#x670D;&#x52A1;&#x7AEF;&#x6838;&#x5FC3;</h2>
+<p>&#x4E0D;&#x540C;&#x670D;&#x52A1;&#x7AEF;&#x6838;&#x5FC3;&#x53EF;&#x80FD;&#x4F1A;&#x5728;&#x6027;&#x80FD;&#x548C;API&#x63A5;&#x53E3;&#x65B9;&#x9762;&#x5B58;&#x5728;&#x5DE8;&#x5927;&#x5DEE;&#x5F02;&#x3002; &#x76EE;&#x524D;&#x5E02;&#x9762;&#x4E0A;&#x5E38;&#x89C1;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x6838;&#x5FC3;&#x6709;&#x5F88;&#x591A;&#xFF0C;&#x4EE5;&#x4E0B;&#x662F;&#x6211;&#x7684;&#x5EFA;&#x8BAE;&#xFF1A;</p>
+<p>&#x9996;&#x9009;&#x63A8;&#x8350;:</p>
+<ul>
+<li><a href="https://github.com/PaperMC/Paper" target="_blank">Paper</a> - &#x975E;&#x5E38;&#x6D41;&#x884C;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x6838;&#x5FC3;&#xFF0C;&#x65E8;&#x5728;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#x5E76;&#x4F18;&#x5316;&#x6E38;&#x620F;&#x5185;&#x90E8;&#x673A;&#x5236;&#x3002;</li>
+<li><a href="https://github.com/Spottedleaf/Tuinity" target="_blank">Tuinity</a> - Paper &#x7684;&#x5206;&#x652F;&#xFF0C;&#x65E8;&#x5728;&#x66F4;&#x8FDB;&#x4E00;&#x6B65;&#x63D0;&#x9AD8;&#x670D;&#x52A1;&#x7AEF;&#x6027;&#x80FD;</li>
+<li><a href="https://github.com/Technove/Airplane" target="_blank">Airplane</a> - Tuinity &#x7684;&#x5206;&#x652F;&#xFF0C;&#x65E8;&#x5728;&#x518D;&#x8FDB;&#x4E00;&#x6B65;&#x63D0;&#x9AD8;&#x670D;&#x52A1;&#x7AEF;&#x6027;&#x80FD; <del>&#xFF08;&#x7981;&#x6B62;&#x5957;&#x5A03;&#xFF09;</del></li>
+<li><a href="https://github.com/pl3xgaming/Purpur" target="_blank">Purpur</a> - Airplane &#x7684;&#x5206;&#x652F;&#xFF0C;&#x65E8;&#x5728;&#x63D0;&#x9AD8;&#x66F4;&#x591A;&#x7684;&#x53EF;&#x914D;&#x7F6E;&#x9879; <del>&#xFF08;&#x7981;&#x6B62;&#x7981;&#x6B62;&#x5957;&#x5A03;&#xFF09;</del></li>
+</ul>
+<p>&#x50BB;&#x5B69;&#x5B50;&#xFF0C;&#x5FEB;&#x8DD1;&#x554A;:</p>
+<ul>
+<li>Yatopia - &quot;&#x8FD9;&#x4E2A; Paper &#x7684;&#x5206;&#x652F;&#x672A;&#x66FE;&#x8BBE;&#x60F3;&#x5730;&#x53CD;&#x5411;&#x4F18;&#x5316;!&quot; - <a href="https://github.com/KennyTV/list-of-shame" target="_blank">KennyTV&#x70B9;&#x540D;&#x6279;&#x8BC4;</a> &#xFF0C;&#x6211;&#x65E0;Fuck&#x8BF4;&#x3002;</li>
+<li>&#x4EFB;&#x4F55;&#x58F0;&#x79F0;&#x53EF;&#x4EE5;&#x5B8C;&#x7F8E;&#x591A;&#x7EBF;&#x7A0B;&#x7684;&#x670D;&#x52A1;&#x7AEF;&#x6838;&#x5FC3; - 99.99% &#x90FD;&#x662F;&#x753B;&#x997C;&#x5E26;&#x5E08; <del>&#xFF08;Arclight&#x8D5B;&#x9AD8;&#xFF01;&#xFF09;</del></li>
+<li>Bukkit/Craftbukkit/Spigot - &#x8001;&#x5230;&#x6389;&#x7259;&#x4E86;</li>
+<li>&#x5728;&#x8FD0;&#x884C;&#x65F6;&#x542F;&#x7528;/&#x7981;&#x7528;/&#x91CD;&#x65B0;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;&#x7684;&#x4EFB;&#x4F55;&#x63D2;&#x4EF6;/&#x8F6F;&#x4EF6;&#x3002;&#x522B;&#x95EE;&#xFF0C;&#x95EE;&#x5C31;&#x662F;<a href="#&#x52A0;&#x8F7D;&#x5378;&#x8F7D;&#x5176;&#x4ED6;&#x63D2;&#x4EF6;&#x7684;&#x7BA1;&#x7406;&#x63D2;&#x4EF6;">&#x770B;&#x8FD9;&#x513F;</a></li>
+</ul>
+<h2 id="&#x5730;&#x56FE;&#x9884;&#x751F;&#x6210;">&#x5730;&#x56FE;&#x9884;&#x751F;&#x6210;</h2>
+<p>&#x9884;&#x751F;&#x6210;&#x5730;&#x56FE;&#x662F;&#x4F18;&#x5316;&#x4F4E;&#x6027;&#x80FD;&#x670D;&#x52A1;&#x5668;&#x6700;&#x91CD;&#x8981;&#x6B65;&#x9AA4;&#x4E4B;&#x4E00;&#x3002;&#x8FD9;&#x5BF9;&#x9762;&#x677F;&#x670D;&#x5E2E;&#x52A9;&#x5DE8;&#x5927;,&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x65E0;&#x6CD5;&#x5B8C;&#x5168;&#x5F02;&#x6B65;&#x52A0;&#x8F7D;&#x533A;&#x5757;&#x3002;  &#x4F60;&#x53EF;&#x4EE5;&#x5C1D;&#x8BD5;&#x50CF; <strong><a href="https://github.com/pop4959/Chunky" target="_blank">chunky</a></strong> &#x63D2;&#x4EF6;&#x6765;&#x9884;&#x751F;&#x6210;&#x4E16;&#x754C;&#x3002;&#x8BB0;&#x5F97;&#x8BBE;&#x5B9A;&#x597D;&#x4E00;&#x4E2A;&#x4E16;&#x754C;&#x8FB9;&#x754C;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x4E0D;&#x4F1A;&#x518D;&#x4EA7;&#x751F;&#x65B0;&#x7684;&#x533A;&#x5757;&#x4E86;&#x3002;&#x6839;&#x636E;&#x60A8;&#x8BBE;&#x7F6E;&#x7684;&#x5730;&#x56FE;&#x9884;&#x751F;&#x6210;&#x5927;&#x5C0F;&#x4E0D;&#x540C;&#xFF0C;&#x9884;&#x751F;&#x6210;&#x9700;&#x8981;&#x7684;&#x65F6;&#x95F4;&#x53EF;&#x80FD;&#x4F1A;&#x5F88;&#x957F;&#x3002;</p>
+<p>&#x5207;&#x8BB0;&#xFF01;&#x4E3B;&#x4E16;&#x754C;&#x3001;&#x5730;&#x72F1;&#x548C;&#x672B;&#x5730;&#x90FD;&#x9700;&#x8981;&#x5355;&#x72EC;&#x8BBE;&#x7F6E;&#x4E16;&#x754C;&#x8FB9;&#x754C;&#x3002; &#x539F;&#x7248;&#x8BBE;&#x5B9A;&#x4E0B;&#xFF0C;&#x5730;&#x72F1;&#x7684;&#x5927;&#x5C0F;&#x6BD4;&#x4E3B;&#x4E16;&#x754C;&#x5C0F;8&#x500D;&#xFF0C;&#x8981;&#x662F;&#x8BBE;&#x9519;&#x4E86;&#x8FB9;&#x754C;&#xFF0C;&#x73A9;&#x5BB6;&#x53EF;&#x5C31;&#x8981;&#x9041;&#x5165;&#x4E16;&#x754C;&#x8FB9;&#x754C;&#x4E4B;&#x5916;&#x4E86;&#xFF01;</p>
+<p><strong>&#x4E00;&#x5B9A;&#x8981;&#x786E;&#x8BA4;&#x8BBE;&#x7F6E;&#x597D;&#x539F;&#x7248;&#x4E16;&#x754C;&#x8FB9;&#x754C; (<code>/worldborder set [&#x534A;&#x5F84;]</code>), &#x56E0;&#x4E3A;&#x5B83;&#x4F1A;&#x9650;&#x5236;&#x67D0;&#x4E9B;&#x7279;&#x6027;&#xFF0C;&#x6BD4;&#x5982;&#x5BFC;&#x81F4;&#x5F00;&#x85CF;&#x5B9D;&#x56FE;&#x65F6;&#x7684;&#x5361;&#x987F;&#x3002;</strong></p>
+<h1 id="&#x914D;&#x7F6E;&#x6587;&#x4EF6;">&#x914D;&#x7F6E;&#x6587;&#x4EF6;</h1>
+<h2 id="&#x7F51;&#x7EDC;">&#x7F51;&#x7EDC;</h2>
+<h3 id="serverproperties"><a href="https://minecraft.gamepedia.com/Server.properties" target="_blank">server.properties</a></h3>
+<h4 id="network-compression-threshold">network-compression-threshold</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;256</code></p>
+<p>&#x670D;&#x52A1;&#x7AEF;&#x6BCF;&#x5F53;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x5305;&#x7684;&#x5927;&#x5C0F;&#x8FBE;&#x5230;&#x8BBE;&#x5B9A;&#x7684;&#x503C;&#x5C31;&#x4F1A;&#x538B;&#x7F29;&#x5B83;&#x3002;&#x56E0;&#x6B64;&#x8BBE;&#x5B9A;&#x503C;&#x8D8A;&#x5927;CPU&#x7684;&#x538B;&#x529B;&#x5C31;&#x8D8A;&#x5C0F;&#xFF0C;&#x4F46;&#x5E26;&#x5BBD;&#x5360;&#x7528;&#x4E5F;&#x5C31;&#x8D8A;&#x5927;&#x4E86;&#xFF0C;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A; -1 &#x53EF;&#x7981;&#x7528;&#x3002;&#x8BBE;&#x7F6E;&#x7684;&#x592A;&#x9AD8;&#x6709;&#x53EF;&#x80FD;&#x4F1A;&#x8FEB;&#x5BB3;&#x5230;&#x7F51;&#x901F;&#x8F83;&#x6162;&#x7684;&#x73A9;&#x5BB6;&#x3002; &#x5982;&#x679C;&#x60A8;&#x7684;&#x670D;&#x52A1;&#x5668;&#x7F51;&#x7EDC;&#x62D3;&#x6251;&#x4E2D;&#x5B58;&#x5728;&#x5EF6;&#x8FDF;&#x8F83;&#x4F4E;&#x7684;&#x5C40;&#x57DF;&#x7F51;&#xFF0C;&#x5C06;&#x5176;&#x7981;&#x7528;&#x5373;&#x53EF;&#x3002;</p>
+<h3 id="purpuryml"><a href="https://purpur.pl3x.net/docs" target="_blank">purpur.yml</a></h3>
+<h4 id="use-alternate-keepalive">use-alternate-keepalive</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x542F;&#x7528; Purpur &#x7684;&#x5FC3;&#x8DF3;&#x68C0;&#x6D4B;&#x53EF;&#x4EE5;&#x8BA9;&#x7F51;&#x7EDC;&#x72B6;&#x51B5;&#x8F83;&#x5DEE;&#x7684;&#x73A9;&#x5BB6;&#x4E0D;&#x4F1A;&#x603B;&#x662F;&#x6389;&#x7EBF;&#xFF0C;&#x5DF2;&#x77E5;&#x4E0E; TCPShield &#x51B2;&#x7A81;&#x3002;</p>
+<blockquote>
+<p>&#x542F;&#x7528;&#x6B64;&#x529F;&#x80FD;&#x540E;&#xFF0C;&#x6BCF;&#x79D2;&#x4F1A;&#x5411;&#x73A9;&#x5BB6;&#x53D1;&#x9001;&#x4E00;&#x4E2A;&#x5FC3;&#x8DF3;&#x5305;&#xFF0C;&#x5E76;&#x4E14;&#x53EA;&#x6709;&#x5728; 30 &#x79D2;&#x6CA1;&#x6709;&#x54CD;&#x5E94;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x624D;&#x4F1A;&#x8BA1;&#x4E3A;&#x8D85;&#x65F6;&#x3002;
+&#x5373;&#x4F7F;&#x4E0D;&#x6309;&#x53D1;&#x5305;&#x987A;&#x5E8F;&#x56DE;&#x590D;&#x4E5F;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x8FDE;&#x63A5;&#x3002;&#x5988;&#x5988;&#x518D;&#x4E5F;&#x4E0D;&#x7528;&#x62C5;&#x5FC3;&#x73A9;&#x5BB6;&#x56E0;&#x4E3A;&#x4E22;&#x4E00;&#x4E2A;&#x5305;&#x5C31;&#x6389;&#x7EBF;&#x5566;&#xFF01;
+~ <a href="https://pl3xgaming.github.io/PurpurDocs/Configuration/#use-alternate-keepalive" target="_blank">https://pl3xgaming.github.io/PurpurDocs/Configuration/#use-alternate-keepalive</a></p>
+</blockquote>
+<hr>
+<h2 id="&#x533A;&#x5757;">&#x533A;&#x5757;</h2>
+<h3 id="spigotyml"><a href="https://www.spigotmc.org/wiki/spigot-configuration/" target="_blank">spigot.yml</a></h3>
+<h4 id="view-distance">view-distance</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;4</code></p>
+<p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x4E86;&#x73A9;&#x5BB6;&#x53EF;&#x89C1;&#x533A;&#x5757;&#x7684;&#x6E32;&#x67D3;&#x8DDD;&#x79BB;&#xFF0C;&#x4E5F;&#x5305;&#x62EC;&#x7194;&#x7089;&#x548C;&#x690D;&#x7269;&#x751F;&#x957F;&#xFF0C;&#x5B9E;&#x8D28;&#x4E0A;&#x5C31;&#x662F;&#x6E38;&#x620F;&#x673A;&#x5236;&#x53D1;&#x751F;&#x7684;&#x6700;&#x5927;&#x8DDD;&#x79BB;&#x3002; &#x5E94;&#x8BE5;&#x5728; <strong><a href="https://www.spigotmc.org/wiki/spigot-configuration/" target="_blank">spigot.yml</a></strong> &#x91CC;&#x8BBE;&#x7F6E;&#xFF0C; &#x5B83;&#x4F1A;&#x8986;&#x76D6; <strong><a href="https://minecraft.gamepedia.com/Server.properties" target="_blank">server.properties</a></strong> &#x91CC;&#x7684;&#x8BBE;&#x7F6E;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x5206;&#x4E16;&#x754C;&#x8BBE;&#x7F6E;&#x3002;&#x4F46;&#x56E0;&#x4E3A;&#x5B58;&#x5728;<code>no-tick-view-distance</code>&#xFF08;&#x5047;&#x89C6;&#x8DDD;&#xFF09;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x5C06;&#x8BE5;&#x53C2;&#x6570;&#x8BBE;&#x7F6E;&#x4E3A;<code>3</code> &#x6216; <code>4</code> &#x4E4B;&#x7C7B;&#x8F83;&#x4F4E;&#x7684;&#x503C;&#x3002;&#x5047;&#x89C6;&#x8DDD;&#x53EF;&#x4EE5;&#x8BA9;&#x73A9;&#x5BB6;&#x770B;&#x5230;&#x66F4;&#x8FDC;&#x8DDD;&#x79BB;&#x7684;&#x540C;&#x65F6;&#x964D;&#x4F4E;&#x8D1F;&#x8F7D;&#x3002;</p>
+<h3 id="paperyml"><a href="https://paper.readthedocs.io/en/latest/server/configuration.html" target="_blank">paper.yml</a></h3>
+<h4 id="no-tick-view-distance">no-tick-view-distance</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;7</code></p>
+<p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x4E86;&#x73A9;&#x5BB6;&#x53EF;&#x770B;&#x5230;&#x7684;&#x6700;&#x5927;&#x8DDD;&#x79BB;&#xFF08;&#x533A;&#x5757;&#xFF09;&#x3002; &#x8FD9;&#x53EF;&#x4EE5;&#x5728;&#x964D;&#x4F4E; <code>view-distance</code>&#x7684;&#x540C;&#x65F6;&#x4ECD;&#x80FD;&#x8BA9;&#x73A9;&#x5BB6;&#x770B;&#x5230;&#x66F4;&#x8FDC;&#x7684;&#x8DDD;&#x79BB;&#x3002;&#x5207;&#x8BB0;&#xFF01;&#x867D;&#x7136;&#x8D85;&#x51FA;<code>view-distance</code>&#x7684;&#x90E8;&#x5206;&#x4E0D;&#x4F1A;&#x5904;&#x7406;&#x6E38;&#x620F;&#x673A;&#x5236;&#xFF0C;&#x4F46;&#x8FD8;&#x662F;&#x8981;&#x8BFB;&#x5730;&#x56FE;&#xFF0C;&#x6240;&#x4EE5;&#x522B;&#x6EE5;&#x7528;&#x3002; <code>10</code> &#x57FA;&#x672C;&#x4E0A;&#x662F;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#x7684;&#x6700;&#x5927;&#x503C;&#x3002; &#x76EE;&#x524D;&#x7B97;&#x6CD5;&#x4E0B;&#xFF0C;&#x65E0;&#x8BBA;&#x5176;&#x89C6;&#x8DDD;&#x8BBE;&#x7F6E;&#x591A;&#x5C11;&#xFF0C;&#x90FD;&#x8981;&#x5C06;&#x533A;&#x5757;&#x53D1;&#x9001;&#x5230;&#x5BA2;&#x6237;&#x7AEF;&#xFF0C;&#x56E0;&#x6B64;&#x8BBE;&#x7F6E;&#x8F83;&#x9AD8;&#x7684;&#x503C;&#x53EF;&#x80FD;&#x4F1A;&#x8FEB;&#x5BB3;&#x7F51;&#x901F;&#x8F83;&#x6162;&#x7684;&#x73A9;&#x5BB6;&#x3002;</p>
+<h4 id="delay-chunk-unloads-by">delay-chunk-unloads-by</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;10</code></p>
+<p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x73A9;&#x5BB6;&#x79BB;&#x5F00;&#x540E;&#x8BE5;&#x533A;&#x5757;&#x591A;&#x4E45;&#x540E;&#x624D;&#x4F1A;&#x5378;&#x8F7D;&#xFF0C;&#x53EF;&#x51CF;&#x8F7B;&#x73A9;&#x5BB6;&#x5728;&#x4E00;&#x4E9B;&#x8F83;&#x70ED;&#x95E8;&#x533A;&#x5757;&#x95F4;&#x53CD;&#x590D;&#x6A2A;&#x8DF3;&#x5BFC;&#x81F4;&#x4E0D;&#x65AD;&#x52A0;&#x8F7D;&#x5378;&#x8F7D;&#x4EA7;&#x751F;&#x7684;&#x8D1F;&#x8F7D;&#xFF0C;&#x4F46;&#x8BBE;&#x5B9A;&#x503C;&#x592A;&#x9AD8;&#x53EF;&#x80FD;&#x4F1A;&#x8BA9;&#x8FC7;&#x591A;&#x7684;&#x533A;&#x5757;&#x540C;&#x65F6;&#x52A0;&#x8F7D;&#x3002;&#x5982;&#x679C;&#x4E00;&#x4E9B;&#x533A;&#x5757;&#x8FC7;&#x4E8E;&#x70ED;&#x95E8;&#xFF0C;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A;&#x6C38;&#x4E45;&#x533A;&#x5757;&#x3002;</p>
+<h4 id="max-auto-save-chunks-per-tick">max-auto-save-chunks-per-tick</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;8</code></p>
+<p>&#x901A;&#x8FC7;&#x964D;&#x4F4E;&#x4E16;&#x754C;&#x589E;&#x91CF;&#x4FDD;&#x5B58;&#x7684;&#x901F;&#x5EA6;&#x6765;&#x63D0;&#x9AD8;&#x5E73;&#x5747;&#x6027;&#x80FD;&#x3002;&#x5982;&#x679C;&#x6709;20-30&#x540D;&#x73A9;&#x5BB6;&#x5728;&#x7EBF;&#xFF0C;&#x60A8;&#x5E94;&#x8BE5;&#x8BD5;&#x7740;&#x5C06;&#x8BE5;&#x9879;&#x8BBE;&#x7F6E;&#x4E3A;<code>8</code> &#x4EE5;&#x4FDD;&#x8BC1;&#x670D;&#x52A1;&#x5668;&#x7684;&#x5B89;&#x5168;&#x8FD0;&#x884C;&#x3002; &#x5982;&#x679C;&#x589E;&#x91CF;&#x4FDD;&#x5B58;&#x65E0;&#x6CD5;&#x53CA;&#x65F6;&#x5B8C;&#x6210;&#xFF0C;&#x5219; Bukkit &#x5C06;&#x7ACB;&#x5373;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x5269;&#x4F59;&#x7684;&#x533A;&#x5757;&#x5E76;&#x518D;&#x6B21;&#x5F00;&#x59CB;&#x8BE5;&#x8FC7;&#x7A0B;&#x3002;</p>
+<h4 id="prevent-moving-into-unloaded-chunks">prevent-moving-into-unloaded-chunks</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x9632;&#x6B62;&#x73A9;&#x5BB6;&#x8FDB;&#x5165;&#x672A;&#x52A0;&#x8F7D;&#x7684;&#x533A;&#x5757;&#xFF0C;&#x4EE5;&#x907F;&#x514D;&#x5728;&#x4E3B;&#x7EBF;&#x7A0B;&#x540C;&#x6B65;&#x52A0;&#x8F7D;&#x533A;&#x5757;&#x65F6;&#x62D6;&#x957F;&#x5176;&#x9020;&#x6210;&#x7684;&#x5361;&#x987F;&#x3002;&#x5047;&#x89C6;&#x8DDD;&#x8D8A;&#x5C0F;&#xFF0C;&#x73A9;&#x5BB6;&#x8FDB;&#x5165;&#x672A;&#x52A0;&#x8F7D;&#x533A;&#x5757;&#x7684;&#x53EF;&#x80FD;&#x6027;&#x5C31;&#x8D8A;&#x5927;&#x3002;</p>
+<h4 id="entity-per-chunk-save-limit">entity-per-chunk-save-limit</h4>
+<pre><code class="lang-yaml">&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;:
+
+<span class="hljs-attr">    arrow:</span> <span class="hljs-number">16</span>
+<span class="hljs-attr">    dragonfireball:</span> <span class="hljs-number">3</span>
+<span class="hljs-attr">    egg:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    ender_pearl:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    fireball:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    firework:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    largefireball:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    lingeringpotion:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    llamaspit:</span> <span class="hljs-number">3</span>
+<span class="hljs-attr">    shulkerbullet:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    sizedfireball:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    snowball:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">    spectralarrow:</span> <span class="hljs-number">16</span>
+<span class="hljs-attr">    splashpotion:</span> <span class="hljs-number">3</span>
+<span class="hljs-attr">    thrownexpbottle:</span> <span class="hljs-number">3</span>
+<span class="hljs-attr">    trident:</span> <span class="hljs-number">16</span>
+<span class="hljs-attr">    witherskull:</span> <span class="hljs-number">4</span>
+</code></pre>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x9650;&#x5236;&#x6BCF;&#x4E2A;&#x533A;&#x5757;&#x7684;&#x6307;&#x5B9A;&#x7C7B;&#x578B;&#x5B9E;&#x4F53;&#x53EF;&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x91CF;&#x3002;</p>
+<p>&#x60A8;&#x5E94;&#x8BE5;&#x4E3A;&#x6BCF;&#x4E00;&#x79CD;&#x5B9E;&#x4F53;&#x8BBE;&#x5B9A;&#x5408;&#x9002;&#x7684;&#x503C;&#x6765;&#x964D;&#x4F4E;&#x5728;&#x670D;&#x52A1;&#x5668;&#x52A0;&#x8F7D;&#x65F6;&#x7684;&#x8D1F;&#x8F7D;&#x3002;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#x90FD;&#x8BBE;&#x7F6E;&#x4E3A;<code>10</code>&#x4E5F;&#x672A;&#x5C1D;&#x4E0D;&#x53EF;&#xFF0C;&#x4F46;&#x8FD8;&#x662F;&#x5EFA;&#x8BAE;&#x60A8;&#x624B;&#x52A8;&#x8C03;&#x8BD5;&#x5230;&#x5408;&#x9002;&#x7684;&#x503C;&#x4EE5;&#x9632;&#x6B62;&#x8FC7;&#x591A;&#x7684;&#x5237;&#x602A;&#x5854;&#x4E4B;&#x7C7B;&#x7684;&#x5361;&#x670D;&#x3002;</p>
+<h4 id="armor-stands-tick">armor-stands-tick</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x9632;&#x6B62;&#x76D4;&#x7532;&#x67B6;&#x88AB;&#x6C34;&#x63A8;&#x8D70;&#x6216;&#x53D7;&#x5230;&#x91CD;&#x529B;&#x7684;&#x5F71;&#x54CD;&#x3002;</p>
+<p>&#x5728;&#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x5B89;&#x5168;&#x5730;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A;<code>false</code>&#x3002; &#x4F46;&#x5982;&#x679C;&#x60A8;&#x4F7F;&#x7528;&#x76D4;&#x7532;&#x67B6;&#x6216;&#x4EFB;&#x4F55;&#x4FEE;&#x6539;&#x5176;&#x884C;&#x4E3A;&#x7684;&#x63D2;&#x4EF6;&#x9047;&#x5230;&#x4E86;&#x95EE;&#x9898;&#xFF0C;&#x5C31;&#x8BBE;&#x7F6E;&#x4E3A;<code>true</code>&#x5427;&#x3002; </p>
+<h4 id="armor-stands-do-collision-entity-lookups">armor-stands-do-collision-entity-lookups</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x7981;&#x7528;&#x76D4;&#x7532;&#x67B6;&#x78B0;&#x649E;&#x3002;</p>
+<hr>
+<h2 id="&#x751F;&#x7269;">&#x751F;&#x7269;</h2>
+<h3 id="bukkityml"><a href="https://bukkit.gamepedia.com/Bukkit.yml" target="_blank">bukkit.yml</a></h3>
+<h4 id="spawn-limits">spawn-limits</h4>
+<pre><code class="lang-yaml">&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;:
+
+<span class="hljs-attr">    monsters:</span> <span class="hljs-number">20</span>
+<span class="hljs-attr">    animals:</span> <span class="hljs-number">5</span>
+<span class="hljs-attr">    water-animals:</span> <span class="hljs-number">2</span>
+<span class="hljs-attr">    water-ambient:</span> <span class="hljs-number">2</span>
+<span class="hljs-attr">    ambient:</span> <span class="hljs-number">0</span>
+</code></pre>
+<p>&#x9650;&#x5236;&#x751F;&#x7269;&#x751F;&#x6210;&#x6700;&#x5927;&#x6570;&#x91CF;&#x7684;&#x673A;&#x5236;&#x662F; <code>&#x5F53;&#x524D;&#x73A9;&#x5BB6;&#x6570; * &#x9650;&#x91CF;</code>&#x3002;<code>per-player-mob-spawn</code> &#x662F;&#x9488;&#x5BF9;&#x6BCF;&#x540D;&#x73A9;&#x5BB6;&#x5468;&#x8FB9;&#x7684;&#x751F;&#x7269;&#x9650;&#x5236;&#xFF0C;&#x4EE5;&#x786E;&#x4FDD;&#x751F;&#x7269;&#x5728;&#x5404;&#x73A9;&#x5BB6;&#x95F4;&#x5E73;&#x5747;&#x751F;&#x6210;&#xFF0C; &#x8FD9;&#x4E48;&#x505A;&#x6709;&#x5229;&#x6709;&#x5F0A;&#xFF1B;&#x867D;&#x7136;&#x8FD9;&#x4E48;&#x505A;&#x662F;&#x4F1A;&#x964D;&#x4F4E;&#x670D;&#x52A1;&#x5668;&#x8D1F;&#x8F7D;&#xFF0C;&#x4F46;&#x4E5F;&#x4F1A;&#x964D;&#x4F4E;&#x6E38;&#x620F;&#x8DA3;&#x5473;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x60A8;&#x8BBE;&#x7F6E;&#x7684;<code>mob-spawn-range</code>&#x6BD4;&#x8F83;&#x5408;&#x7406;&#xFF0C;&#x90A3;&#x8FD9;&#x4E00;&#x9879;&#x5C31;&#x53EF;&#x4EE5;&#x964D;&#x4F4E;&#x5230;<code>20</code>&#x4EE5;&#x4E0B;&#xFF0C;&#x56E0;&#x4E3A;&#x628A;<code>mob-spawn-range</code>&#x8C03;&#x4F4E;&#x53EF;&#x4EE5;&#x8BA9;&#x6BCF;&#x4E2A;&#x73A9;&#x5BB6;&#x5468;&#x56F4;&#x751F;&#x6210;&#x7684;&#x602A;&#x7269;&#x66F4;&#x9760;&#x8FD1;&#x73A9;&#x5BB6;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x60A8;&#x4F7F;&#x7528;&#x7684;&#x662F; Tuinity &#x6838;&#x5FC3;&#xFF0C;&#x60A8;&#x8FD8;&#x53EF;&#x4EE5;&#x5728; <strong><a href="https://github.com/Spottedleaf/Tuinity/wiki/Config" target="_blank">tuinity.yml</a></strong> &#x91CC;&#x5355;&#x72EC;&#x8BBE;&#x7F6E;&#x6BCF;&#x4E2A;&#x4E16;&#x754C;&#x7684;&#x9650;&#x5236;&#x3002;</p>
+<h4 id="ticks-per">ticks-per</h4>
+<pre><code class="lang-yaml">&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;:
+
+<span class="hljs-attr">    monster-spawn:</span> <span class="hljs-number">10</span>
+<span class="hljs-attr">    animal-spawns:</span> <span class="hljs-number">400</span>
+<span class="hljs-attr">    water-spawns:</span> <span class="hljs-number">400</span>
+<span class="hljs-attr">    water-ambient-ambient:</span> <span class="hljs-number">400</span>
+<span class="hljs-attr">    ambient-spawns:</span> <span class="hljs-number">400</span>
+</code></pre>
+<p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x670D;&#x52A1;&#x5668;&#x751F;&#x6210;&#x67D0;&#x4E9B;&#x6D3B;&#x52A8;&#x5B9E;&#x4F53;&#x7684;&#x9891;&#x7387;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;</p>
+<p>&#x6C34;&#x4E2D;&#x6216;&#x5468;&#x56F4;&#x7684;&#x751F;&#x7269;&#x5E76;&#x4E0D;&#x4F1A;&#x5F88;&#x5FEB;&#x53BB;&#x4E16;&#xFF0C;&#x6240;&#x4EE5;&#x5E76;&#x4E0D;&#x9700;&#x8981;&#x6BCF;tick&#x90FD;&#x751F;&#x6210;&#x3002;&#x5BF9;&#x602A;&#x7269;&#x6765;&#x8BF4;&#xFF0C;&#x5C31;&#x7B97;&#x662F;&#x5728;&#x5237;&#x602A;&#x5854;&#x91CC;&#xFF0C;&#x7565;&#x5FAE;&#x589E;&#x52A0;&#x751F;&#x6210;&#x65F6;&#x95F4;&#x4E5F;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x751F;&#x6210;&#x7387;&#x3002;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6B64;&#x9879;&#x6240;&#x6709;&#x503C;&#x90FD;&#x5E94;&#x8BE5;&#x5927;&#x4E8E;<code>1</code>&#x3002;&#x8C03;&#x9AD8;&#x6B64;&#x503C;&#x53EF;&#x4EE5;&#x66F4;&#x597D;&#x7684;&#x63A7;&#x5236;&#x602A;&#x7269;&#x7981;&#x6B62;&#x751F;&#x6210;&#x7684;&#x533A;&#x57DF;&#x3002;</p>
+<h3 id="spigotyml"><a href="https://www.spigotmc.org/wiki/spigot-configuration/" target="_blank">spigot.yml</a></h3>
+<h4 id="mob-spawn-range">mob-spawn-range</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;2</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x9650;&#x5236;&#x73A9;&#x5BB6;&#x5468;&#x56F4;&#x751F;&#x6210;&#x602A;&#x7269;&#x7684;&#x8303;&#x56F4;&#xFF08;&#x4EE5;&#x533A;&#x5757;&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;</p>
+<p>&#x6839;&#x636E;&#x670D;&#x52A1;&#x5668;&#x7684;&#x7C7B;&#x578B;&#x548C;&#x5728;&#x7EBF;&#x73A9;&#x5BB6;&#x4EBA;&#x6570;&#x4E0D;&#x540C;&#xFF0C;&#x60A8;&#x53EF;&#x80FD;&#x4F1A;&#x60F3;&#x964D;&#x4F4E;&#x6B64;&#x503C;&#x4EE5;&#x53CA; <strong><a href="https://bukkit.gamepedia.com/Bukkit.yml" target="_blank">bukkit.yml</a></strong> &#x7684;<code>spawn-limits</code>&#x3002;&#x964D;&#x4F4E;&#x6B64;&#x503C;&#x4F1A;&#x8BA9;&#x73A9;&#x5BB6;&#x611F;&#x5230;&#x5468;&#x56F4;&#x597D;&#x50CF;&#x6709;&#x66F4;&#x591A;&#x751F;&#x7269;&#xFF0C;&#x6240;&#x4EE5;&#x8BE5;&#x503C;&#x5E94;&#x8BE5;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;&#x60A8;&#x8BBE;&#x7F6E;&#x7684;&#x89C6;&#x8DDD;&#xFF0C;&#x4E14;&#x6C38;&#x8FDC;&#x4E0D;&#x5927;&#x4E8E;&#x602A;&#x7269;&#x5F3A;&#x5236;&#x6E05;&#x7406;&#x8303;&#x56F4;&#x3002;</p>
+<h4 id="entity-activation-range">entity-activation-range</h4>
+<pre><code class="lang-yaml">&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;:
+
+<span class="hljs-attr">      animals:</span> <span class="hljs-number">16</span>
+<span class="hljs-attr">      monsters:</span> <span class="hljs-number">24</span>
+<span class="hljs-attr">      raiders:</span> <span class="hljs-number">48</span>
+<span class="hljs-attr">      misc:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">      water:</span> <span class="hljs-number">8</span>
+<span class="hljs-attr">      villagers:</span> <span class="hljs-number">16</span>
+<span class="hljs-attr">      flying-monsters:</span> <span class="hljs-number">48</span>
+</code></pre>
+<p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x73A9;&#x5BB6;&#x6FC0;&#x6D3B;&#x5B9E;&#x4F53;&#x6E38;&#x620F;&#x673A;&#x5236;&#x7684;&#x8303;&#x56F4;&#x3002;</p>
+<p>&#x964D;&#x4F4E;&#x6B64;&#x503C;&#x53EF;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#xFF0C;&#x4F46;&#x4F1A;&#x8BA9;&#x8FDC;&#x5904;&#x7684;&#x5B9E;&#x4F53;&#x50CF;&#x4E2A;&#x61A8;&#x6279;&#x3002;&#x964D;&#x5F97;&#x592A;&#x4F4E;&#x8FD8;&#x53EF;&#x80FD;&#x4F1A;&#x5F71;&#x54CD;&#x5237;&#x602A;&#x5854;&#xFF0C;&#x5C24;&#x5176;&#x662F;&#x5237;&#x94C1;&#x5854;&#x3002;</p>
+<h4 id="entity-tracking-range">entity-tracking-range</h4>
+<pre><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;:
+
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
+</code></pre><p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x73A9;&#x5BB6;&#x53EF;&#x4EE5;&#x770B;&#x89C1;&#x5B9E;&#x4F53;&#x7684;&#x8DDD;&#x79BB;&#xFF08;&#x4EE5;&#x65B9;&#x5757;&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;</p>
+<p>&#x5B9E;&#x4F53;&#x672C;&#x8EAB;&#x751F;&#x6210;&#x540E;&#x4E00;&#x76F4;&#x5B58;&#x5728;&#xFF0C;&#x53EA;&#x662F;&#x5728;&#x73A9;&#x5BB6;&#x8FDB;&#x5165;&#x53EF;&#x89C1;&#x8303;&#x56F4;&#x4E4B;&#x524D;&#x4E0D;&#x4F1A;&#x88AB;&#x53D1;&#x9001;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;&#x3002;&#x6240;&#x4EE5;&#x5982;&#x679C;&#x6B64;&#x9879;&#x8BBE;&#x7F6E;&#x7684;&#x8FC7;&#x4F4E;&#xFF0C;&#x602A;&#x7269;&#x6015;&#x5C31;&#x662F;&#x8981;&#x548C;&#x73A9;&#x5BB6;&#x649E;&#x8138;&#x4E86;&#x3002;&#x4E00;&#x822C;&#x6765;&#x8BF4;&#x6B64;&#x503C;&#x90FD;&#x5E94;&#x8BE5;&#x5927;&#x4E8E; <code>entity-activation-range</code>&#x3002;</p>
+<h4 id="tick-inactive-villagers">tick-inactive-villagers</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x7BA1;&#x7406;&#x5728;&#x6FC0;&#x6D3B;&#x5B9E;&#x4F53;&#x6E38;&#x620F;&#x673A;&#x5236;&#x8303;&#x56F4;&#x5916;&#x7684;&#x6751;&#x6C11;&#x662F;&#x5426;&#x4FDD;&#x7559;&#x6E38;&#x620F;&#x673A;&#x5236;&#x3002;</p>
+<p>&#x7981;&#x7528;&#x8BE5;&#x9879;&#x53EF;&#x4EE5;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#xFF0C;&#x4F46;&#x4E5F;&#x6709;&#x8F83;&#x5927;&#x53EF;&#x80FD;&#x5F71;&#x54CD;&#x6E38;&#x620F;&#x8DA3;&#x5473;&#xFF0C;&#x6BD4;&#x5982;&#x5237;&#x94C1;&#x5854;&#x53EF;&#x80FD;&#x4F1A;&#x65E0;&#x6548;&#x3002;</p>
+<h4 id="nerf-spawner-mobs">nerf-spawner-mobs</h4>
+<p><code>&#x8BD1;&#x8005;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x8BA9;&#x5237;&#x602A;&#x7B3C;&#x751F;&#x6210;&#x7684;&#x602A;&#x7269;&#x6CA1;&#x6709;AI&#x673A;&#x5236;&#xFF0C;&#x4EC0;&#x4E48;&#x4E5F;&#x4E0D;&#x4F1A;&#x505A;&#x3002;<del>&#xFF08;&#x4F1A;&#x964D;&#x4F4E;&#x6E38;&#x620F;&#x8DA3;&#x5473;&#xFF09;</del> </p>
+<p>&#x8FD8;&#x53EF;&#x4EE5;&#x5728; <strong><a href="https://paper.readthedocs.io/en/latest/server/configuration.html" target="_blank">paper.yml</a></strong> &#x4E2D;&#x5C06;<code>spawner-nerfed-mobs-should-jump</code>&#x66F4;&#x6539;&#x4E3A;<code>true</code>&#x8BA9;&#x5B83;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x6C34;&#x4E2D;&#x8DF3;&#x8DC3;&#x3002;</p>
+<h3 id="paperyml"><a href="https://paper.readthedocs.io/en/latest/server/configuration.html" target="_blank">paper.yml</a></h3>
+<h4 id="despawn-ranges">despawn-ranges</h4>
+<pre><code class="lang-yaml">&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;:
+
+<span class="hljs-attr">      soft:</span> <span class="hljs-number">30</span>
+<span class="hljs-attr">      hard:</span> <span class="hljs-number">56</span>
+</code></pre>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x9650;&#x5236;&#x5B9E;&#x4F53;&#x6D88;&#x5931;&#x7684;&#x8303;&#x56F4;&#xFF08;&#x4EE5;&#x65B9;&#x5757;&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;&#x964D;&#x4F4E;&#x6B64;&#x503C;&#x53EF;&#x4EE5;&#x66F4;&#x5FEB;&#x6E05;&#x7406;&#x539F;&#x7406;&#x73A9;&#x5BB6;&#x7684;&#x751F;&#x7269;&#xFF0C; &#x60A8;&#x5E94;&#x8BE5;&#x5C06;<code>soft</code>&#x4FDD;&#x6301;&#x5728;<code>30</code>&#x9644;&#x8FD1;&#xFF0C;&#x4E14;&#x5C06;<code>hard</code>&#x8C03;&#x5230;&#x6BD4;&#x5B9E;&#x9645;&#x7684;&#x53EF;&#x89C6;&#x8DDD;&#x79BB;&#x5927;&#x4E00;&#x70B9;&#xFF0C;&#x8FD9;&#x6837;&#x5F53;&#x73A9;&#x5BB6;&#x79BB;&#x5F00;&#x52A0;&#x8F7D;&#x8FC7;&#x7684;&#x533A;&#x5757;&#x65F6;&#xFF0C;&#x602A;&#x7269;&#x5E76;&#x4E0D;&#x4F1A;&#x7ACB;&#x5373;&#x6D88;&#x5931;&#xFF08;&#x56E0;&#x4E3A;&#x6709; <strong><a href="https://paper.readthedocs.io/en/latest/server/configuration.html" target="_blank">paper.yml</a></strong> &#x4E2D;&#x7684;<code>delay-chunk-unloads-by</code>&#x5B58;&#x5728;&#xFF0C;&#x6548;&#x679C;&#x4F1A;&#x5F88;&#x68D2;&#xFF09;&#x3002;</p>
+<p>&#x5F53;&#x602A;&#x7269;&#x79BB;&#x5F00;&#x4E86;<code>hard</code>&#x8303;&#x56F4;&#xFF0C;&#x5B83;&#x624D;&#x4F1A;&#x7ACB;&#x5373;&#x6D88;&#x5931;&#x3002;&#x5728;<code>soft</code>&#x548C;<code>hard</code>&#x4E4B;&#x95F4;&#x4F1A;&#x968F;&#x673A;&#x6D88;&#x5931;&#xFF0C;&#x6240;&#x4EE5;<code>hard</code>&#x5E94;&#x8BE5;&#x5927;&#x4E8E;<code>soft</code>&#x3002;&#x60A8;&#x5E94;&#x8BE5;&#x6309;&#x7167;<code>(view-distance * 16) + 8</code>&#x7684;&#x516C;&#x5F0F;&#x6765;&#x8FDB;&#x884C;&#x6B64;&#x9879;&#x7684;&#x8C03;&#x8BD5;&#x3002;&#x8FD9;&#x80FD;&#x5305;&#x542B;&#x5230;&#x73A9;&#x5BB6;&#x79BB;&#x5F00;&#x4E4B;&#x540E;&#x8FD8;&#x6CA1;&#x6765;&#x5F97;&#x53CA;&#x5378;&#x8F7D;&#x7684;&#x533A;&#x5757;&#x3002;</p>
+<h4 id="per-player-mob-spawns">per-player-mob-spawns</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x51B3;&#x5B9A;&#x751F;&#x7269;&#x751F;&#x6210;&#x662F;&#x5426;&#x56F4;&#x7ED5;&#x6BCF;&#x4E2A;&#x73A9;&#x5BB6;&#x8FDB;&#x884C;&#x3002;&#x8FD9;&#x6837;&#x53EF;&#x4EE5;&#x907F;&#x514D;&#x67D0;&#x4E9B;&#x73A9;&#x5BB6;&#x5EFA;&#x9020;&#x5237;&#x602A;&#x5854;&#x9738;&#x5360;&#x4E86;&#x5927;&#x91CF;&#x7684;&#x602A;&#x7269;&#xFF0C;&#x8FD8;&#x666E;&#x901A;&#x73A9;&#x5BB6;&#x4E00;&#x4E2A;&#x66F4;&#x50CF;&#x539F;&#x7248;&#x5355;&#x4EBA;&#x751F;&#x5B58;&#x7684;&#x6E38;&#x620F;&#x4F53;&#x9A8C;&#xFF0C;&#x4E14;&#x53EF;&#x4EE5;&#x8C03;&#x4F4E;<code>spawn-limits</code>&#x3002;&#x542F;&#x7528;&#x6B64;&#x9879;&#x786E;&#x5B9E;&#x4F1A;&#x5403;&#x4E00;&#x4E9B;&#x6027;&#x80FD;&#xFF0C;&#x4F46;&#x53EA;&#x8981;&#x8BBE;&#x7F6E;&#x597D;<code>spawn-limits</code>&#x5C31;&#x4E0D;&#x8DB3;&#x4E3A;&#x8651;&#x4E86;&#x3002;</p>
+<h4 id="max-entity-collisions">max-entity-collisions</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;2</code></p>
+<p>&#x6B64;&#x9879;&#x4F1A;&#x8986;&#x76D6; <strong><a href="https://www.spigotmc.org/wiki/spigot-configuration/" target="_blank">spigot.yml</a></strong> &#x4E2D;&#x7684;<code>max-entity-collisions</code>&#x3002; &#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x9650;&#x5236;&#x4E00;&#x4E2A;&#x5B9E;&#x4F53;&#x4E00;&#x6B21;&#x53EF;&#x4EE5;&#x8BA1;&#x7B97;&#x591A;&#x5C11;&#x78B0;&#x649E;&#x3002;&#x8BBE;&#x4E3A;<code>0</code>&#x5C06;&#x65E0;&#x6CD5;&#x63A8;&#x52A8;&#x5305;&#x62EC;&#x73A9;&#x5BB6;&#x5728;&#x5185;&#x7684;&#x5176;&#x4ED6;&#x5B9E;&#x4F53;&#x3002; &#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x8BBE;&#x6210;<code>2</code>&#x5C31;&#x5F73;&#x4E8D;&#x3002;</p>
+<p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong> &#x5982;&#x679C;&#x539F;&#x7248;&#x6E38;&#x620F;&#x89C4;&#x5219;&#x4E2D;&#x7684;<code>maxEntityCramming</code>&#x503C;&#xFF08;&#x5C0F;&#x7A7A;&#x95F4;&#x5185;&#x6700;&#x5927;&#x5B9E;&#x4F53;&#x6570;&#x76EE;&#xFF09;&#x8D85;&#x8FC7;&#x6B64;&#x9879;&#x8BBE;&#x5B9A;&#x503C;&#xFF0C;&#x5C06;&#x4F1A;&#x4EE4;&#x8FD9;&#x6761;&#x539F;&#x7248;&#x6E38;&#x620F;&#x89C4;&#x5219;&#x65E0;&#x6548;&#x3002;</p>
+<h4 id="update-pathfinding-on-block-update">update-pathfinding-on-block-update</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x7981;&#x7528;&#x6B64;&#x9879;&#x5C06;&#x51CF;&#x5C11;&#x5BFB;&#x8DEF;&#x673A;&#x5236;&#x5B8C;&#x6210;&#x7684;&#x6B21;&#x6570;&#xFF0C;&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#x3002; &#x67D0;&#x4E9B;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x8FD9;&#x5C06;&#x5BFC;&#x81F4;&#x602A;&#x7269;&#x53CD;&#x5E94;&#x66F4;&#x52A0;&#x8FDF;&#x949D;&#xFF0C; &#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x53EA;&#x4F1A;&#x88AB;&#x52A8;&#x5730;&#x6BCF;5&#x4E2A;tick&#xFF08;0.25&#x79D2;&#xFF09;&#x66F4;&#x65B0;&#x5176;&#x8DEF;&#x5F84;&#x3002;</p>
+<h4 id="fix-climbing-bypassing-cramming-rule">fix-climbing-bypassing-cramming-rule</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x542F;&#x7528;&#x6B64;&#x9879;&#x5C06;&#x4FEE;&#x590D;&#x5B9E;&#x4F53;&#x5728;&#x6500;&#x722C;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E0D;&#x53D7;&#x7A7A;&#x95F4;&#x8303;&#x56F4;&#x5185;&#x6700;&#x5927;&#x5B9E;&#x4F53;&#x6570;&#x91CF;&#x9650;&#x5236;&#x7684;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x5C31;&#x7B97;&#x4ED6;&#x4EEC;&#x662F;&#x5728;&#x722A;&#x5DF4;&#xFF0C;&#x4E5F;&#x4E0D;&#x80FD;&#x5168;&#x6324;&#x5230;&#x4E00;&#x4E2A;&#x5C4B;&#xFF01;</p>
+<h3 id="airplaneair"><a href="https://airplane.gg/config" target="_blank">airplane.air</a></h3>
+<h4 id="max-tick-freq">max-tick-freq</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;20</code></p>
+<p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x4E86;&#x8DDD;&#x79BB;&#x73A9;&#x5BB6;&#x6700;&#x8FDC;&#x7684;&#x5B9E;&#x4F53;&#x5378;&#x8F7D;&#x6E38;&#x620F;&#x673A;&#x5236;&#x7684;&#x6700;&#x4F4E;&#x6570;&#x91CF;&#x3002;&#x8C03;&#x9AD8;&#x6B64;&#x503C;&#x53EF;&#x80FD;&#x4F1A;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#xFF0C;&#x4F46;&#x4E5F;&#x53EF;&#x80FD;&#x4F1A;&#x5F71;&#x54CD;&#x5237;&#x602A;&#x5854;&#x6216;&#x964D;&#x4F4E;&#x602A;&#x7269;&#x667A;&#x5546;&#x3002;</p>
+<h4 id="activation-dist-mod">activation-dist-mod</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;9</code></p>
+<p>&#x57FA;&#x4E8E;DEAR&#x63A7;&#x5236;&#x602A;&#x7269;&#x6E05;&#x7406;&#x7684;&#x68AF;&#x5EA6;&#x3002;&#x964D;&#x4F4E;&#x6B64;&#x503C;&#x5C06;&#x51CF;&#x5C0F;DEAR&#xFF0C;&#x4ECE;&#x800C;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#xFF0C;&#x4F46;&#x4F1A;&#x5F71;&#x54CD;&#x5B9E;&#x4F53;&#x95F4;&#x7684;&#x4EA4;&#x4E92;&#xFF0C;&#x751A;&#x81F3;&#x4F1A;&#x5F71;&#x54CD;&#x5237;&#x602A;&#x5854;&#x7684;&#x8FD0;&#x4F5C;&#x3002;</p>
+<p><strong>&#x8BD1;&#x8005;&#x6CE8;&#xFF1A;</strong> Airplane &#x62E5;&#x6709;&#x4E00;&#x4E2A;&#x72EC;&#x5BB6;&#x7684;&#x7B97;&#x6CD5;&#xFF1A;&#x52A8;&#x6001;&#x5B9E;&#x4F53;&#x6FC0;&#x6D3B;&#x8303;&#x56F4;&#xFF08;Dynamic Entity Activation Range&#xFF0C;DEAR&#xFF09;&#xFF0C;&#x8BE6;&#x89C1;<a href="https://blog.airplane.gg/dear-configuration/" target="_blank">&#x535A;&#x6587;</a>&#x3002;</p>
+<h3 id="purpuryml"><a href="https://purpur.pl3x.net/docs" target="_blank">purpur.yml</a></h3>
+<h4 id="dont-send-useless-entity-packets">dont-send-useless-entity-packets</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x542F;&#x7528;&#x6B64;&#x9879;&#x53EF;&#x7981;&#x6B62;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x7A7A;&#x7684;&#x4F4D;&#x7F6E;&#x66F4;&#x65B0;&#x6570;&#x636E;&#x5305;&#x6765;&#x8282;&#x7701;&#x5E26;&#x5BBD;&#xFF08;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x5373;&#x4F7F;&#x5B9E;&#x4F53;&#x672A;&#x79FB;&#x52A8;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x4E5F;&#x4F1A;&#x4E3A;&#x6BCF;&#x4E2A;&#x5B9E;&#x4F53;&#x53D1;&#x9001;&#x6B64;&#x6570;&#x636E;&#x5305;&#xFF09;&#x3002;&#x4F46;&#x53EF;&#x80FD;&#x4F1A;&#x5BFC;&#x81F4;&#x5229;&#x7528;&#x5BA2;&#x6237;&#x7AEF;&#x4FA7;&#x5B9E;&#x4F53;&#x7684;&#x63D2;&#x4EF6;&#x51FA;&#x73B0;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#x3002;</p>
+<h4 id="aggressive-towards-villager-when-lagging">aggressive-towards-villager-when-lagging</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x5982;&#x679C;&#x670D;&#x52A1;&#x7AEF;&#x4F4E;&#x4E8E; <strong><a href="https://purpur.pl3x.net/docs" target="_blank">purpur.yml</a></strong> &#x4E2D;<code>lagging-threshold</code> &#x8BBE;&#x7F6E;&#x7684;TPS&#x9608;&#x503C;&#xFF0C;&#x542F;&#x7528;&#x6B64;&#x9879;&#x4F1A;&#x8BA9;&#x50F5;&#x5C38;&#x4E0D;&#x653B;&#x51FB;&#x6751;&#x6C11;&#x3002;</p>
+<h4 id="entities-can-use-portals">entities-can-use-portals</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x8BA9;&#x53EA;&#x6709;&#x73A9;&#x5BB6;&#x624D;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4F20;&#x9001;&#x95E8;&#x3002; &#x8FD9;&#x53EF;&#x4EE5;&#x9632;&#x6B62;&#x5B9E;&#x4F53;&#x5728;&#x4E3B;&#x7EBF;&#x7A0B;&#x4E0A;&#x52A0;&#x8F7D;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x533A;&#x5757;&#x3002;</p>
+<h4 id="villagerbrain-ticks">villager.brain-ticks</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;2</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x6751;&#x6C11;&#x7684;&#x66F4;&#x65B0;&#x5174;&#x8DA3;&#x70B9;&#x7684;&#x9891;&#x7387;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;&#x5DF2;&#x77E5;&#x9AD8;&#x4E8E;<code>3</code>&#x4F1A;&#x4EA7;&#x751F;&#x95EE;&#x9898;&#x3002;</p>
+<p><strong>&#x8BD1;&#x8005;&#x6CE8;&#xFF1A;</strong> &#x5174;&#x8DA3;&#x70B9;&#x662F;&#x6751;&#x6C11;&#x7684;&#x4E00;&#x4E2A;NBT&#xFF0C;&#x8BE6;&#x89C1;<a href="https://minecraft.fandom.com/wiki/Villager#Entity_data" target="_blank">&#x767E;&#x79D1;</a>&#x4E2D; Tags common to all mobs -&gt; Brain -&gt; memories &#x3002;</p>
+<h4 id="villagerlobotomize">villager.lobotomize</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x79BB;&#x73A9;&#x5BB6;&#x8F83;&#x8FDC;&#x7684;&#x6751;&#x6C11;&#x88AB;&#x5378;&#x8F7D;&#x4E86;AI&#x540E;&#x53EA;&#x4F1A;&#x6309;&#x65F6;&#x8865;&#x8D27;&#x3002;&#x542F;&#x7528;&#x6B64;&#x9879;&#x4F1A;&#x8BA9;&#x8FD9;&#x4E9B;&#x6751;&#x6C11;&#x7981;&#x7528;&#x81EA;&#x52A8;&#x5BFB;&#x8DEF;&#xFF0C;&#x91CD;&#x65B0;&#x6FC0;&#x6D3B;AI&#x65F6;&#x4F1A;&#x6062;&#x590D;&#x3002;</p>
+<hr>
+<h2 id="&#x6742;&#x9879;">&#x6742;&#x9879;</h2>
+<h3 id="spigotyml"><a href="https://www.spigotmc.org/wiki/spigot-configuration/" target="_blank">spigot.yml</a></h3>
+<h4 id="merge-radius">merge-radius</h4>
+<pre><code class="lang-yaml">&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;:
+
+<span class="hljs-attr">      item:</span> <span class="hljs-number">3.5</span>
+<span class="hljs-attr">      exp:</span> <span class="hljs-number">4.0</span>
+</code></pre>
+<p>&#x6B64;&#x9879;&#x9650;&#x5236;&#x4E86;&#x540C;&#x7C7B;&#x7269;&#x54C1;&#x53CA;&#x7ECF;&#x9A8C;&#x7403;&#x5408;&#x5E76;&#x8BA1;&#x7B97;&#x7684;&#x8DDD;&#x79BB;&#xFF0C;&#x53EF;&#x51CF;&#x5C11;&#x5730;&#x9762;&#x672A;&#x62FE;&#x53D6;&#x7269;&#x6570;&#x91CF;&#x3002;</p>
+<p>&#x8BBE;&#x7F6E;&#x5F97;&#x592A;&#x9AD8;&#x4F1A;&#x5BFC;&#x81F4;&#x5408;&#x5E76;&#x65F6;&#x50CF;&#x77AC;&#x95F4;&#x6D88;&#x5931;&#xFF0C;&#x4E5F;&#x4F1A;&#x4F7F;&#x5F97;&#x7269;&#x54C1;&#x7A7F;&#x900F;&#x65B9;&#x5757;&#xFF0C;&#x53EF;&#x80FD;&#x7834;&#x574F;&#x5237;&#x602A;&#x5854;&#x548C;&#x5237;&#x7ECF;&#x9A8C;&#x5854;&#x3002;</p>
+<p>&#x7ECF;&#x9A8C;&#x7403;&#x4EC5;&#x5728;&#x751F;&#x6210;&#x65F6;&#x4F1A;&#x5408;&#x5E76;&#x3002;</p>
+<h4 id="hopper-transfer">hopper-transfer</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;8</code></p>
+<p>&#x6F0F;&#x6597;&#x79FB;&#x52A8;&#x4E00;&#x4E2A;&#x7269;&#x54C1;&#x7684;&#x7B49;&#x5F85;&#x65F6;&#x95F4;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;
+&#x589E;&#x52A0;&#x8FD9;&#x4E2A;&#x503C;&#x4F1A;&#x8BA9;&#x62E5;&#x6709;N&#x591A;&#x6F0F;&#x6597;&#x7684;&#x670D;&#x52A1;&#x5668;&#x6D41;&#x7545;&#x4E00;&#x70B9;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x4F1A;&#x7834;&#x574F;&#x6389;&#x57FA;&#x4E8E;&#x6F0F;&#x6597;&#x7684;&#x65F6;&#x949F;&#xFF0C;&#x5F53;&#x8BBE;&#x7F6E;&#x7684;&#x503C;&#x592A;&#x9AD8;&#x65F6;&#x4E5F;&#x6709;&#x53EF;&#x80FD;&#x5F71;&#x54CD;&#x7269;&#x54C1;&#x5206;&#x7C7B;&#x7CFB;&#x7EDF;&#x3002;</p>
+<h4 id="hopper-check">hopper-check</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;8</code></p>
+<p>&#x6F0F;&#x6597;&#x68C0;&#x67E5;&#x4E0A;&#x65B9;&#x7684;&#x7269;&#x54C1;&#x6216;&#x7BB1;&#x5B50;&#x7684;&#x9891;&#x7387;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002; &#x589E;&#x52A0;&#x8FD9;&#x4E2A;&#x503C;&#x4F1A;&#x8BA9;&#x62E5;&#x6709;N&#x591A;&#x6F0F;&#x6597;&#x7684;&#x670D;&#x52A1;&#x5668;&#x6D41;&#x7545;&#x4E00;&#x70B9;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x4F1A;&#x7834;&#x574F;&#x6389;&#x57FA;&#x4E8E;&#x6F0F;&#x6597;&#x7684;&#x65F6;&#x949F;&#xFF0C;&#x5F53;&#x8BBE;&#x7F6E;&#x7684;&#x503C;&#x592A;&#x9AD8;&#x65F6;&#x4E5F;&#x6709;&#x53EF;&#x80FD;&#x5F71;&#x54CD;&#x57FA;&#x4E8E;&#x6C34;&#x6D41;&#x7684;&#x7269;&#x54C1;&#x5206;&#x7C7B;&#x7CFB;&#x7EDF;&#x3002;</p>
+<h3 id="paperyml"><a href="https://paper.readthedocs.io/en/latest/server/configuration.html" target="_blank">paper.yml</a></h3>
+<h4 id="alt-item-despawn-rate">alt-item-despawn-rate</h4>
+<pre><code class="lang-yaml">&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;
+
+<span class="hljs-attr">      enabled:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">      items:</span>
+<span class="hljs-attr">          COBBLESTONE:</span> <span class="hljs-number">300</span>
+</code></pre>
+<p>&#x6B64;&#x9879;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x5F02;&#x6B65;&#x65F6;&#x95F4;&#xFF08;tick&#xFF09;&#xFF0C;&#x4EE5;&#x6BD4;&#x539F;&#x7248;&#x66F4;&#x5FEB;&#x6216;&#x66F4;&#x6162;&#x7684;&#x901F;&#x5EA6;&#x5237;&#x65B0;&#x67D0;&#x4E9B;&#x7C7B;&#x578B;&#x7684;&#x5DF2;&#x6E05;&#x9664;&#x7269;&#x54C1;&#x3002;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8BE5;&#x9879;&#x66FF;&#x4EE3;&#x626B;&#x5730;&#x59EC;&#x53CA;<code>merge-radius</code>&#x6765;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#x3002;</p>
+<h4 id="use-faster-eigencraft-redstone">use-faster-eigencraft-redstone</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x6B64;&#x9879;&#x542F;&#x7528;&#x540E;&#xFF0C;&#x7EA2;&#x77F3;&#x673A;&#x5236;&#x5C06;&#x5207;&#x6362;&#x4E3A;&#x66F4;&#x5FEB;&#x7684;&#x5F02;&#x6B65;&#x7248;&#x672C;&#xFF0C;&#x8BE5;&#x7248;&#x672C;&#x51CF;&#x5C11;&#x4E86;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x65B9;&#x5757;&#x66F4;&#x65B0;&#xFF0C;&#x4ECE;&#x800C;&#x964D;&#x4F4E;&#x8D1F;&#x8F7D;&#x3002; &#x542F;&#x7528;&#x6B64;&#x529F;&#x80FD;&#x53EF;&#x4EE5;&#x663E;&#x7740;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#xFF0C;&#x4E14;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x7248;&#x6E38;&#x620F;&#x673A;&#x5236;&#xFF0C;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x6765;&#x81EA; CraftBukkit &#x7684;&#x4E00;&#x4E9B;&#x7EA2;&#x77F3;&#x673A;&#x5236;&#x95EE;&#x9898;&#x3002;</p>
+<h4 id="disable-move-event">disable-move-event</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x5F53;&#x4E14;&#x4EC5;&#x5F53;&#x6709;&#x63D2;&#x4EF6;&#x6B63;&#x5728;&#x76D1;&#x542C;<code>InventoryMoveItemEvent</code> &#x4E8B;&#x4EF6;&#x65F6;&#x624D;&#x4F1A;&#x89E6;&#x53D1;&#x3002; &#x5982;&#x679C;&#x60A8;&#x5E76;&#x4E0D;&#x5728;&#x4E4E;&#x662F;&#x5426;&#x6709;&#x63D2;&#x4EF6;&#x5728;&#x76D1;&#x542C;&#x8FD9;&#x4E2A;&#x4E8B;&#x4EF6;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x8BBE;&#x4E3A;<code>true</code>&#x3002;</p>
+<p><strong>&#x5982;&#x679C;&#x60A8;&#x60F3;&#x4F7F;&#x7528;&#x76D1;&#x542C;&#x6B64;&#x4E8B;&#x4EF6;&#x7684;&#x63D2;&#x4EF6;&#xFF0C;&#x8BF7;&#x4E0D;&#x8981;&#x8BBE;&#x4E3A;<code>true</code>&#xFF0C;&#x5982;&#x4FDD;&#x62A4;&#x63D2;&#x4EF6;&#xFF01;</strong></p>
+<h4 id="mob-spawner-tick-rate">mob-spawner-tick-rate</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;2</code></p>
+<p>&#x5237;&#x602A;&#x7B3C;&#x8FDB;&#x884C;&#x4E00;&#x6B21;&#x5224;&#x5B9A;&#x7684;&#x9891;&#x7387;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;</p>
+<p>&#x5F53;&#x5B58;&#x5728;&#x8BB8;&#x591A;&#x5237;&#x602A;&#x7B3C;&#x65F6;&#xFF0C;&#x66F4;&#x9AD8;&#x7684;&#x503C;&#x610F;&#x5473;&#x7740;&#x66F4;&#x5C11;&#x7684;&#x5EF6;&#x8FDF;&#x4F46;&#x5F53;&#x4F60;&#x8BBE;&#x7F6E;&#x7684;&#x592A;&#x9AD8;&#x65F6;&#xFF08;&#x76F8;&#x5BF9;&#x4E8E;&#x4F60;&#x7684;&#x5237;&#x602A;&#x7B3C;&#x5EF6;&#x8FDF;&#xFF09;&#x602A;&#x7269;&#x751F;&#x6210;&#x7387;&#x5C06;&#x4F1A;&#x88AB;&#x51CF;&#x5C11;&#x3002;</p>
+<h4 id="optimize-explosions">optimize-explosions</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x6B64;&#x9879;&#x8BBE;&#x4E3A;<code>true</code>&#x4F1A;&#x4F18;&#x5316;&#x539F;&#x7248;&#x7206;&#x70B8;&#x7B97;&#x6CD5;&#xFF0C;&#x4F46;&#x7206;&#x70B8;&#x4F24;&#x5BB3;&#x8BA1;&#x7B97;&#x4F1A;&#x7565;&#x6709;&#x4E0D;&#x51C6;&#xFF0C;&#x4E0D;&#x8FC7;&#x95EE;&#x9898;&#x4E0D;&#x5927;&#x3002;</p>
+<h4 id="enable-treasure-maps">enable-treasure-maps</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x5F53;&#x4F60;&#x4E0E;&#x6751;&#x6C11;&#x4EA4;&#x6613;&#x63A2;&#x9669;&#x5BB6;&#x5730;&#x56FE;&#x65F6;&#x4F1A;&#x751F;&#x6210;&#x63A2;&#x9669;&#x5BB6;&#x5730;&#x56FE;&#xFF0C;&#x5982;&#x679C;&#x5C1D;&#x8BD5;&#x5B9A;&#x4F4D;&#x7684;&#x7ED3;&#x6784;&#x4E0D;&#x5728;&#x60A8;&#x7684;&#x9884;&#x751F;&#x6210;&#x5730;&#x56FE;&#x8303;&#x56F4;&#x5185;&#xFF0C;&#x5219;&#x53EF;&#x80FD;&#x4F1A;&#x62D6;&#x57AE;&#x670D;&#x52A1;&#x5668;&#x7EBF;&#x7A0B;&#x3002; &#x5F53;&#x60A8;&#x9884;&#x751F;&#x6210;&#x4E16;&#x754C;&#x5E76;&#x8BBE;&#x7F6E;&#x4E86;&#x539F;&#x7248;&#x4E16;&#x754C;&#x8FB9;&#x754C;&#x65F6;&#xFF0C;&#x542F;&#x7528;&#x6B64;&#x529F;&#x80FD;&#x624D;&#x662F;&#x5B89;&#x5168;&#x7684;&#x3002;</p>
+<h4 id="treasure-maps-return-already-discovered">treasure-maps-return-already-discovered</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x6B64;&#x9879;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x4F1A;&#x5F3A;&#x5236;&#x65B0;&#x751F;&#x6210;&#x7684;&#x85CF;&#x5B9D;&#x56FE;&#x5BFB;&#x627E;&#x672A;&#x63A2;&#x7D22;&#x7684;&#x7ED3;&#x6784;&#xFF0C;&#x8FD9;&#x4E9B;&#x7ED3;&#x6784;&#x901A;&#x5E38;&#x5728;&#x60A8;&#x9884;&#x751F;&#x6210;&#x7684;&#x5730;&#x56FE;&#x4E4B;&#x5916;&#x3002;</p>
+<p>&#x5C06;&#x6B64;&#x5C5E;&#x6027;&#x8BBE;&#x7F6E;&#x4E3A;<code>true</code>&#x53EF;&#x4EE5;&#x4F7F;&#x85CF;&#x5B9D;&#x56FE;&#x5BFB;&#x627E;&#x5DF2;&#x7ECF;&#x53D1;&#x73B0;&#x7684;&#x7ED3;&#x6784;&#xFF0C;&#x5426;&#x5219;&#x5728;&#x751F;&#x6210;&#x65B0;&#x7684;&#x85CF;&#x5B9D;&#x56FE;&#x65F6;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x53EF;&#x80FD;&#x4F1A;&#x5361;&#x987F;&#x6216;&#x5D29;&#x6E83;&#x3002;</p>
+<h4 id="grass-spread-tick-rate">grass-spread-tick-rate</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;4</code></p>
+<p>&#x6CE5;&#x571F;&#x65B9;&#x5757;&#x4E0A;&#x8349;&#x76AE;&#x6216;&#x83CC;&#x4E1D;&#x4F20;&#x64AD;&#x6240;&#x9700;&#x7684;&#x65F6;&#x95F4;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;</p>
+<p>&#x8BBE;&#x7F6E;&#x7684;&#x592A;&#x5C0F;&#x4F1A;&#x4F7F;&#x5927;&#x8303;&#x56F4;&#x7684;&#x8349;&#x76AE;&#x6216;&#x83CC;&#x4E1D;&#x751F;&#x6210;&#x9700;&#x8981;&#x66F4;&#x957F;&#x65F6;&#x95F4;&#xFF0C;&#x5982;&#x679C;&#x60A8;&#x60F3;&#x964D;&#x4F4E;&#x5B83;&#x53C8;&#x4E0D;&#x60F3;&#x5F71;&#x54CD;&#x6269;&#x6563;&#x7387;&#xFF0C;&#x8BBE;&#x4E3A;<code>4</code>&#x5DE6;&#x53F3;&#x5C31;&#x5F73;&#x4E8D;&#x3002;</p>
+<h4 id="container-update-tick-rate">container-update-tick-rate</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;1</code></p>
+<p>&#x4E24;&#x4E2A;&#x5BB9;&#x5668;&#x95F4;&#x7269;&#x54C1;&#x66F4;&#x65B0;&#x7684;&#x65F6;&#x95F4;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x60A8;&#x9047;&#x5230;&#x4E86;&#x5BB9;&#x5668;&#x7269;&#x54C1;&#x66F4;&#x65B0;&#x95EE;&#x9898;&#xFF0C;&#x8C03;&#x5927;&#x6B64;&#x503C;&#x53EF;&#x80FD;&#x6709;&#x6240;&#x5E2E;&#x52A9;&#xFF0C;&#x4F46;&#x4E5F;&#x53EF;&#x80FD;&#x4F1A;&#x4F7F;&#x73A9;&#x5BB6;&#x5728;&#x4E0E;&#x5BB9;&#x5668;&#x5185;&#x7269;&#x54C1;&#x4EA4;&#x4E92;&#x65F6;&#x51FA;&#x9519;&#xFF08;&#x51FA;&#x73B0;&#x5E7D;&#x7075;&#x7269;&#x54C1;&#xFF09;&#x3002;</p>
+<h4 id="non-player-arrow-despawn-rate">non-player-arrow-despawn-rate</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;20</code></p>
+<p>&#x602A;&#x7269;&#x5C04;&#x51FA;&#x7684;&#x7BAD;&#x51FB;&#x4E2D;&#x67D0;&#x7269;&#x540E;&#x6D88;&#x5931;&#x7684;&#x65F6;&#x95F4;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;
+&#x56E0;&#x4E3A;&#x73A9;&#x5BB6;&#x65E0;&#x6CD5;&#x6361;&#x8D77;&#x5B83;&#x4EEC;&#xFF0C;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A;<code>20</code>&#xFF08;1&#x79D2;&#xFF09;&#x4E4B;&#x7C7B;&#x7684;&#x503C;&#x5C31;&#x5F73;&#x4E8D;&#x3002;</p>
+<h4 id="creative-arrow-despawn-rate">creative-arrow-despawn-rate</h4>
+<p><code>&#x4ECE;&#x8FD9;&#x513F;&#x5F00;&#x59CB;&#x8C03;&#x8BD5;&#x6BD4;&#x8F83;&#x597D;&#xFF1A;20</code></p>
+<p>&#x521B;&#x9020;&#x6A21;&#x5F0F;&#x73A9;&#x5BB6;&#x5C04;&#x51FA;&#x7684;&#x7BAD;&#x51FB;&#x4E2D;&#x67D0;&#x7269;&#x540E;&#x6D88;&#x5931;&#x7684;&#x65F6;&#x95F4;&#xFF08;&#x4EE5;tick&#x4E3A;&#x5355;&#x4F4D;&#xFF09;&#x3002;
+&#x56E0;&#x4E3A;&#x73A9;&#x5BB6;&#x65E0;&#x6CD5;&#x6361;&#x8D77;&#x5B83;&#x4EEC;&#xFF0C;&#x5C06;&#x5176;&#x8BBE;&#x7F6E;&#x4E3A;<code>20</code>&#xFF08;1&#x79D2;&#xFF09;&#x4E4B;&#x7C7B;&#x7684;&#x503C;&#x5C31;&#x5F73;&#x4E8D;&#x3002;</p>
+<h3 id="purpuryml"><a href="https://purpur.pl3x.net/docs" target="_blank">purpur.yml</a></h3>
+<h4 id="disable-treasure-searching">disable-treasure-searching</h4>
+<p><code>&#x8BD1;&#x8005;&#x5EFA;&#x8BAE;&#xFF1A;false</code></p>
+<p>&#x6B64;&#x9879;&#x53EF;&#x963B;&#x6B62;&#x6D77;&#x8C5A;&#x6267;&#x884C;&#x5BFB;&#x627E;&#x7ED3;&#x6784;&#x7684;<a href="https://minecraft.fandom.com/zh/wiki/%E6%B5%B7%E8%B1%9A#.E8.A1.8C.E4.B8.BA" target="_blank">&#x884C;&#x4E3A;</a> <del>&#xFF08;&#x4F1A;&#x964D;&#x4F4E;&#x6E38;&#x620F;&#x8DA3;&#x5473;&#xFF09;</del></p>
+<h4 id="teleport-if-outside-border">teleport-if-outside-border</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x5982;&#x679C;&#x73A9;&#x5BB6;&#x8BEF;&#x5165;&#x4E16;&#x754C;&#x8FB9;&#x754C;&#x4E4B;&#x5916;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x5C06;&#x5176;&#x4F20;&#x9001;&#x5230;&#x8BE5;&#x4E16;&#x754C;&#x7684;&#x590D;&#x6D3B;&#x70B9;&#x3002; &#x8FD9;&#x4E2A;&#x529F;&#x80FD;&#x6BD4;&#x8F83;&#x597D;&#x7684;&#x4E00;&#x70B9;&#x5728;&#x4E8E;&#xFF0C;&#x53EF;&#x4EE5;&#x65E0;&#x89C6;&#x539F;&#x7248;&#x4E16;&#x754C;&#x7684;&#x8FB9;&#x754C;&#xFF0C;&#x51CF;&#x8F7B;&#x865A;&#x7A7A;&#x5BF9;&#x73A9;&#x5BB6;&#x7684;&#x4F24;&#x5BB3;&#x3002;</p>
+<hr>
+<h2 id="&#x8F85;&#x52A9;">&#x8F85;&#x52A9;</h2>
+<h3 id="paperyml"><a href="https://paper.readthedocs.io/en/latest/server/configuration.html" target="_blank">paper.yml</a></h3>
+<h4 id="anti-xray">anti-xray</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x53CD;&#x77FF;&#x7269;&#x900F;&#x89C6;&#xFF0C;&#x8BE6;&#x7EC6;&#x914D;&#x7F6E;&#x53EF;&#x89C1;<a href="https://gist.github.com/stonar96/ba18568bd91e5afd590e8038d14e245e" target="_blank">Stonar96&#x7684;&#x63A8;&#x8350;&#x53C2;&#x6570;</a>&#x3002;&#x6B64;&#x529F;&#x80FD;&#x4F1A;&#x5403;&#x4E00;&#x4E9B;&#x6027;&#x80FD;&#xFF0C;&#x4F46;&#x5B83;&#x6BD4;&#x4EFB;&#x4F55;&#x5355;&#x72EC;&#x7684;&#x53CD;&#x77FF;&#x900F;&#x63D2;&#x4EF6;&#x90FD;&#x597D;&#x4F7F;&#x3002;&#x4E00;&#x822C;&#x4E5F;&#x4E0D;&#x7528;&#x8BA1;&#x8F83;&#x6027;&#x80FD;&#x5F71;&#x54CD;&#xFF0C;&#x53EF;&#x4EE5;&#x5FFD;&#x7565;&#x4E0D;&#x8BA1;&#x3002;</p>
+<h4 id="remove-corrupt-tile-entities">remove-corrupt-tile-entities</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;true</code></p>
+<p>&#x5982;&#x679C;&#x60A8;&#x7684;&#x63A7;&#x5236;&#x53F0;&#x6709;&#x4E0E;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7684;&#x62A5;&#x9519;&#xFF0C;&#x8BF7;&#x5C06;&#x5176;&#x66F4;&#x6539;&#x4E3A;<code>true</code>&#x3002; &#x8FD9;&#x5C06;&#x76F4;&#x63A5;&#x5220;&#x9664;&#x62A5;&#x9519;&#x7684;&#x5B9E;&#x4F53;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5FFD;&#x7565;&#x62A5;&#x9519;&#x3002; &#x5982;&#x679C;&#x662F;&#x4E00;&#x76F4;&#x5728;&#x5237;&#x4E0E;&#x5B9E;&#x4F53;&#x6709;&#x5173;&#x7684;&#x62A5;&#x9519;&#x8FD8;&#x662F;&#x8D81;&#x65E9;&#x770B;&#x770B;&#x5427;&#xFF0C;&#x8FD9;&#x4E2A;&#x529F;&#x80FD;&#x6CBB;&#x6807;&#x4E0D;&#x6CBB;&#x672C;&#x3002;</p>
+<h4 id="nether-ceiling-void-damage-height">nether-ceiling-void-damage-height</h4>
+<p><code>&#x4E00;&#x822C;&#x5EFA;&#x8BAE;&#xFF1A;127</code></p>
+<p>&#x5982;&#x679C;&#x6B64;&#x503C;&#x5927;&#x4E8E;<code>0</code>&#xFF0C;&#x5728;&#x6B64;&#x9AD8;&#x5EA6;&#x4E4B;&#x4E0A;&#x7684;&#x73A9;&#x5BB6;&#x5C31;&#x4F1A;&#x50CF;&#x5760;&#x5165;&#x865A;&#x7A7A;&#x4E00;&#x6837;&#x4E0D;&#x65AD;&#x53D7;&#x5230;&#x4F24;&#x5BB3;&#xFF0C;&#x4E00;&#x822C;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x9632;&#x6B62;&#x73A9;&#x5BB6;&#x5728;&#x5730;&#x72F1;&#x5929;&#x82B1;&#x677F;&#x4E0A;&#x8FDD;&#x7AE0;&#x5EFA;&#x7B51;&#x3002;&#x539F;&#x7248;&#x7684;&#x5730;&#x72F1;&#x9AD8;&#x5EA6;&#x662F;128&#xFF0C;&#x6240;&#x4EE5;&#x8BBE;&#x6210;<code>127</code>&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#x3002;&#x56E0;&#x6B64;&#x5982;&#x679C;&#x60A8;&#x4FEE;&#x6539;&#x4E86;&#x5730;&#x72F1;&#x4E16;&#x754C;&#x7684;&#x9AD8;&#x5EA6;&#xFF0C;&#x90A3;&#x5C31;&#x628A;&#x5B83;&#x8BBE;&#x6210;&#x6BD4;&#x5730;&#x72F1;&#x4E16;&#x754C;&#x6700;&#x5927;&#x9AD8;&#x5EA6;&#x5C0F;1&#x683C;&#x3002;</p>
+<hr>
+<h1 id="java-&#x542F;&#x52A8;&#x53C2;&#x6570;">Java &#x542F;&#x52A8;&#x53C2;&#x6570;</h1>
+<p><a href="https://papermc.io/forums/t/java-11-mc-1-17-and-paper/5615" target="_blank">Paper &#x53CA;&#x5176;&#x5206;&#x652F;&#x5BF9;1.17&#x5F00;&#x59CB;&#x7684;&#x6E38;&#x620F;&#x7248;&#x672C;&#x5C06;&#x9700;&#x8981;Java11&#x6216;&#x66F4;&#x9AD8;&#x7684;&#x7248;&#x672C;</a>&#x3002;&#x559C;&#x62A5;&#xFF01;2021&#x5E74;&#x7684;&#x60A8;&#x7EC8;&#x4E8E;&#x8981;&#x66F4;&#x65B0;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684; Java &#x7248;&#x672C;&#x5566;&#xFF01; Oracle &#x7248;&#x7684; Java &#x5DF2;&#x7ECF;&#x4E0D;&#x914D;&#x6211;&#x4EEC;&#x53BB;&#x4E0B;&#x8F7D;&#x4E86;&#xFF0C;&#x76EE;&#x524D;&#x63A8;&#x8350; <a href="https://aws.amazon.com/corretto/" target="_blank">Amazon Corretto</a> &#x548C; <a href="https://adoptopenjdk.net" target="_blank">AdoptOpenJDK</a>&#x3002;&#x5176;&#x4ED6;JVM&#x5B9E;&#x73B0;&#xFF08;&#x5982;OpenJ9&#xFF09;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#xFF0C;&#x4F46;&#x662F;Paper&#x5E76;&#x4E0D;&#x652F;&#x6301;&#xFF0C;&#x4E14;&#x5DF2;&#x77E5;&#x5B58;&#x5728;&#x517C;&#x5BB9;&#x95EE;&#x9898;&#xFF0C;&#x4E0D;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x3002;</p>
+<p>&#x60A8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x914D;&#x7F6E;&#x60A8;&#x7684;&#x5783;&#x573E;&#x56DE;&#x6536;&#x5668;(GC)&#x6765;&#x51CF;&#x5C11;&#x56E0;&#x5927;&#x578B;&#x5783;&#x573E;&#x56DE;&#x6536;&#x4EFB;&#x52A1;&#x5BFC;&#x81F4;&#x7684;&#x5361;&#x987F;&#xFF0C;
+&#x53EF;&#x4EE5;&#x5728;<a href="https://mcflags.emc.gs/" target="_blank">&#x8FD9;&#x91CC;</a>&#x770B;&#x5230;&#x5EFA;&#x8BAE;&#x7684;&#x542F;&#x52A8;&#x53C2;&#x6570;&#x3002;</p>
+<p>&#x6CE8;&#x610F;&#xFF01;&#x6B64;&#x5EFA;&#x8BAE;&#x4E0D;&#x9002;&#x7528;&#x4E8E;&#x5176;&#x4ED6;&#x7684;JVM&#x5B9E;&#x73B0;&#x3002;</p>
+<h1 id="&#x81EA;&#x6B3A;&#x6B3A;&#x4EBA;&#x7684;&#x8D1F;&#x4F18;&#x5316;&#x63D2;&#x4EF6;">&quot;&#x81EA;&#x6B3A;&#x6B3A;&#x4EBA;&quot;&#x7684;&#x8D1F;&#x4F18;&#x5316;&#x63D2;&#x4EF6;</h1>
+<h2 id="&#x626B;&#x5730;&#x59EC;">&#x626B;&#x5730;&#x59EC;</h2>
+<p>&#x5F88;&#x9E21;&#x808B;&#x7684;&#x63D2;&#x4EF6;&#xFF0C;&#x5B8C;&#x5168;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;<code>merge-radius</code>&#x548C;<code>alt-item-despawn-rate</code>&#x6765;&#x66FF;&#x4EE3;&#x3002;
+&#x800C;&#x4E14;&#x6709;&#x4E00;&#x8BF4;&#x4E00;&#xFF0C;&#x8FD9;&#x4E9B;&#x63D2;&#x4EF6;&#x7684;&#x53EF;&#x914D;&#x7F6E;&#x6027;&#x4E00;&#x822C;&#x8F83;&#x5DEE;&#xFF0C;&#x751A;&#x81F3;&#x626B;&#x5730;&#x5360;&#x7528;&#x7684;&#x6027;&#x80FD;&#x6BD4;&#x4E0D;&#x626B;&#x5730;&#x8FD8;&#x5927;&#x3002;</p>
+<h2 id="&#x751F;&#x7269;&#x5806;&#x53E0;&#x63D2;&#x4EF6;">&#x751F;&#x7269;&#x5806;&#x53E0;&#x63D2;&#x4EF6;</h2>
+<p>&#x5F88;&#x96BE;&#x8BC1;&#x660E;&#x8FD9;&#x73A9;&#x610F;&#x6709;&#x7528;&#x3002;&#x5806;&#x53E0;&#x81EA;&#x7136;&#x751F;&#x6210;&#x7684;&#x5B9E;&#x4F53;&#x53EA;&#x4F1A;&#x8BA9;&#x670D;&#x52A1;&#x5668;&#x66F4;&#x5361;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4F1A;&#x8BA9;&#x670D;&#x52A1;&#x5668;&#x751F;&#x6210;&#x66F4;&#x591A;&#x7684;&#x602A;&#x7269;&#x3002;&#x6211;&#x89C9;&#x5F97;&#x53EA;&#x6709;&#x5728;&#x90A3;&#x4E9B;&#x62E5;&#x6709;&#x5927;&#x91CF;&#x5237;&#x602A;&#x7B3C;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x5BF9;&#x5237;&#x602A;&#x7B3C;&#x751F;&#x6210;&#x7684;&#x602A;&#x7269;&#x7528;&#x8FD9;&#x4E2A;&#x624D;&#x662F;&#x201C;&#x53EF;&#x4EE5;&#x63A5;&#x53D7;&#x201D;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;&#x3002;</p>
+<h2 id="&#x52A0;&#x8F7D;&#x5378;&#x8F7D;&#x5176;&#x4ED6;&#x63D2;&#x4EF6;&#x7684;&#x7BA1;&#x7406;&#x63D2;&#x4EF6;">&#x52A0;&#x8F7D;/&#x5378;&#x8F7D;&#x5176;&#x4ED6;&#x63D2;&#x4EF6;&#x7684;&#x7BA1;&#x7406;&#x63D2;&#x4EF6;</h2>
+<p>&#x5728;&#x8FD0;&#x884C;&#x65F6;&#x4EFB;&#x4F55;&#x52A0;&#x8F7D;&#x6216;&#x5378;&#x8F7D;&#x63D2;&#x4EF6;&#x7684;&#x64CD;&#x4F5C;&#x90FD;&#x662F;&#x975E;&#x5E38;&#x5371;&#x9669;&#x7684;&#x3002; &#x52A0;&#x8F7D;&#x7C7B;&#x4F3C;&#x7684;&#x63D2;&#x4EF6;&#x4F1A;&#x5BFC;&#x81F4;&#x8DDF;&#x8E2A;&#x6570;&#x636E;&#x7684;&#x81F4;&#x547D;&#x9519;&#x8BEF;&#xFF0C;&#x800C;&#x5378;&#x8F7D;&#x63D2;&#x4EF6;&#x53EF;&#x80FD;&#x4F1A;&#x56E0;&#x5931;&#x53BB;&#x4F9D;&#x8D56;&#x800C;&#x4EA7;&#x751F;&#x9519;&#x8BEF;&#x3002; &#x8FD9;&#x4E2A; <code>/reload</code> &#x547D;&#x4EE4;&#x540C;&#x6837;&#x4E5F;&#x5B58;&#x5728;&#x8FD9;&#x4E9B;&#x95EE;&#x9898;&#xFF0C;&#x8BE6;&#x89C1;<a href="https://madelinemiller.dev/blog/problem-with-reload/" target="_blank">me4502&#x7684;&#x535A;&#x6587;</a>&#x3002;</p>
+<h1 id="&#x4EC0;&#x4E48;&#x662F;&#x5361;&#x987F;&#xFF1F;---&#x5206;&#x6790;&#x8D1F;&#x8F7D;&#x5360;&#x7528;">&#x4EC0;&#x4E48;&#x662F;&#x5361;&#x987F;&#xFF1F; - &#x5206;&#x6790;&#x8D1F;&#x8F7D;&#x5360;&#x7528;</h1>
+<h2 id="mspt">MSPT</h2>
+<p>Paper &#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A; <code>/mspt</code> &#x547D;&#x4EE4;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x5904;&#x7406;&#x6700;&#x8FD1;&#x7684;Tick&#x6240;&#x82B1;&#x8D39;&#x7684;&#x65F6;&#x95F4;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x60A8;&#x770B;&#x5230;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x548C;&#x7B2C;&#x4E8C;&#x4E2A;&#x503C;&#x5C0F;&#x4E8E;50&#xFF0C;&#x90A3;&#x4E48;&#x606D;&#x559C;&#xFF1A; &#x60A8;&#x7684;&#x670D;&#x52A1;&#x5668;&#x6574;&#x633A;&#x597D;&#xFF01;</p>
+<p>&#x5982;&#x679C;&#x7B2C;&#x4E09;&#x4E2A;&#x503C;&#x8D85;&#x8FC7;50&#xFF0C;&#x5219;&#x610F;&#x5473;&#x7740;&#x81F3;&#x5C11;&#x6709;1&#x4E2A;Tick&#x82B1;&#x8D39;&#x4E86;&#x8F83;&#x957F;&#x7684;&#x65F6;&#x95F4;&#x3002;</p>
+<p>&#x4F46;&#x8FD9;&#x662F;&#x6B63;&#x5E38;&#x7684;&#x6CE2;&#x52A8;&#xFF0C;&#x65F6;&#x6709;&#x53D1;&#x751F;&#x4E0D;&#x8DB3;&#x4E3A;&#x602A;&#x3002;</p>
+<p>&#xFF08;&#x8BD1;&#x8005;&#x6CE8;&#xFF1A;MSPT&#x4E0E;TPS&#x7684;&#x533A;&#x522B;&#x53EF;&#x67E5;&#x770B;<a href="https://minecraft.fandom.com/zh/wiki/%E5%88%BB#.E6.B8.B8.E6.88.8F.E5.88.BB" target="_blank">&#x767E;&#x79D1;</a>&#xFF09;</p>
+<h2 id="timings">Timings</h2>
+<p>Timings &#x662F;&#x67E5;&#x770B;&#x670D;&#x52A1;&#x5668;&#x5361;&#x987F;&#x65F6;&#x5728;&#x505A;&#x54A9;&#x7684;&#x597D;&#x65B9;&#x6CD5;&#x3002;&#x5B83;&#x53EF;&#x8BA9;&#x60A8;&#x786E;&#x5207;&#x5730;&#x67E5;&#x770B;&#x82B1;&#x8D39;&#x4E86;&#x6700;&#x957F;&#x65F6;&#x95F4;&#x7684;&#x4EFB;&#x52A1;&#x5230;&#x5E95;&#x662F;&#x54EA;&#x4E2A;&#x95F8;&#x603B;&#x3002;</p>
+<p>&#x8981;&#x83B7;&#x53D6;&#x670D;&#x52A1;&#x5668;&#x7684;Timings&#xFF0C;&#x60A8;&#x53EA;&#x9700;&#x8981;&#x6267;&#x884C;<code>/ timings paste</code>&#x547D;&#x4EE4;&#xFF0C;&#x7136;&#x540E;&#x67E5;&#x770B;&#x63D0;&#x4F9B;&#x7684;&#x94FE;&#x63A5;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x8FD9;&#x4E5F;&#x662F;&#x6700;&#x57FA;&#x672C;&#x7684;&#x6545;&#x969C;&#x6392;&#x9664;&#x5DE5;&#x5177;&#xFF0C;&#x60A8;&#x6700;&#x597D;&#x5E26;&#x4E0A;&#x5B83;&#x53BB;&#x95EE;&#x5927;&#x4F6C;&#x201C;&#x6211;&#x7684;&#x670D;&#x52A1;&#x5668;&#x4E3A;&#x4EC0;&#x4E48;&#x8FD9;&#x4E48;&#x5361;&#xFF1F;&#x201D;</p>
+<h2 id="spark">Spark</h2>
+<p><a href="https://github.com/lucko/spark" target="_blank">Spark</a> &#x662F;&#x4E00;&#x4E2A;&#x53EF;&#x5206;&#x6790;&#x8D1F;&#x8F7D;&#x5360;&#x7528;&#x7684;&#x63D2;&#x4EF6;&#x3002;&#x60A8;&#x53EF;&#x9605;&#x8BFB;<a href="https://github.com/lucko/spark/wiki/Commands" target="_blank">&#x767E;&#x79D1;</a>&#x6765;&#x5B66;&#x4E60;&#x4F7F;&#x7528;&#x5B83;&#x3002;<a href="https://github.com/lucko/spark/wiki/Finding-the-cause-of-lag-spikes" target="_blank">&#x8FD9;&#x91CC;</a>&#x8FD8;&#x6709;&#x4E2A;&#x6559;&#x4F60;&#x600E;&#x4E48;&#x627E;&#x5230;&#x5361;&#x987F;&#x7F6A;&#x9B41;&#x7978;&#x9996;&#x7684;&#x6559;&#x7A0B;&#x3002;</p>
+<h1 id="&#x5E38;&#x89C1;&#x8BEF;&#x533A;&#x4E0E;&#x597D;&#x7684;&#x4E60;&#x60EF;">&#x5E38;&#x89C1;&#x8BEF;&#x533A;&#x4E0E;&#x597D;&#x7684;&#x4E60;&#x60EF;</h1>
+<p>&#x672C;&#x6BB5;&#x65E8;&#x5728;&#x4ECB;&#x7ECD;&#x65B0;&#x624B;&#x5F00;&#x670D;&#x65F6;&#x7684;&#x5E38;&#x89C1;&#x8BEF;&#x533A;&#x3002;</p>
+<h2 id="&#x7ECF;&#x5E38;&#x5907;&#x4EFD;">&#x7ECF;&#x5E38;&#x5907;&#x4EFD;</h2>
+<p>&#x8981;&#x95EE;&#x6211;&#x5BF9;&#x4E8E;&#x5907;&#x4EFD;&#x7684;&#x6001;&#x5EA6;&#xFF0C;&#x90A3;&#x53EA;&#x6709;&#x4E24;&#x79CD;&#xFF1A;&#x6B63;&#x5728;&#x5907;&#x4EFD;&#x548C;&#x5F00;&#x59CB;&#x5907;&#x4EFD;&#x7684;&#x8DEF;&#x4E0A;&#x3002;</p>
+<p>&#x6570;&#x636E;&#x4E22;&#x5931;&#x662F;&#x6BCF;&#x4E2A;&#x4EBA;&#x5FC5;&#x7136;&#x4F1A;&#x9047;&#x5230;&#x7684;&#xFF01;&#x6761;&#x4EF6;&#x5141;&#x8BB8;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x5C3D;&#x91CF;&#x591A;&#x7684;&#x5907;&#x4EFD;&#x3001;&#x91C7;&#x53D6;&#x591A;&#x79CD;&#x5907;&#x4EFD;&#x624B;&#x6BB5;&#x4FDD;&#x8BC1;&#x6570;&#x636E;&#x5B89;&#x5168;&#x624D;&#x662F;&#x91CD;&#x4E2D;&#x4E4B;&#x91CD;&#xFF01;</p>
+<h2 id="&#x522B;&#x7528;&#x65E7;&#x7248;&#x672C;&#x8F6F;&#x4EF6;&#xFF01;">&#x522B;&#x7528;&#x65E7;&#x7248;&#x672C;&#x8F6F;&#x4EF6;&#xFF01;</h2>
+<p>&#x8FD0;&#x884C;&#x65E7;&#x7248;&#x672C;&#x7684;&#x8F6F;&#x4EF6;&#xFF0C;&#x5C31;&#x662F;&#x5C06;&#x5DF2;&#x77E5;&#x7684;&#x6F0F;&#x6D1E;&#x66B4;&#x6F0F;&#x7ED9;&#x5916;&#x754C;&#xFF01;&#x73A9;&#x5BB6;&#x4E5F;&#x5FC5;&#x987B;&#x5F97;&#x62FF;&#x65E7;&#x7248;&#x672C;&#x5BA2;&#x6237;&#x7AEF;&#x8FDE;&#x63A5;&#x60A8;&#x65E7;&#x7248;&#x672C;&#x7684;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5C3D;&#x7BA1;&#x53EF;&#x4EE5;&#x9B54;&#x6539;&#x534F;&#x8BAE;&#x6765;&#x517C;&#x5BB9;&#xFF0C;&#x4F46;&#x8FD8;&#x662F;&#x4E0D;&#x5982;&#x539F;&#x914D;&#x7684;&#x597D;&#x3002;</p>
+<h2 id="&#x771F;&#x7684;&#x518D;&#x522B;&#x7528;-bukkit-&#x548C;-spigot-&#x4E86;&#xFF01;">&#x771F;&#x7684;&#x518D;&#x522B;&#x7528; Bukkit &#x548C; Spigot &#x4E86;&#xFF01;</h2>
+<p>&#x5B83;&#x4EEC;&#x867D;&#x7136;&#x4ECD;&#x7136;&#x5728;&#x7EF4;&#x62A4;&#xFF0C;&#x4F46;&#x505A;&#x7684;&#x4EC5;&#x4EC5;&#x53EA;&#x662F;&#x8DDF;&#x8FDB;&#x5B98;&#x65B9;&#x7684;&#x7279;&#x6027;&#x66F4;&#x65B0;&#xFF0C;&#x5BF9;&#x4E8E;&#x6027;&#x80FD;&#x548C;&#x7A33;&#x5B9A;&#x6027;&#x6BEB;&#x65E0;&#x4F18;&#x5316;&#xFF01;</p>
+<p>&#x8BF7;&#x5C1D;&#x8BD5;&#x4E0A;&#x6587;&#x4E2D;&#x6211;&#x63A8;&#x8350;&#x7684;&#x4F18;&#x79C0;&#x670D;&#x52A1;&#x7AEF;&#x6838;&#x5FC3;&#x5427;&#xFF0C;&#x5B83;&#x4EEC;&#x90FD;&#x517C;&#x5BB9; Bukkit &#x548C; Spigot &#x7684;&#x63D2;&#x4EF6;&#xFF0C;&#x751A;&#x81F3;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x7684;&#x66F4;&#x597D;&#x3002;</p>
+<h2 id="&#x771F;&#x7684;&#x518D;&#x522B;&#x7528;&#x9762;&#x677F;&#x670D;&#x4E86;&#xFF01;">&#x771F;&#x7684;&#x518D;&#x522B;&#x7528;&#x9762;&#x677F;&#x670D;&#x4E86;&#xFF01;</h2>
+<p>&#x6211;&#x5B8C;&#x5168;&#x7406;&#x89E3;&#x9762;&#x677F;&#x670D;&#x662F;&#x76EE;&#x524D;&#x4EF7;&#x683C;&#x6700;&#x4FBF;&#x5B9C;&#x7684;&#x5F00;&#x670D;&#x65B9;&#x6848;&#xFF0C;&#x4F46;&#x5B83;&#x5404;&#x65B9;&#x9762;&#x4E5F;&#x786E;&#x5B9E;&#x662F;&#x6700;&#x5DEE;&#x7684;&#x3002;</p>
+<p>&#x9762;&#x677F;&#x670D;&#x5171;&#x4EAB;CPU&#x3001;&#x786C;&#x76D8;&#x548C;&#x5E26;&#x5BBD;&#x7B49;&#x7B49;&#x8D44;&#x6E90;&#xFF0C;&#x60A8;&#x65E0;&#x6CD5;&#x4EAB;&#x53D7;&#x5230;&#x8FD9;&#x4E9B;&#x786C;&#x4EF6;&#x7684;&#x5168;&#x90E8;&#x6027;&#x80FD;&#xFF0C;&#x800C;&#x4E14;&#x7EDD;&#x5927;&#x591A;&#x6570;&#x9762;&#x677F;&#x670D;&#x90FD;&#x4F1A;&#x8D85;&#x552E;&#x8D85;&#x5F00;&#xFF0C;&#x51FA;&#x552E;&#x7684;&#x8D44;&#x6E90;&#x6BD4;&#x5B9E;&#x9645;&#x7684;&#x8981;&#x591A;&#x5F97;&#x591A;&#xFF0C;&#x8FD9;&#x5BF9;&#x4E8E;&#x6240;&#x6709;&#x670D;&#x52A1;&#x5668;&#x6765;&#x8BF4;&#x90FD;&#x662F;&#x6781;&#x5176;&#x81F4;&#x547D;&#x7684;&#xFF01;</p>
+<h2 id="&#x907F;&#x514D;&#x7528;&#x6570;&#x636E;&#x5305;&#x6267;&#x884C;&#x547D;&#x4EE4;">&#x907F;&#x514D;&#x7528;&#x6570;&#x636E;&#x5305;&#x6267;&#x884C;&#x547D;&#x4EE4;</h2>
+<p>&#x4F7F;&#x7528;&#x6570;&#x636E;&#x5305;&#x6267;&#x884C;&#x547D;&#x4EE4;&#x662F;&#x975E;&#x5E38;&#x843D;&#x540E;&#x7684;&#x884C;&#x4E3A;&#xFF0C;&#x867D;&#x7136;&#x5F00;&#x59CB;&#x53EF;&#x80FD;&#x53EA;&#x6709;&#x5F88;&#x5C11;&#x7684;&#x73A9;&#x5BB6;&#x4F7F;&#x7528;&#xFF0C;&#x4F46;&#x968F;&#x7740;&#x670D;&#x52A1;&#x5668;&#x89C4;&#x6A21;&#x7684;&#x6269;&#x5927;&#xFF0C;&#x8FD9;&#x79CD;&#x884C;&#x4E3A;&#x5F88;&#x5FEB;&#x4F1A;&#x843D;&#x540E;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x7684;&#x53D1;&#x5C55;&#x3002;&#x4F46;&#x4FEE;&#x6539;&#x751F;&#x7269;&#x7FA4;&#x843D;&#x3001;&#x6218;&#x5229;&#x54C1;&#x8868;&#xFF08;&#x602A;&#x7269;&#x3001;&#x65B9;&#x5757;&#x7684;&#x6389;&#x843D;&#xFF09;&#x7B49;&#x7684;&#x6570;&#x636E;&#x5305;&#x6027;&#x80FD;&#x96C0;&#x98DF;&#x5F88;&#x597D;&#xFF0C;&#x4E0D;&#x8FC7;&#x60A8;&#x6700;&#x597D;&#x8FD8;&#x662F;&#x53E6;&#x8C0B;&#x63D2;&#x4EF6;&#x5427;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="WhatsError.html" class="navigation navigation-prev " aria-label="Previous page: 第五节 什么是报错？">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Bungee.html" class="navigation navigation-next " aria-label="Next page: 第七节 什么是跨服？">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第六节 配置文件优化","level":"1.4.6","depth":2,"next":{"title":"第七节 什么是跨服？","level":"1.4.7","depth":2,"path":"Bungee.md","ref":"Bungee.md","articles":[]},"previous":{"title":"第五节 什么是报错？","level":"1.4.5","depth":2,"path":"WhatsError.md","ref":"WhatsError.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","-sharing","search-plus","splitter","github","expandable-chapters","code","ga","back-to-top-button"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"github":{"url":"https://github.com/Mhy278/MinecraftServerHostGuide"},"splitter":{},"code":{"copyButtons":true},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"back-to-top-button":{},"ga":{"configuration":"auto","token":"UA-161510371-1"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"Mhy278,Drenal，冰冷，asougi85，魂葬，弱鸡绿毛怪，tdiant，蛋黄酱，Hmm1313133，几何，火雨，Auange_M夜幕","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的世界服务器搭建指南","language":"zh-hans","gitbook":"*","description":"Minecraft 我的世界开服零基础教学"},"file":{"path":"Optimization.md","mtime":"2022-11-30T10:09:10.554Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T10:09:58.494Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
